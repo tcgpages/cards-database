@@ -5,40 +5,60 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "敲音猴"
+		'zh-tw': "敲音猴",
+		ja: "サルノリ"
 	},
 
 	illustrator: "Naoki Saito",
+
 	category: "Pokemon",
+
 	hp: 60,
-	types: ["Grass"],
+
+	types: [
+		"Grass"
+	],
 
 	description: {
-		'zh-tw': "當牠用特別的木棒敲奏時，能夠給予花草活力的力量就會變成音波擴散開來。"
+		'zh-tw': "當牠用特別的木棒敲奏時，能夠給予花草活力的力量就會變成音波擴散開來。",
+		ja: "特別な スティックで リズムを 刻むと 草花を 元気にする パワーが 音波になって 広がる。"
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "亂抓"
-		},
+	attacks: [
+		{
+			name: {
+				'zh-tw': "亂抓",
+				ja: "みだれひっかき"
+			},
+			effect: {
+				'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。",
+				ja: "コインを3回投げ、オモテの数×10ダメージ。"
+			},
+			damage: "10×",
+			cost: [
+				"Colorless"
+			]
+		}
+	],
 
-		effect: {
-			'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。"
-		},
-
-		damage: "10×",
-		cost: ["Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		}
+	],
 
 	retreat: 1,
-	regulationMark: "D"
+
+	regulationMark: "D",
+
+	rarity: "None",
+
+	dexId: [
+		810
+	]
 }
 
 export default card

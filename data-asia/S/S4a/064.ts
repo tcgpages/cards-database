@@ -5,48 +5,71 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "雷鳥海獸"
+		'zh-tw': "雷鳥海獸",
+		ja: "パッチルドン"
 	},
 
 	illustrator: "Hasuno",
+
 	category: "Pokemon",
+
 	hp: 130,
-	types: ["Lightning"],
+
+	types: [
+		"Lightning"
+	],
 
 	description: {
-		'zh-tw': "牠凍成冰的上半身在顫抖時可以產生電能。非常不擅長走路。"
+		'zh-tw': "牠凍成冰的上半身在顫抖時可以產生電能。非常不擅長走路。",
+		ja: "氷漬けの 上半身が 震えると 電気が つくられる。 歩くことが 非常に 苦手。"
 	},
 
 	stage: "Stage1",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "凍僵旋渦"
-		},
-
-		effect: {
-			'zh-tw': "只要這隻寶可夢在場上，每次對手從手牌將能量附於寶可夢身上，在那隻寶可夢身上放置2個傷害指示物。"
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'zh-tw': "凍僵旋渦",
+				ja: "かじかむうず"
+			},
+			effect: {
+				'zh-tw': "只要這隻寶可夢在場上，每次對手從手牌將能量附於寶可夢身上，在那隻寶可夢身上放置2個傷害指示物。",
+				ja: "このポケモンがいるかぎり、相手は手札からエネルギーをポケモンにつけるたび、そのポケモンにダメカンを2個のせる。"
+			}
 		}
-	}],
+	],
 
-	attacks: [{
-		name: {
-			'zh-tw': "電球"
-		},
+	attacks: [
+		{
+			name: {
+				'zh-tw': "電球",
+				ja: "エレキボール"
+			},
+			damage: 70,
+			cost: [
+				"Lightning",
+				"Colorless"
+			]
+		}
+	],
 
-		damage: 70,
-		cost: ["Lightning", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		}
+	],
 
 	retreat: 2,
-	regulationMark: "D"
+
+	regulationMark: "D",
+
+	rarity: "None",
+
+	dexId: [
+		881
+	]
 }
 
 export default card
