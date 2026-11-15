@@ -1,0 +1,2609 @@
+{
+	"description": "Japanese EX Battle Boost card import. Assisted by Codex.",
+	"upstreamBase": "a8fe5736aef9bd6be2436e3be730109030f4c6e2",
+	"setCounts": {
+		"EBB": {
+			"official": 93,
+			"total": 99
+		}
+	},
+	"method": [
+		"This import contains 99 numbered card records: 001–093/093 plus six secret numbers 094–099/093. No unnumbered card entries were found in the independent checklists or cited scans.",
+		"Official Japanese card detail pages provide the 93 base records. The official catalog returned 97 records total: it omits secret cards 094–095 and exposes 096–099 as image-less detail records whose number field is not the printed number. Independent checklists and the cited card scans verify the actual printed numbers 096/093–099/093; the scans also verify 094/093–095/093.",
+		"The Japanese collector checklist states 99 total cards (93 main-set cards and six secret cards) and lists all six secret numbers. Serebii checklist scans for 094–099 were checked for card identity and printed numbering. The records for 094 and 095 reuse matching official gameplay data from EBB-020 and EBB-043, respectively.",
+		"Card variants are recorded per printed card number in this manifest and each card file. The independent itemized collector catalog distinguishes first-edition, unlimited, and reverse-holo entries; its per-card item list is the variant crosswalk. #044 Zekrom EX is holo only with first-edition and unlimited forms, consistent with card-level foil listings and its distinction from mirror #043.",
+		"The official detail pages for #097–099 state those cards are included in first-edition-marked packages; the cited scans show the first-edition mark. This import therefore records their normal and reverse-holo first-edition forms only and omits unlimited forms, despite broader catalog listings. #096 has no such official restriction and retains both editions as listed.",
+		"All EBB cards preserve the official no-rarity-symbol value. No marketplace IDs or unverified artwork URLs are added."
+	],
+	"checklists": [
+		"https://www.serebii.net/card/exbattleboost/",
+		"https://japanesepokecards.com/sets/ex-battle-boost-japanese-card-list/",
+		"https://hakuu.client.jp/dragon-scales-/BW-ex-battle-boost/BWEBB-maisuu.pdf"
+	],
+	"variantReferences": [
+		{
+			"url": "https://kyuura.com/cards/sets/ebb",
+			"scope": "Per-card edition and reverse-holo item list; used as a variant crosswalk."
+		},
+		{
+			"url": "https://tcgrepublic.com/product/product_page_2000076330.html",
+			"scope": "Identifies EBB #044 Zekrom EX as foil."
+		},
+		{
+			"url": "https://www.torecolo.jp/shop/g/g097-093-EBBM-K/",
+			"scope": "Identifies EBB #097 Pokémon Enterprise mirror finish."
+		},
+		{
+			"url": "https://tcgrepublic.com/product/product_page_2000076233.html",
+			"scope": "Identifies EBB #098 Pokémon Enterprise mirror finish."
+		},
+		{
+			"url": "https://www.torecolo.jp/shop/g/g099-093-EBBM-K/",
+			"scope": "Identifies EBB #099 Pokémon Enterprise mirror finish."
+		}
+	],
+	"cards": {
+		"EBB-001": {
+			"printedNumber": "001/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28793/regu/all",
+				"sha256": "22eedd13a1e4bd7a101fab556c9c8f6a27c4740b82cb6ab961dd7f20b584185f"
+			}
+		},
+		"EBB-002": {
+			"printedNumber": "002/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28794/regu/all",
+				"sha256": "017576b5954cddabd2c448df4424920490281c94827e50bb7218b15b053caec9"
+			}
+		},
+		"EBB-003": {
+			"printedNumber": "003/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28795/regu/all",
+				"sha256": "0ba88ad34f84f4dc3756f9e3230be75ee06d48125b645e58d06b25004b777420"
+			}
+		},
+		"EBB-004": {
+			"printedNumber": "004/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28796/regu/all",
+				"sha256": "1f39602f105fdb682f3159ab9824cca02b6d6781806a9c3e494eab1fea8367d5"
+			}
+		},
+		"EBB-005": {
+			"printedNumber": "005/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28797/regu/all",
+				"sha256": "900b20424f2df286325d904f48766aaf2b43f8600bb296f9faac00d04ea5c929"
+			}
+		},
+		"EBB-006": {
+			"printedNumber": "006/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28798/regu/all",
+				"sha256": "d8c96e07ee4d49204b219e3631af56a64a626cd08d43c1881098fdde40148bd9"
+			}
+		},
+		"EBB-007": {
+			"printedNumber": "007/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28799/regu/all",
+				"sha256": "20bdb438dd8016a0daf3808af67614ebfdf7f35deb5356b70b965d7ca6eacc50"
+			}
+		},
+		"EBB-008": {
+			"printedNumber": "008/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28800/regu/all",
+				"sha256": "b448308e0eb0cf3afdfe8024b97750bbde63b53c3f4e1e6169ac2f465fd26cba"
+			}
+		},
+		"EBB-009": {
+			"printedNumber": "009/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28801/regu/all",
+				"sha256": "d416286526e62a27e30f10a1de1f990f77ed4b9098cc14f0d2680d72bc2b7eed"
+			}
+		},
+		"EBB-010": {
+			"printedNumber": "010/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28802/regu/all",
+				"sha256": "88913f239c002b192cd14c7092106f85c89840b4ae2a06ad40925cc648cccb4e"
+			}
+		},
+		"EBB-011": {
+			"printedNumber": "011/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28803/regu/all",
+				"sha256": "57decf3addcaa061a9ecd37a0b5344ea2ffe17e205959639732cdab6d39a0908"
+			}
+		},
+		"EBB-012": {
+			"printedNumber": "012/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28804/regu/all",
+				"sha256": "db8b2cbdb2bbe79fc6c8599feb1109c1d08deb9f02fff3a4f11ab7ecc9b446e6"
+			}
+		},
+		"EBB-013": {
+			"printedNumber": "013/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28805/regu/all",
+				"sha256": "004f04ebb7fb45e5c9fa5ab71af46aea0ccf82581146fec4f4a8735f881e60f8"
+			}
+		},
+		"EBB-014": {
+			"printedNumber": "014/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28806/regu/all",
+				"sha256": "5f3fb09664f9d0e5524c02442ceb80ab751d953a0b92b5499bd31680389a3595"
+			}
+		},
+		"EBB-015": {
+			"printedNumber": "015/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28807/regu/all",
+				"sha256": "cdbf6d8250fb6906e80382b14bbab8e13f43e26ba8a62734baaa5175c8d0eba5"
+			}
+		},
+		"EBB-016": {
+			"printedNumber": "016/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28808/regu/all",
+				"sha256": "99381ca70ce1279c62df803855b7d5f8243527dc6f9d3066692f52658cb6a87b"
+			}
+		},
+		"EBB-017": {
+			"printedNumber": "017/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28809/regu/all",
+				"sha256": "41fadc3789343ebc691727af848460c48f2a306c0ad3c1485f14b04a5a7281a1"
+			}
+		},
+		"EBB-018": {
+			"printedNumber": "018/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28810/regu/all",
+				"sha256": "e08ccfcbbfc6285076994528f2cc83c1ce156803851eff0bd42d4de3f918ff25"
+			}
+		},
+		"EBB-019": {
+			"printedNumber": "019/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28811/regu/all",
+				"sha256": "a29792967c2444c5231cec1d6574fee2228575044cc91f01b73391a9cab2769c"
+			}
+		},
+		"EBB-020": {
+			"printedNumber": "020/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28812/regu/all",
+				"sha256": "a6487d05cdac4fa387a731ab7147c50a2f879f1240c506c7b3b6b626d702db1b"
+			}
+		},
+		"EBB-021": {
+			"printedNumber": "021/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28813/regu/all",
+				"sha256": "112168d86bedfbd1a82534a6032c8d6edca0307335440fe09718cef921717b99"
+			}
+		},
+		"EBB-022": {
+			"printedNumber": "022/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28814/regu/all",
+				"sha256": "6d2df353a3f35585b44234cffe1c23cf35b0bf3f6f24e3cbef7501d95d8adbbf"
+			}
+		},
+		"EBB-023": {
+			"printedNumber": "023/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28815/regu/all",
+				"sha256": "0bb9ad287aa20689384b9fc0893b47fadafc1f599dc78418ff2b77cf86658b89"
+			}
+		},
+		"EBB-024": {
+			"printedNumber": "024/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28816/regu/all",
+				"sha256": "9b4b150422bd44d75b81b33cd395b67d973ebf9534607f948fd7c3e87e69624b"
+			}
+		},
+		"EBB-025": {
+			"printedNumber": "025/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28817/regu/all",
+				"sha256": "e28e6a2aa09404e085284545fd58b33c78abb83ffefc39920baf64cadb07e5fd"
+			}
+		},
+		"EBB-026": {
+			"printedNumber": "026/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28818/regu/all",
+				"sha256": "d1867057cc4f4b2db3a5b4acc69778d81a3ca95aa6d3347023f2fba667ba9b8b"
+			}
+		},
+		"EBB-027": {
+			"printedNumber": "027/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28819/regu/all",
+				"sha256": "b35470c1bd76424b7026a991d1076d19416d7d972148520fa085173767c4eaf7"
+			}
+		},
+		"EBB-028": {
+			"printedNumber": "028/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28820/regu/all",
+				"sha256": "eef4c39459e2cc4dff37ea80b9ebbdbf83b4164fd32d422ded9411d852707798"
+			}
+		},
+		"EBB-029": {
+			"printedNumber": "029/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28821/regu/all",
+				"sha256": "2572ad0ddc80740b781882d8916b2af7a81db33fe50c5f942fff8f84fbac7ed6"
+			}
+		},
+		"EBB-030": {
+			"printedNumber": "030/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28822/regu/all",
+				"sha256": "75f70588604d3abd436fac65bb67b82d2ea31ce0498c714a1307a3f747fd7bd4"
+			}
+		},
+		"EBB-031": {
+			"printedNumber": "031/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28823/regu/all",
+				"sha256": "274ea5e76932a909b1b0d7be56789f22b0d22bcad386dc483dcea25f5ee0f331"
+			}
+		},
+		"EBB-032": {
+			"printedNumber": "032/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28824/regu/all",
+				"sha256": "4da1a87a2ccf08aa1aa79b0ce0dd46b1878dce135cfaf509e8baee8f072d014c"
+			}
+		},
+		"EBB-033": {
+			"printedNumber": "033/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28825/regu/all",
+				"sha256": "ae7217cfabeb9d011d752cb037a53c565508d31dbd759d5032b316ca99e22091"
+			}
+		},
+		"EBB-034": {
+			"printedNumber": "034/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28826/regu/all",
+				"sha256": "5b7b0047af945cccfa925047fb4f9663f92cd6b0e81e522da57c8860a5a97412"
+			}
+		},
+		"EBB-035": {
+			"printedNumber": "035/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28827/regu/all",
+				"sha256": "78c03904f684164782034ba41248ca6a484515872507affe5048a2810423069d"
+			}
+		},
+		"EBB-036": {
+			"printedNumber": "036/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28828/regu/all",
+				"sha256": "0611dcf7b0d79e1ae2fe4a9f08b59821deee711108839ac4d25f5f4d09161833"
+			}
+		},
+		"EBB-037": {
+			"printedNumber": "037/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28829/regu/all",
+				"sha256": "3346f698b69d43097ab3e604f795b4089fdd3b5172986b131298389538109ab9"
+			}
+		},
+		"EBB-038": {
+			"printedNumber": "038/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28830/regu/all",
+				"sha256": "42a627d22dd931bddcf7b57d3c70b26df5408e9b9b37073b4f8a6d89f97d2b4b"
+			}
+		},
+		"EBB-039": {
+			"printedNumber": "039/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28831/regu/all",
+				"sha256": "37820f2355077f4588312327c10bc717b082d31974ba964ab668bda847641b12"
+			}
+		},
+		"EBB-040": {
+			"printedNumber": "040/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28832/regu/all",
+				"sha256": "815735a4f4a6147c6d574597c6b184a737390e761a3ed5559876a37dbc7f391d"
+			}
+		},
+		"EBB-041": {
+			"printedNumber": "041/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28833/regu/all",
+				"sha256": "11109d8d5afa025dda3d477d068d39c67bec5c7716f0fc538eb4299dd75c463c"
+			}
+		},
+		"EBB-042": {
+			"printedNumber": "042/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28834/regu/all",
+				"sha256": "7bd23bafe5be20309df0812c21d4af6cad2a5750e5557944d4dd13afc49eeb39"
+			}
+		},
+		"EBB-043": {
+			"printedNumber": "043/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28835/regu/all",
+				"sha256": "d2dbf4c6fbd1697aa7b2ad2e5465930fe761e65e33f0eb5924c967795c25067d"
+			}
+		},
+		"EBB-044": {
+			"printedNumber": "044/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28836/regu/all",
+				"sha256": "c20af8963c65c21868e536a1574570d320473f773965d5f35283b9d556489646"
+			}
+		},
+		"EBB-045": {
+			"printedNumber": "045/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28837/regu/all",
+				"sha256": "67cf0d3e661fcf602476e07371dacc5a6c272b0f279e27758fd1490c8ed5afa5"
+			}
+		},
+		"EBB-046": {
+			"printedNumber": "046/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28838/regu/all",
+				"sha256": "1ea6f99c5dbce6c7b7311fbf44d42a23b65abbc3613bbcb047a1b6a9151603ab"
+			}
+		},
+		"EBB-047": {
+			"printedNumber": "047/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28839/regu/all",
+				"sha256": "571d15ff68ed9c5354ba1c70abc675eced488792222fb50c4f9cbc8c9f551218"
+			}
+		},
+		"EBB-048": {
+			"printedNumber": "048/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28840/regu/all",
+				"sha256": "bc0c650e61a8d6595abd22c2ebf3c34420e6e9905627125cda8e68ccd6487cb8"
+			}
+		},
+		"EBB-049": {
+			"printedNumber": "049/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28841/regu/all",
+				"sha256": "67bd7e36844c04d4e696676b568de53b527020941b64b573baacc4403102874a"
+			}
+		},
+		"EBB-050": {
+			"printedNumber": "050/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28842/regu/all",
+				"sha256": "4d007ff8b530467b32f953334577736278635a042b3702d50b4bd64de117b7e6"
+			}
+		},
+		"EBB-051": {
+			"printedNumber": "051/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28843/regu/all",
+				"sha256": "6cafcdd0debb93f0219f670dfa1c7f9ff3d635417c89e1984e921a79e22e37d9"
+			}
+		},
+		"EBB-052": {
+			"printedNumber": "052/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28844/regu/all",
+				"sha256": "4255d55a47e324ff96a432d4ba5b89b87d3001accc197473c3126205d205f84f"
+			}
+		},
+		"EBB-053": {
+			"printedNumber": "053/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28845/regu/all",
+				"sha256": "48079daa1691b661c8695ca800faba5fa4bafe3157ecffc7665e9e06870be6a1"
+			}
+		},
+		"EBB-054": {
+			"printedNumber": "054/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28846/regu/all",
+				"sha256": "9e7d6054401f980cd01565cfa30fd45d567a978c6d5bd4101029e2616911bb36"
+			}
+		},
+		"EBB-055": {
+			"printedNumber": "055/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28847/regu/all",
+				"sha256": "ad2bb055a303c6c7346a3c1a1a577e956aefc35f690ee06b0cccb22569bde9a6"
+			}
+		},
+		"EBB-056": {
+			"printedNumber": "056/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28848/regu/all",
+				"sha256": "55c602309def00157d3a19a5a98b3585202538a3f93bfd4d69d4ea265d7bc207"
+			}
+		},
+		"EBB-057": {
+			"printedNumber": "057/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28849/regu/all",
+				"sha256": "b889c6c72465fd7128561e03eae9800095dbe717611e1d9b04821522cbc961db"
+			}
+		},
+		"EBB-058": {
+			"printedNumber": "058/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28850/regu/all",
+				"sha256": "a2bc3f54325986f3bf3e07a5fdfc76e887c2c6ba0b8aa5d8bcf9cf6071e85b64"
+			}
+		},
+		"EBB-059": {
+			"printedNumber": "059/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28851/regu/all",
+				"sha256": "9ab7f1082fdfdae8da30596d91f5f424aedb1d185291a265f7b1bd59ee6dd3a9"
+			}
+		},
+		"EBB-060": {
+			"printedNumber": "060/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28852/regu/all",
+				"sha256": "4afbe2448d81fefbf8483118cce3d67cc112fa9ecee1f18af1a11028fdac85d7"
+			}
+		},
+		"EBB-061": {
+			"printedNumber": "061/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28853/regu/all",
+				"sha256": "22359b896c2322e77b24a8bdd25829197b5707209e21c39daa2d87706efc72d2"
+			}
+		},
+		"EBB-062": {
+			"printedNumber": "062/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28854/regu/all",
+				"sha256": "62dbd68d7e12694fb30c4bf0a22f364224b7cae224e5c7fd8c29f49dc8d96da3"
+			}
+		},
+		"EBB-063": {
+			"printedNumber": "063/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28855/regu/all",
+				"sha256": "a5c92b144fda3deee4ad18cc05763065ffd5323c3cdfd6b37b9f4914056ac6e8"
+			}
+		},
+		"EBB-064": {
+			"printedNumber": "064/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28856/regu/all",
+				"sha256": "de911ba2807a3adf0cc797604a299eedacb53276ecbc5ea3cdc6b4aa9a61b3f8"
+			}
+		},
+		"EBB-065": {
+			"printedNumber": "065/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28857/regu/all",
+				"sha256": "6c0cdc8fecce1f208dc69a78b0286d7947a4d6c75b00583e60ee6a42716fe808"
+			}
+		},
+		"EBB-066": {
+			"printedNumber": "066/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28858/regu/all",
+				"sha256": "48def79543146c393db41ead2b34767fa8c06e087e233dce2a4909d865f444dd"
+			}
+		},
+		"EBB-067": {
+			"printedNumber": "067/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28859/regu/all",
+				"sha256": "bd308afbecec3565de17cbe41190a1f2faac1ee96b59dbf1d6512185e68fe757"
+			}
+		},
+		"EBB-068": {
+			"printedNumber": "068/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28860/regu/all",
+				"sha256": "8fda8e62c869d38e2e388979875f89f39d924551f18248b8617d457a677c4f99"
+			}
+		},
+		"EBB-069": {
+			"printedNumber": "069/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28861/regu/all",
+				"sha256": "3b9ed5923c8b9b6e760b2732e62ffb4467983bc4544246ea1028e288f073d395"
+			}
+		},
+		"EBB-070": {
+			"printedNumber": "070/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28862/regu/all",
+				"sha256": "edaa5d5957b8a47e51c4fc42b9170ff143a8972b3fae4c56b36d60d2a69ae2a5"
+			}
+		},
+		"EBB-071": {
+			"printedNumber": "071/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28863/regu/all",
+				"sha256": "70163584ebdfb84b898386604c80ccce6610f6dc997daf2dd3544139b88ad842"
+			}
+		},
+		"EBB-072": {
+			"printedNumber": "072/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28864/regu/all",
+				"sha256": "aaa6d8a2aea2a1f7fa025f772e63508d6ce5864d2cd2da81d3bfb4a0a37caa09"
+			}
+		},
+		"EBB-073": {
+			"printedNumber": "073/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28865/regu/all",
+				"sha256": "d79e5200aa1d8e57ba64b9ef80633e6bbc3dec74795d7ebedde0d69a06cc6e8c"
+			}
+		},
+		"EBB-074": {
+			"printedNumber": "074/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28866/regu/all",
+				"sha256": "5aea4936aecf0daabea55380ca81f896d1db2c9fbc1dd0858dcfe4580203c17c"
+			}
+		},
+		"EBB-075": {
+			"printedNumber": "075/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28867/regu/all",
+				"sha256": "950c4805a02e69f32494f61a65bf99a20d543b3b4f2b41b5a4ec37ff68c8435e"
+			}
+		},
+		"EBB-076": {
+			"printedNumber": "076/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28868/regu/all",
+				"sha256": "5ffbae7c5e47f25506a107dd8f989515a5b50f44b436cd04881e2706b196f657"
+			}
+		},
+		"EBB-077": {
+			"printedNumber": "077/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28869/regu/all",
+				"sha256": "05ac4dab1e9a3b72d152de489e991e98863191a684fccb55f1bd1bc59354e8c2"
+			}
+		},
+		"EBB-078": {
+			"printedNumber": "078/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28870/regu/all",
+				"sha256": "b7798097fd2b6c490bc25bc1dd09eb7025136c9cfc97059a4c53c2971603312e"
+			}
+		},
+		"EBB-079": {
+			"printedNumber": "079/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28871/regu/all",
+				"sha256": "8b5a33905f40645f7382839765dcad676e5d2c6525a8f7aa2fa76848d72ab670"
+			}
+		},
+		"EBB-080": {
+			"printedNumber": "080/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28872/regu/all",
+				"sha256": "dabf96f504b1411db7301835b558de1342e851caa726b5a511ba400bc86d219a"
+			}
+		},
+		"EBB-081": {
+			"printedNumber": "081/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28873/regu/all",
+				"sha256": "161bd5ee65bd8cad2a5d0a2fa953a0a127f0cbea1e61510bb8aaa102f23a608b"
+			}
+		},
+		"EBB-082": {
+			"printedNumber": "082/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28874/regu/all",
+				"sha256": "d4c60169d2c8ee50c322668634199c2985690bf0e47455264d293bfda8ff7a66"
+			}
+		},
+		"EBB-083": {
+			"printedNumber": "083/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28875/regu/all",
+				"sha256": "134d793f88e755855162a87ce77db51c049e5a67c6d42d8fa1cabc78e65da378"
+			}
+		},
+		"EBB-084": {
+			"printedNumber": "084/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28876/regu/all",
+				"sha256": "48ebe99576f5a2ff550f7d7835fdb232d2230e85cce8d5482453021c129ce19f"
+			}
+		},
+		"EBB-085": {
+			"printedNumber": "085/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28877/regu/all",
+				"sha256": "7d7e321aba9ca37a7fd86d9a037e9b3a6fa9ac0a0063da4dfb57e36030babfb7"
+			}
+		},
+		"EBB-086": {
+			"printedNumber": "086/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28878/regu/all",
+				"sha256": "52a99bbdace51996dcbfd2695c9e9bb67896d1157d268d9d9d81093584495962"
+			}
+		},
+		"EBB-087": {
+			"printedNumber": "087/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28879/regu/all",
+				"sha256": "b41aea61469f0715b0688273d89afebd3b45cdabc261891332667f4bfb62ff1a"
+			}
+		},
+		"EBB-088": {
+			"printedNumber": "088/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28880/regu/all",
+				"sha256": "1dc972cfd8e8e15139d06c5c84d97a9edb60bca2f958875340df32885fd824d8"
+			}
+		},
+		"EBB-089": {
+			"printedNumber": "089/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28881/regu/all",
+				"sha256": "44862e268e8ffd8353acb1a6bffaa20a736e351ab78c6414be22b47c830977a2"
+			}
+		},
+		"EBB-090": {
+			"printedNumber": "090/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28882/regu/all",
+				"sha256": "1490ab5eaa01e50e28ea1212d71744bac4fb9e31a822af715e28946d4be4b10f"
+			}
+		},
+		"EBB-091": {
+			"printedNumber": "091/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28883/regu/all",
+				"sha256": "9f2d92d6e2add048accf71ec96c8736fbdd4ef818261827b9ecf1332b215fa8b"
+			}
+		},
+		"EBB-092": {
+			"printedNumber": "092/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28884/regu/all",
+				"sha256": "a63200fc943082b0c060179c59adee1ae8514c50ddd717822bba0e211739c582"
+			}
+		},
+		"EBB-093": {
+			"printedNumber": "093/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28885/regu/all",
+				"sha256": "7283b24426c15cfbe735ece9c4855344da672e75faed97fc970d338be7ed2afb"
+			}
+		},
+		"EBB-094": {
+			"printedNumber": "094/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"scan": {
+				"url": "https://www.serebii.net/card/exbattleboost/094.jpg",
+				"sha256": "84e09789d0b2a2df4ca297fd03ba62b766594f2c1ac6453aef532b20f25b2786"
+			},
+			"gameplayEquivalent": {
+				"localId": "EBB-020",
+				"officialDetail": {
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/28812/regu/all",
+					"sha256": "a6487d05cdac4fa387a731ab7147c50a2f879f1240c506c7b3b6b626d702db1b"
+				}
+			}
+		},
+		"EBB-095": {
+			"printedNumber": "095/093",
+			"variants": [
+				{
+					"type": "holo",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "holo"
+				}
+			],
+			"scan": {
+				"url": "https://www.serebii.net/card/exbattleboost/095.jpg",
+				"sha256": "ec9f44936e3181af4dd29b58f0e07c1364c79d9f18ddfb0fd263ef797aca93f3"
+			},
+			"gameplayEquivalent": {
+				"localId": "EBB-043",
+				"officialDetail": {
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/28835/regu/all",
+					"sha256": "d2dbf4c6fbd1697aa7b2ad2e5465930fe761e65e33f0eb5924c967795c25067d"
+				}
+			}
+		},
+		"EBB-096": {
+			"printedNumber": "096/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "normal"
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse"
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28886/regu/all",
+				"sha256": "63d49e185c7dc19585d4db568f24f46c97af05a1f6bf2c71ddeafac5c20777d8"
+			},
+			"scan": {
+				"url": "https://www.serebii.net/card/exbattleboost/096.jpg",
+				"sha256": "9646edeca40066d8333b05c5b935d59debeb995946d94f9c1be0837c73571d49"
+			}
+		},
+		"EBB-097": {
+			"printedNumber": "097/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28887/regu/all",
+				"sha256": "f50f6a860810c8446a808eac9d6156f0e01aa442a40c4b553158072775408812"
+			},
+			"scan": {
+				"url": "https://www.serebii.net/card/exbattleboost/097.jpg",
+				"sha256": "d86c8c9459e2816db1d36e6e0cbe636ef8da874b67238bbcb9649acce4dcda02"
+			},
+			"editionEvidence": "Official detail notes first-edition-marked package; the cited scan shows the first-edition mark."
+		},
+		"EBB-098": {
+			"printedNumber": "098/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28888/regu/all",
+				"sha256": "d6c391a83f77894d20e1a1d2e231b9a1efe45bfb5c22a2cd2b32518746b569d7"
+			},
+			"scan": {
+				"url": "https://www.serebii.net/card/exbattleboost/098.jpg",
+				"sha256": "8ae1055e867d5009eda6fcdf2770d8d64fd08b3c3f798e040155c9cbe0899f13"
+			},
+			"editionEvidence": "Official detail notes first-edition-marked package; the cited scan shows the first-edition mark."
+		},
+		"EBB-099": {
+			"printedNumber": "099/093",
+			"variants": [
+				{
+					"type": "normal",
+					"stamp": [
+						"1st-edition"
+					]
+				},
+				{
+					"type": "reverse",
+					"stamp": [
+						"1st-edition"
+					]
+				}
+			],
+			"officialDetail": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28889/regu/all",
+				"sha256": "b5c20f6f02a99df5c84ba39d0134b742556cc3f697499361f7f73f5073239505"
+			},
+			"scan": {
+				"url": "https://www.serebii.net/card/exbattleboost/099.jpg",
+				"sha256": "148dc292d25091f581e5667011c3eb5f5dd8c5807e3a2d153c6f8235c4ddb888"
+			},
+			"editionEvidence": "Official detail notes first-edition-marked package; the cited scan shows the first-edition mark."
+		}
+	}
+}
