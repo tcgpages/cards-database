@@ -5,47 +5,81 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "大狼犬"
+		'zh-tw': "大狼犬",
+		ja: "グラエナ"
 	},
 
 	illustrator: "Aya Kusube",
+
 	category: "Pokemon",
+
 	hp: 110,
-	types: ["Darkness"],
+
+	types: [
+		"Darkness"
+	],
 
 	description: {
-		'zh-tw': "會組成約１０隻規模的群體，靠著有條不紊的團隊合作追擊並解決獵物。"
+		'zh-tw': "會組成約１０隻規模的群體，靠著有條不紊的團隊合作追擊並解決獵物。",
+		ja: "１０匹 程度の 群れを 作って 一糸乱れぬ チームワークで 獲物を 追いつめて しとめるのだ。"
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "吠"
+	attacks: [
+		{
+			name: {
+				'zh-tw': "吠",
+				ja: "ほえたてる"
+			},
+			effect: {
+				'zh-tw': "在下個對手的回合，受到這個招式的寶可夢使用招式的傷害「-50」點。",
+				ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-50」される。"
+			},
+			damage: 20,
+			cost: [
+				"Darkness"
+			]
 		},
+		{
+			name: {
+				'zh-tw': "漆黑之牙",
+				ja: "しっこくのキバ"
+			},
+			damage: 100,
+			cost: [
+				"Darkness",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
 
-		effect: {
-			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢使用招式的傷害「-50」點。"
-		},
-
-		damage: 20,
-		cost: ["Darkness"]
-	}, {
-		name: {
-			'zh-tw': "漆黑之牙"
-		},
-
-		damage: 100,
-		cost: ["Darkness", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		}
+	],
 
 	retreat: 1,
-	regulationMark: "D"
+
+	regulationMark: "D",
+
+	rarity: "Common",
+
+	dexId: [
+		262
+	],
+
+	variants: [
+		{
+			type: "normal",
+			languages: [
+				"ja"
+			]
+		}
+	]
 }
 
 export default card
