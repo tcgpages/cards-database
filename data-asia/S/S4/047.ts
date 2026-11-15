@@ -5,44 +5,75 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "滾滾蝙蝠"
+		'zh-tw': "滾滾蝙蝠",
+		ja: "コロモリ"
 	},
 
 	illustrator: "sui",
+
 	category: "Pokemon",
+
 	hp: 60,
-	types: ["Psychic"],
+
+	types: [
+		"Psychic"
+	],
 
 	description: {
-		'zh-tw': "在洞窟中，如果抬頭看到牆壁上留著心形的痕跡，就代表滾滾蝙蝠住在那裡。"
+		'zh-tw': "在洞窟中，如果抬頭看到牆壁上留著心形的痕跡，就代表滾滾蝙蝠住在那裡。",
+		ja: "洞窟を 見上げて 壁に ハート型の 跡が あれば コロモリが 棲んでいる 証拠。"
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "赤手空拳音波"
-		},
+	attacks: [
+		{
+			name: {
+				'zh-tw': "赤手空拳音波",
+				ja: "まるごしおんぱ"
+			},
+			effect: {
+				'zh-tw': "對手的所有寶可夢各受到30點傷害。若自己的手牌有1張卡以上，則這個招式失敗。[在備戰區不計算弱點・抵抗力。]",
+				ja: "相手のポケモン全員に、それぞれ30ダメージ。自分の手札が1枚でもあるなら、このワザは失敗。［ベンチは弱点・抵抗力を計算しない。］"
+			},
+			cost: [
+				"Psychic"
+			]
+		}
+	],
 
-		effect: {
-			'zh-tw': "對手的所有寶可夢各受到30點傷害。若自己的手牌有1張卡以上，則這個招式失敗。[在備戰區不計算弱點・抵抗力。]"
-		},
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		}
+	],
 
-		cost: ["Psychic"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		}
+	],
 
 	retreat: 1,
-	regulationMark: "D"
+
+	regulationMark: "D",
+
+	rarity: "Common",
+
+	dexId: [
+		527
+	],
+
+	variants: [
+		{
+			type: "normal",
+			languages: [
+				"ja"
+			]
+		}
+	]
 }
 
 export default card
