@@ -3,6 +3,7 @@ import Set from "../Black Bolt"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [564],
 
 	name: {
 		en: "Antique Cover Fossil",

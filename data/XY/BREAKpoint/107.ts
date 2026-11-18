@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [548, 561, 562],
 
 	effect: {
 		fr: "Défaussez votre main et piochez 7 cartes.",

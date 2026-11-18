@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [41, 50],
 
 	effect: {
 		fr: "Regardez les 4 cartes du dessous de votre deck et ajoutez 2 d’entre elles à votre main. Placez les autres cartes en dessous de votre deck dans l’ordre de votre choix.",

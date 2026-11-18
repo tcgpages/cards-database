@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [52],
 
 	effect: {
 		en: "Each player plays with his or her Prize cards face up for the rest of the game.",

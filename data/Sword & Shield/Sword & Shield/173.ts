@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [25],
 
 	effect: {
 		en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",

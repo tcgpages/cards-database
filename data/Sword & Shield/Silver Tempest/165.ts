@@ -3,6 +3,7 @@ import Set from "../Silver Tempest"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [138, 408, 410, 698],
 
 	name: {
 		en: "Unidentified Fossil",
