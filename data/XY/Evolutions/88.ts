@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [14, 81],
 
 	effect: {
 		fr: "Échangez votre Pokémon Actif avec l'un de vos Pokémon de Banc.",

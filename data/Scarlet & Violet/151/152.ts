@@ -3,6 +3,7 @@ import Set from "../151"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [140],
 
 	name: {
 		fr: "Fossile Dôme Ancien",

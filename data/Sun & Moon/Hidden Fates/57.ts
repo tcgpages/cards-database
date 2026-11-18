@@ -12,6 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	set: Set,
+	cameoDexIds: [53],
 
 
 

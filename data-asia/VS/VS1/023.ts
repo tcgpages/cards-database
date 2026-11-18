@@ -3,6 +3,7 @@ import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [92],
 	name: {
 		ja: "モーティのマロワック",
 	},

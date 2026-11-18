@@ -3,6 +3,7 @@ import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [1],
 	name: {
 		ja: "レッドの挑戦",
 	},

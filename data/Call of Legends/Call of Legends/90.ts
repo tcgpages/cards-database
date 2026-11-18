@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Energy",
 	set: Set,
+	cameoDexIds: [249],
 	stage: "Basic",
 	energyType: "Normal",
 

@@ -4,6 +4,7 @@ import Set from "../SWSH Black Star Promos"
 const card: Card = {
 	dexId: [813],
 	set: Set,
+	cameoDexIds: [58, 702],
 
 	name: {
 		fr: "Flambino",

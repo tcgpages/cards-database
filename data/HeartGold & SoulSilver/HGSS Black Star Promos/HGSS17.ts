@@ -11,6 +11,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
+	cameoDexIds: [311],
 	dexId: [312],
 	hp: 60,
 	types: [

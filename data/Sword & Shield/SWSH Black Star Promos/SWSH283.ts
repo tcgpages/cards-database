@@ -3,6 +3,7 @@ import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [85],
 	illustrator: "Rianti Hidayat",
 	category: "Pokemon",
 
