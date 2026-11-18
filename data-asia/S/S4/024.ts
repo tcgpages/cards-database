@@ -5,35 +5,65 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "伽勒爾 達摩狒狒VMAX"
+		'zh-tw': "伽勒爾 達摩狒狒VMAX",
+		ja: "ガラル ヒヒダルマVMAX"
 	},
 
 	illustrator: "5ban Graphics",
+
 	category: "Pokemon",
+
 	hp: 320,
-	types: ["Water"],
+
+	types: [
+		"Water"
+	],
+
 	stage: "VMAX",
 
-	attacks: [{
-		name: {
-			'zh-tw': "極巨暴雪"
-		},
+	attacks: [
+		{
+			name: {
+				'zh-tw': "極巨暴雪",
+				ja: "ダイゴウセツ"
+			},
+			effect: {
+				'zh-tw': "對手的所有備戰寶可夢也各受到30點傷害。[在備戰區不計算弱點・抵抗力。]",
+				ja: "相手のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			},
+			damage: 200,
+			cost: [
+				"Water",
+				"Water",
+				"Water",
+				"Water"
+			]
+		}
+	],
 
-		effect: {
-			'zh-tw': "對手的所有備戰寶可夢也各受到30點傷害。[在備戰區不計算弱點・抵抗力。]"
-		},
-
-		damage: 200,
-		cost: ["Water", "Water", "Water", "Water"]
-	}],
-
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		}
+	],
 
 	retreat: 3,
-	regulationMark: "D"
+
+	regulationMark: "D",
+
+	rarity: "Holo Rare VMAX",
+
+	suffix: "VMAX",
+
+	variants: [
+		{
+			type: "holo",
+			languages: [
+				"ja"
+			]
+		}
+	]
 }
 
 export default card
