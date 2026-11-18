@@ -3,6 +3,7 @@ import Set from "../Astral Radiance"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [110, 399],
 
 	name: {
 		en: "Jubilife Village",

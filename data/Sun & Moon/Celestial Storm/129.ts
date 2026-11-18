@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [43, 252],
 
 	effect: {
 		fr: "Déplacez une Énergie de base de l’un de vos Pokémon vers un autre de vos Pokémon.",

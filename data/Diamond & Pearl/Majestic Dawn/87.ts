@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [393],
 
 	effect: {
 		en: "Flip a coin. If heads, return 1 of your Pokémon and all cards attached to it to your hand.",

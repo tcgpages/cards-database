@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [173, 241],
 
 	effect: {
 		en: "Choose 1 of your Pokémon. Flip 2 coins. Remove 2 damage counters times the number of heads from that Pokémon. If the Pokémon has fewer damage counters than that, remove all of them.",

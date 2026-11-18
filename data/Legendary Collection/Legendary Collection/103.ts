@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [83],
 
 	effect: {
 		en: "Trade 1 of the Basic Pokémon or Evolution cards in your hand for 1 of the Basic Pokémon or Evolution cards from your deck. Show both cards to your opponent. Shuffle your deck afterward."
