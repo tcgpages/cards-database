@@ -4,7 +4,7 @@ import Set from "../VS1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルーノのヒットモンチャン",
+		ja: "シバのエビワラー",
 	},
 
 	rarity: "Common",
@@ -18,11 +18,12 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "彗星パンチ",
+				ja: "れんぞくパンチ",
 			},
 			effect: {
-				ja: "4コインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				ja: "コインを4回投げ、「おもて」の数×10ダメージ。",
 			},
+			damage: "10×",
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
@@ -30,8 +31,9 @@ const card: Card = {
 				ja: "ラッキーパンチ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて30ダメージを与えます。尾の場合、この攻撃は20ダメージを与えます。",
+				ja: "コインを1回投げ、「おもて」なら、30ダメージを追加する。",
 			},
+			damage: "20+",
 		},
 	],
 

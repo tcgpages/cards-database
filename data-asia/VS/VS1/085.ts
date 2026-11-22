@@ -4,7 +4,7 @@ import Set from "../VS1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルーノのウルサリング",
+		ja: "シバのリングマ",
 	},
 
 	rarity: "Common",
@@ -18,18 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "軽いパンチ",
+				ja: "なぐる",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ヘッドロック",
+				ja: "じごくがため",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与え、防御ポケモンが麻痺しています。",
+				ja: "コインを1回投げ、「おもて」なら、20ダメージを追加し、相手を「マヒ」状態にする。",
 			},
+			damage: "10+",
 		},
 	],
 
