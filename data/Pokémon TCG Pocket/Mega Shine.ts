@@ -22,7 +22,7 @@ const set: Set = {
 		}
 	},
 
-	releaseDate: "2026-03-25"
+	releaseDate: "2026-03-26"
 }
 
 export default set
