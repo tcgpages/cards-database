@@ -13,12 +13,23 @@ export function validateAsianChanges(base: string, root = process.cwd()): number
 	if (!/^[a-f0-9]{40}$/.test(base) || /^0+$/.test(base)) {
 		throw new Error('Supply an existing base commit with --base <40-character SHA>')
 	}
-	const changed = git(root, ['diff', '--name-only', '--no-renames', '--diff-filter=ACM', '-z', base, 'HEAD', '--'])
-		.split('\0').filter(Boolean)
-	const asianFiles = changed.filter(file => file.startsWith('data-asia/') && file.endsWith('.ts'))
-	// Shared schema/compiler changes must not silently escape Asian validation.
-	const sharedChanged = changed.some(file => file === 'interfaces.d.ts' || file.startsWith('server/compiler/') || file === 'tsconfig.json')
-	if (!sharedChanged && asianFiles.length === 0) {
+	const changes = git(root, ['diff', '--name-status', '--no-renames', '-z', base, 'HEAD', '--']).split('\0')
+	const asianFiles: string[] = []
+	let sharedChanged = false
+	let configAdded = false
+	// With rename detection disabled each entry is a status followed by one path.
+	for (let index = 0; index + 1 < changes.length; index += 2) {
+		const status = changes[index]
+		const file = changes[index + 1]
+		if (file.startsWith('data-asia/') && file.endsWith('.ts') && status !== 'D') asianFiles.push(file)
+		if (file === 'tsconfig.asia.json' && status === 'A') {
+			// First adoption validates the new configuration and changed records together.
+			configAdded = true
+		} else if (file === 'interfaces.d.ts' || file === 'tsconfig.json' || file === 'tsconfig.asia.json') {
+			sharedChanged = true
+		}
+	}
+	if (!sharedChanged && !configAdded && asianFiles.length === 0) {
 		console.log('No changed Asian data files')
 		return 0
 	}
@@ -37,7 +48,7 @@ export function validateAsianChanges(base: string, root = process.cwd()): number
 		}))
 		return 1
 	}
-	console.log(`Validated ${files.length} Asian data inputs${sharedChanged ? ' (shared schema/compiler changed)' : ''}`)
+	console.log(`Validated ${files.length} Asian data inputs${sharedChanged ? ' (shared schema or type configuration changed)' : ''}`)
 	return 0
 }
 

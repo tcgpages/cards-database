@@ -11,7 +11,7 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Tool",
 	effect: {
-		ja: "このカードをつけているポケモンがきぜつしたとき、相手がとるサイドは1枚少なくなる。"
+		ja: "このカードをつけているポケモンがきぜつしたとき、相手がとるサイドは1枚少なくなる。 ACE SPECのカードは、デッキに1枚しか入れられない。"
 	},
 	variants: [
 		{

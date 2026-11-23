@@ -50,3 +50,55 @@ test('missing or malformed base cannot silently skip validation', () => {
 	expect(() => validateAsianChanges('missing', root)).toThrow()
 	expect(() => validateAsianChanges('a'.repeat(40), root)).toThrow()
 })
+
+test('compiler implementation changes still validate just the affected Asian records', () => {
+	const { root, git, base } = fixture()
+	mkdirSync(path.join(root, 'server/compiler/utils'), { recursive: true })
+	writeFileSync(path.join(root, 'server/compiler/utils/setUtil.ts'), 'export const format = () => 1\n')
+	git('add', '.'); git('commit', '-qm', 'test: change compiler implementation')
+	expect(validateAsianChanges(base, root)).toBe(0)
+
+	const card = path.join(root, 'data-asia/new.ts')
+	writeFileSync(card, 'export const value: number = 1\n')
+	git('add', '.'); git('commit', '-qm', 'test: also add a valid card')
+	expect(validateAsianChanges(base, root)).toBe(0)
+
+	writeFileSync(card, 'export const value: number = "new error"\n')
+	git('add', '.'); git('commit', '-qm', 'test: introduce a card type error')
+	expect(validateAsianChanges(base, root)).toBe(1)
+})
+
+test('changing the Asian TypeScript configuration checks existing records', () => {
+	const { root, git, base } = fixture()
+	writeFileSync(path.join(root, 'tsconfig.asia.json'), JSON.stringify({
+		compilerOptions: { strict: true, noEmit: true, skipLibCheck: true, types: [] },
+		include: ['data-asia']
+	}))
+	git('add', '.'); git('commit', '-qm', 'test: change Asian compiler options')
+	expect(validateAsianChanges(base, root)).toBe(1)
+})
+
+test('deleting the shared schema cannot skip the full catalog check', () => {
+	const { root, git, base } = fixture()
+	git('rm', 'interfaces.d.ts')
+	git('commit', '-qm', 'test: remove the schema')
+	expect(validateAsianChanges(base, root)).toBe(1)
+})
+
+test('first adoption of the Asian config checks new records without pulling in legacy errors', () => {
+	const { root, git } = fixture()
+	const config = git('show', 'HEAD:tsconfig.asia.json')
+	git('rm', 'tsconfig.asia.json')
+	git('commit', '-qm', 'test: baseline without the validator')
+	const base = git('rev-parse', 'HEAD')
+
+	writeFileSync(path.join(root, 'tsconfig.asia.json'), config)
+	const card = path.join(root, 'data-asia/new.ts')
+	writeFileSync(card, 'export const value: number = 1\n')
+	git('add', '.'); git('commit', '-qm', 'test: introduce the changed-data validator and a record')
+	expect(validateAsianChanges(base, root)).toBe(0)
+
+	writeFileSync(card, 'export const value: number = "new error"\n')
+	git('add', '.'); git('commit', '-qm', 'test: introduce an invalid record')
+	expect(validateAsianChanges(base, root)).toBe(1)
+})
