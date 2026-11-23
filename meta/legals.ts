@@ -107,6 +107,7 @@ export const expanded: Filter = {
 			'sm10-178',
 
 			'sm11-206',
+			'sm11-206a',
 			'sm11-253',
 
 			'sm115-58',
