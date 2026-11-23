@@ -58,7 +58,7 @@ const card: Card = {
 	],
 	"retreat": 2,
 	"evolveFrom": {
-		"ja": "サーナイト"
+		"ja": "キルリア"
 	},
 	"variants": [
 		{

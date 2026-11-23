@@ -12,7 +12,7 @@ const card: Card = {
 	"category": "Trainer",
 	"trainerType": "Tool",
 	"effect": {
-		"ja": "このカードをつけている「ビクティニEX」は、エネルギーがついていなくても、ワザを使える。"
+		"ja": "このカードをつけている「ビクティニEX」は、エネルギーがついていなくても、ワザを使える。 ACE SPECのカードは、デッキに1枚しか入れられない。"
 	},
 	"variants": [
 		{
