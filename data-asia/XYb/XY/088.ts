@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Metal"
 	],
+	dexId: [
+		801
+	],
 	stage: "Basic",
 	description: {
 		ja: "金属質の 体の マギアナは ５００年前に 人の手によって 生み出された 人造ポケモンだ。"

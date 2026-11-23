@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Fairy"
 	],
+	dexId: [
+		716
+	],
+	evolveFrom: {
+		ja: "ゼルネアス"
+	},
 	stage: "BREAK",
-	suffix: "BREAK",
 	attacks: [
 		{
 			name: {
@@ -30,7 +35,6 @@ const card: Card = {
 			damage: "20×"
 		}
 	],
-	retreat: 0,
 	variants: [
 		{
 			type: "holo"

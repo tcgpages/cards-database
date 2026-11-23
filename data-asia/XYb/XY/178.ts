@@ -13,6 +13,12 @@ const card: Card = {
 	types: [
 		"Darkness"
 	],
+	dexId: [
+		319
+	],
+	evolveFrom: {
+		ja: "サメハダーEX"
+	},
 	stage: "MEGA",
 	suffix: "EX",
 	attacks: [

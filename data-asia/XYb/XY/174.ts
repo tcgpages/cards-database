@@ -13,6 +13,12 @@ const card: Card = {
 	types: [
 		"Lightning"
 	],
+	dexId: [
+		310
+	],
+	evolveFrom: {
+		ja: "ライボルトEX"
+	},
 	stage: "MEGA",
 	suffix: "EX",
 	attacks: [

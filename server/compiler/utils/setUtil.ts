@@ -3,14 +3,18 @@ import { Card, Set, SupportedLanguages } from '../../../interfaces'
 import { SetResume, Set as SetSingle } from '../../../meta/definitions/api'
 import { cardToCardSimple, getCards } from './cardUtil'
 import { DB_PATH, fetchRemoteFile, getDataFolder, resolveText, setIsLegal, smartGlob } from './util'
-import path from 'node:path'
 
 
-interface t {
-	[key: string]: Set
+const setCache = new Map<string, Set>()
+
+async function loadSet(file: string): Promise<Set> {
+	const cached = setCache.get(file)
+	if (cached) return cached
+
+	const set: Set = (await import(`../../${file}`)).default
+	setCache.set(file, set)
+	return set
 }
-
-const setCache: t = {}
 
 export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
 	return !!resolveText(set.name, lang) && !!resolveText(set.serie.name, lang)
@@ -21,29 +25,15 @@ export function isSetAvailable(set: Set, lang: SupportedLanguages): boolean {
  * @param name the name of the set
  */
 export async function getSet(name: string, serie = '*', lang: SupportedLanguages): Promise<Set> {
-	if (!setCache[name]) {
-		const file = `${DB_PATH}/${getDataFolder(lang)}/${serie}/${name}.ts`
-		try {
-			const [path] = await smartGlob(file)
-			// console.log(`${DB_PATH}/${getDataFolder(lang)}/${serie}/${name}.ts`)
-			setCache[name] = (await import(`../../${path}`)).default
-		} catch (error) {
-			console.error(error)
-			console.error(`Error trying to import importing (${file})`)
-			process.exit(1)
-		}
-	}
-	return setCache[name]
+	const query = `${DB_PATH}/${getDataFolder(lang)}/${serie}/${name}.ts`
+	const [file] = await smartGlob(query)
+	if (!file) throw new Error(`No set matches ${query}`)
+	return loadSet(file)
 }
 
-// Dont use cache as it wont necessary have them all
 export async function getSets(serie = '*', lang: SupportedLanguages): Promise<Array<Set>> {
-	// list sets names
-	const rawSets = (await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${serie}/*.ts`))
-		.map((it) => it.replaceAll(path.sep, '/'))
-		.map((set) => set.substring(set.lastIndexOf('/') + 1, set.lastIndexOf('.')))
-	// Fetch sets
-	const sets = (await Promise.all(rawSets.map((set) => getSet(set, serie, lang))))
+	const files = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${serie}/*.ts`)
+	const sets = (await Promise.all(files.map(loadSet)))
 		// Filter sets
 		.filter((set) => isSetAvailable(set, lang))
 		// Sort sets by release date

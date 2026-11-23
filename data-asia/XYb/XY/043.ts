@@ -13,6 +13,12 @@ const card: Card = {
 	types: [
 		"Psychic"
 	],
+	dexId: [
+		150
+	],
+	evolveFrom: {
+		ja: "ミュウツーEX"
+	},
 	stage: "MEGA",
 	suffix: "EX",
 	attacks: [

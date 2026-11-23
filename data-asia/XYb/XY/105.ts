@@ -13,6 +13,12 @@ const card: Card = {
 	types: [
 		"Colorless"
 	],
+	dexId: [
+		384
+	],
+	evolveFrom: {
+		ja: "レックウザEX"
+	},
 	stage: "MEGA",
 	suffix: "EX",
 	abilities: [

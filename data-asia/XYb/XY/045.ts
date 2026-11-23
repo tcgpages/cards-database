@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Psychic"
 	],
+	dexId: [
+		196
+	],
 	stage: "Basic",
 	suffix: "EX",
 	attacks: [

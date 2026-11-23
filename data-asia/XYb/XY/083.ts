@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Metal"
 	],
+	dexId: [
+		437
+	],
+	evolveFrom: {
+		ja: "ドータクン"
+	},
 	stage: "BREAK",
-	suffix: "BREAK",
 	attacks: [
 		{
 			name: {
@@ -29,7 +34,6 @@ const card: Card = {
 			]
 		}
 	],
-	retreat: 0,
 	variants: [
 		{
 			type: "holo"

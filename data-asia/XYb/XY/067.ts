@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Fighting"
 	],
+	dexId: [
+		703
+	],
+	evolveFrom: {
+		ja: "メレシー"
+	},
 	stage: "BREAK",
-	suffix: "BREAK",
 	attacks: [
 		{
 			name: {
@@ -29,7 +34,6 @@ const card: Card = {
 			damage: 20
 		}
 	],
-	retreat: 0,
 	variants: [
 		{
 			type: "holo"

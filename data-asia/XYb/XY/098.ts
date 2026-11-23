@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Dragon"
 	],
+	dexId: [
+		487
+	],
 	stage: "Basic",
 	suffix: "EX",
 	abilities: [

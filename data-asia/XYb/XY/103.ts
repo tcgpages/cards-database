@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Colorless"
 	],
+	dexId: [
+		249
+	],
 	stage: "Basic",
 	suffix: "EX",
 	attacks: [

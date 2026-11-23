@@ -14,6 +14,9 @@ const card: Card = {
 		"Fire",
 		"Water"
 	],
+	dexId: [
+		721
+	],
 	stage: "Basic",
 	suffix: "EX",
 	abilities: [

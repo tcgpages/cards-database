@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Fairy"
 	],
+	evolveFrom: {
+		ja: "シュシュプ"
+	},
 	stage: "Stage1",
 	dexId: [
 		683

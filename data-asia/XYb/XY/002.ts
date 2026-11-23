@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Grass"
 	],
+	evolveFrom: {
+		ja: "ナゾノクサ"
+	},
 	stage: "Stage1",
 	dexId: [
 		44

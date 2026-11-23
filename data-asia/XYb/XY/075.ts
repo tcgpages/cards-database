@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Darkness"
 	],
+	dexId: [
+		571
+	],
+	evolveFrom: {
+		ja: "ゾロアーク"
+	},
 	stage: "BREAK",
-	suffix: "BREAK",
 	attacks: [
 		{
 			name: {
@@ -28,7 +33,6 @@ const card: Card = {
 			]
 		}
 	],
-	retreat: 0,
 	variants: [
 		{
 			type: "holo"

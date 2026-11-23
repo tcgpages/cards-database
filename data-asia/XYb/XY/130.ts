@@ -11,7 +11,7 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Tool",
 	effect: {
-		ja: "このカードをつけているポケモンが「ジュカインEX」になっても、自分の番は終わらない。"
+		ja: "このカードをつけているポケモンが「メガジュカインEX」になっても、自分の番は終わらない。"
 	},
 	variants: [
 		{

@@ -13,6 +13,12 @@ const card: Card = {
 	types: [
 		"Fire"
 	],
+	dexId: [
+		323
+	],
+	evolveFrom: {
+		ja: "バクーダEX"
+	},
 	stage: "MEGA",
 	suffix: "EX",
 	attacks: [
