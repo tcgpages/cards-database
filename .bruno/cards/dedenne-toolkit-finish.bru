@@ -1,0 +1,20 @@
+meta {
+  name: Dedenne-GX from the Trainer's Toolkit is holo
+  type: http
+  seq: 9
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards/sm10-195a
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq sm10-195a
+  res.body.variants.holo: eq true
+  res.body.variants.normal: eq false
+  res.body.variants.reverse: eq false
+  res.body.variants_detailed[0].foil: eq mirror
+}

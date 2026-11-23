@@ -68,6 +68,8 @@ const card: Card = {
 
 	retreat: 1,
 
+	variants: [{ type: "holo", foil: "mirror" }],
+
 	thirdParty: {
 		cardmarket: 475149,
 		tcgplayer: 216699,
