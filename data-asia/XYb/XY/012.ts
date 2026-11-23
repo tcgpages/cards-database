@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Fire"
 	],
+	dexId: [
+		323
+	],
 	stage: "Basic",
 	suffix: "EX",
 	attacks: [

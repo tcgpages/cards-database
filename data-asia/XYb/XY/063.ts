@@ -13,6 +13,12 @@ const card: Card = {
 	types: [
 		"Fighting"
 	],
+	dexId: [
+		448
+	],
+	evolveFrom: {
+		ja: "ルカリオEX"
+	},
 	stage: "MEGA",
 	suffix: "EX",
 	attacks: [

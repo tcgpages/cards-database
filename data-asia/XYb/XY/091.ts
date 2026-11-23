@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Fairy"
 	],
+	dexId: [
+		282
+	],
 	stage: "Basic",
 	suffix: "EX",
 	attacks: [

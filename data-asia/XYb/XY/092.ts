@@ -14,6 +14,12 @@ const card: Card = {
 		"Fairy",
 		"Psychic"
 	],
+	dexId: [
+		282
+	],
+	evolveFrom: {
+		ja: "サーナイトEX"
+	},
 	stage: "MEGA",
 	suffix: "EX",
 	attacks: [

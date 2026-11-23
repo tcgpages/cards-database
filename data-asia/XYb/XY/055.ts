@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Psychic"
 	],
+	dexId: [
+		709
+	],
+	evolveFrom: {
+		ja: "オーロット"
+	},
 	stage: "BREAK",
-	suffix: "BREAK",
 	attacks: [
 		{
 			name: {
@@ -29,7 +34,6 @@ const card: Card = {
 			]
 		}
 	],
-	retreat: 0,
 	variants: [
 		{
 			type: "holo"

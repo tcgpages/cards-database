@@ -13,6 +13,12 @@ const card: Card = {
 	types: [
 		"Fighting"
 	],
+	dexId: [
+		308
+	],
+	evolveFrom: {
+		ja: "アサナン"
+	},
 	stage: "Stage1",
 	abilities: [
 		{

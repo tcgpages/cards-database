@@ -1,0 +1,24 @@
+meta {
+  name: Japanese THE BEST OF XY
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{BASE_URL}}/v2/ja/sets/XY
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.name: eq THE BEST OF XY
+  res.body.cardCount.official: eq 171
+  res.body.cardCount.total: eq 188
+}
+
+tests {
+  test("includes the final Japanese secret print", function () {
+    expect(res.getBody().cards.map(card => card.id)).to.include("XY-188")
+  })
+}

@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Water"
 	],
+	evolveFrom: {
+		ja: "イーブイ"
+	},
 	stage: "Stage1",
 	dexId: [
 		134

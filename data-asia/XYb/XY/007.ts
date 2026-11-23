@@ -13,6 +13,12 @@ const card: Card = {
 	types: [
 		"Grass"
 	],
+	dexId: [
+		254
+	],
+	evolveFrom: {
+		ja: "ジュカインEX"
+	},
 	stage: "MEGA",
 	suffix: "EX",
 	abilities: [
