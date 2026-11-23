@@ -8,6 +8,7 @@ const card: Card = {
 	},
 	rarity: "Promo",
 	illustrator: "The Pokémon Company Art-team",
+	cameoDexIds: [133, 134, 135, 136, 196, 197, 470, 471],
 	category: "Trainer",
 	trainerType: "Stadium",
 	effect: {

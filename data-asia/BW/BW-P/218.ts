@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "N"
 	},
+	variants: [{ type: "holo" }],
 	rarity: "Promo",
 	illustrator: "Yusuke Ohmura",
 	category: "Trainer",

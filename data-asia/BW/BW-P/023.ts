@@ -8,6 +8,7 @@ const card: Card = {
 	},
 	rarity: "Promo",
 	illustrator: "5ban Graphics",
+	cameoDexIds: [638],
 	category: "Trainer",
 	trainerType: "Item",
 	effect: {

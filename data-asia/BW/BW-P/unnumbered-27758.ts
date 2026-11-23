@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "ビクトリーカップ"
 	},
+	variants: [{ type: "holo", stamp: ["3rd-place"] }],
 	rarity: "Promo",
 	illustrator: "5ban Graphics",
 	category: "Trainer",

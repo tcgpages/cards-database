@@ -48,7 +48,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "シャワーズ"
+		ja: "イーブイ"
 	},
 	weaknesses: [
 		{

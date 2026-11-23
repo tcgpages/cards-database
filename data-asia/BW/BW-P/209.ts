@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "ゲノセクト"
 	},
+	variants: [{ type: "holo" }],
 	rarity: "Promo",
 	illustrator: "Masakazu Fukuda",
 	category: "Pokemon",

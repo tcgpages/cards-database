@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "ポリゴンZ"
 	},
+	variants: [{ type: "holo" }],
 	rarity: "Promo",
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
@@ -48,7 +49,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "ポリゴンZGX"
+		ja: "ポリゴン２"
 	},
 	weaknesses: [
 		{

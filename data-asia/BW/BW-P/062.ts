@@ -46,7 +46,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "ヒスイ ドレディア"
+		ja: "チュリネ"
 	},
 	weaknesses: [
 		{

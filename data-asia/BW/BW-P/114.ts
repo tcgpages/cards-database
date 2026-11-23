@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "ワルビル"
 	},
+	variants: [{ type: "reverse" }],
 	rarity: "Promo",
 	illustrator: "Mitsuhiro Arita",
 	category: "Pokemon",

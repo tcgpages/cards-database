@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "ウルガモス"
 	},
+	variants: [{ type: "holo" }],
 	rarity: "Promo",
 	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
@@ -48,7 +49,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "ウルガモスGX"
+		ja: "メラルバ"
 	},
 	weaknesses: [
 		{

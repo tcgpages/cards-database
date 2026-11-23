@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "オタマロ"
 	},
+	variants: [{ type: "reverse" }],
 	rarity: "Promo",
 	illustrator: "Naoki Saito",
 	category: "Pokemon",

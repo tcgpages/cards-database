@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "ビクティニ"
 	},
+	variants: [{ type: "holo" }],
 	rarity: "Promo",
 	illustrator: "Sanosuke Sakuma",
 	category: "Pokemon",

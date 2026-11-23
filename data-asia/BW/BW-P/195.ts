@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "ボーマンダ"
 	},
+	variants: [{ type: "holo" }],
 	rarity: "Promo",
 	illustrator: "Naoki Saito",
 	category: "Pokemon",
@@ -49,7 +50,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "ボーマンダex"
+		ja: "コモルー"
 	},
 	weaknesses: [
 		{

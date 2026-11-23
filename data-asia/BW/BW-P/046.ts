@@ -48,7 +48,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "メガゴルーグex"
+		ja: "ゴビット"
 	},
 	weaknesses: [
 		{

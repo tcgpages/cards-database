@@ -47,7 +47,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "チラチーノex"
+		ja: "チラーミィ"
 	},
 	weaknesses: [
 		{
