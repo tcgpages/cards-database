@@ -57,7 +57,7 @@ const card: Card = {
 	],
 	"retreat": 3,
 	"evolveFrom": {
-		"ja": "メガシビルドンex"
+		"ja": "シビビール"
 	},
 	"variants": [
 		{

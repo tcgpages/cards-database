@@ -54,7 +54,7 @@ const card: Card = {
 	],
 	"retreat": 3,
 	"evolveFrom": {
-		"ja": "ブルンゲルex"
+		"ja": "プルリル"
 	},
 	"variants": [
 		{

@@ -65,7 +65,7 @@ const card: Card = {
 	],
 	"retreat": 4,
 	"evolveFrom": {
-		"ja": "メガゴルーグex"
+		"ja": "ゴビット"
 	},
 	"variants": [
 		{

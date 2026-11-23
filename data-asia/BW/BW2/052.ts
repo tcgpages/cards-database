@@ -62,7 +62,7 @@ const card: Card = {
 	],
 	"retreat": 3,
 	"evolveFrom": {
-		"ja": "サザンドラBREAK"
+		"ja": "ジヘッド"
 	},
 	"variants": [
 		{
