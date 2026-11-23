@@ -58,7 +58,7 @@ const card: Card = {
 	],
 	"retreat": 4,
 	"evolveFrom": {
-		"ja": "ホエルオーex"
+		"ja": "ホエルコ"
 	},
 	"variants": [
 		{
