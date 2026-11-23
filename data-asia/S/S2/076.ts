@@ -6,7 +6,7 @@ const card: Card = {
 	name: {
 		ja: "ダイオウドウVMAX"
 	},
-	rarity: "Triple rare",
+	rarity: "Triple Rare",
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	hp: 340,
@@ -58,6 +58,7 @@ const card: Card = {
 		}
 	],
 	retreat: 4,
+	regulationMark: "D",
 	variants: [
 		{
 			type: "holo"

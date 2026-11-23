@@ -49,7 +49,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "シロデスナGX"
+		ja: "スナバァ"
 	},
 	weaknesses: [
 		{
@@ -64,6 +64,7 @@ const card: Card = {
 		}
 	],
 	retreat: 4,
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"

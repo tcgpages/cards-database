@@ -6,7 +6,7 @@ const card: Card = {
 	name: {
 		ja: "ドラパルトVMAX"
 	},
-	rarity: "Triple rare",
+	rarity: "Triple Rare",
 	illustrator: "aky CG Works",
 	category: "Pokemon",
 	hp: 320,
@@ -57,6 +57,7 @@ const card: Card = {
 		}
 	],
 	retreat: 1,
+	regulationMark: "D",
 	variants: [
 		{
 			type: "holo"

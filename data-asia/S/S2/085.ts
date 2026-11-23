@@ -45,7 +45,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "ヨクバリスex"
+		ja: "ホシガリス"
 	},
 	weaknesses: [
 		{
@@ -54,6 +54,7 @@ const card: Card = {
 		}
 	],
 	retreat: 1,
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"

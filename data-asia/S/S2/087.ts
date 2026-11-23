@@ -13,6 +13,7 @@ const card: Card = {
 	effect: {
 		ja: "このカードは、自分の番のはじめに、山札からこのカードを引いたとき、手札に加える前に使う。 自分の山札を3枚引く。"
 	},
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"

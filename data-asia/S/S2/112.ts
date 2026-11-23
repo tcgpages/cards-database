@@ -13,6 +13,7 @@ const card: Card = {
 	effect: {
 		ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。"
 	},
+	regulationMark: "D",
 	variants: [
 		{
 			type: "holo"

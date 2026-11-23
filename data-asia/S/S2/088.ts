@@ -13,6 +13,7 @@ const card: Card = {
 	effect: {
 		ja: "おたがいの場のポケモンについている「ポケモンのどうぐ」を2枚まで選び、トラッシュする。"
 	},
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"

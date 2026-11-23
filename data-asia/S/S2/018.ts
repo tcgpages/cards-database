@@ -47,7 +47,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "メガシャンデラex"
+		ja: "ランプラー"
 	},
 	weaknesses: [
 		{
@@ -56,6 +56,7 @@ const card: Card = {
 		}
 	],
 	retreat: 2,
+	regulationMark: "D",
 	variants: [
 		{
 			type: "holo"

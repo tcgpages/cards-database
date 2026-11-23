@@ -13,6 +13,7 @@ const card: Card = {
 	effect: {
 		ja: "このカードをつけているポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、相手の山札を上から2枚トラッシュする。"
 	},
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"

@@ -47,7 +47,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "バルジーナex"
+		ja: "バルチャイ"
 	},
 	weaknesses: [
 		{
@@ -62,6 +62,7 @@ const card: Card = {
 		}
 	],
 	retreat: 2,
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"
