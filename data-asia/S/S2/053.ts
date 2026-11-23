@@ -49,7 +49,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "チャーレムex"
+		ja: "アサナン"
 	},
 	weaknesses: [
 		{
@@ -58,6 +58,7 @@ const card: Card = {
 		}
 	],
 	retreat: 1,
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"

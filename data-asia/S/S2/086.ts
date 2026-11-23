@@ -13,6 +13,7 @@ const card: Card = {
 	effect: {
 		ja: "自分のポケモン（「ポケモンV・GX」をのぞく）を1匹選び、手札にもどす。（ポケモン以外のカードは、すべてトラッシュする。）"
 	},
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"

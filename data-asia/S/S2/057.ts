@@ -58,6 +58,7 @@ const card: Card = {
 		}
 	],
 	retreat: 2,
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"

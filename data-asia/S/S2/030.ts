@@ -44,7 +44,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "マルマインGX"
+		ja: "ビリリダマ"
 	},
 	weaknesses: [
 		{
@@ -53,6 +53,7 @@ const card: Card = {
 		}
 	],
 	retreat: 0,
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"

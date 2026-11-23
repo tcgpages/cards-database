@@ -44,7 +44,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "ピクシーex"
+		ja: "ピッピ"
 	},
 	weaknesses: [
 		{
@@ -53,6 +53,7 @@ const card: Card = {
 		}
 	],
 	retreat: 2,
+	regulationMark: "D",
 	variants: [
 		{
 			type: "holo"

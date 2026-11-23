@@ -13,6 +13,7 @@ const card: Card = {
 	effect: {
 		ja: "自分の山札を2枚引く。相手プレイヤーとジャンケンをし、自分が勝ったなら、さらに2枚引く。"
 	},
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"

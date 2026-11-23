@@ -13,6 +13,7 @@ const card: Card = {
 	effect: {
 		ja: "このカードは、自分の手札を2枚トラッシュしなければ使えない。 相手の手札を見て、その中からトレーナーズを1枚選び、相手の山札の下にもどす。"
 	},
+	regulationMark: "D",
 	variants: [
 		{
 			type: "normal"
