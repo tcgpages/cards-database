@@ -55,7 +55,7 @@ const card: Card = {
 	],
 	"retreat": 3,
 	"evolveFrom": {
-		"ja": "アゲハント"
+		"ja": "ケムッソ"
 	},
 	"variants": [
 		{
