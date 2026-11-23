@@ -51,7 +51,7 @@ const card: Card = {
 	],
 	"retreat": 3,
 	"evolveFrom": {
-		"ja": "ドダイトス"
+		"ja": "ナエトル"
 	},
 	"variants": [
 		{

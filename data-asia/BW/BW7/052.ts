@@ -53,7 +53,7 @@ const card: Card = {
 	],
 	"retreat": 1,
 	"evolveFrom": {
-		"ja": "ピクシーex"
+		"ja": "ピッピ"
 	},
 	"variants": [
 		{

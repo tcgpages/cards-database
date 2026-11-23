@@ -52,7 +52,7 @@ const card: Card = {
 	],
 	"retreat": 2,
 	"evolveFrom": {
-		"ja": "ジバコイル"
+		"ja": "コイル"
 	},
 	"variants": [
 		{

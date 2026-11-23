@@ -61,7 +61,7 @@ const card: Card = {
 	],
 	"retreat": 2,
 	"evolveFrom": {
-		"ja": "モロバレルex"
+		"ja": "タマゲタケ"
 	},
 	"variants": [
 		{
