@@ -56,7 +56,7 @@ const card: Card = {
 	],
 	retreat: 3,
 	evolveFrom: {
-		ja: "ギャラドスGX"
+		ja: "コイキング"
 	},
 	variants: [
 		{

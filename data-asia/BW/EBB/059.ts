@@ -39,7 +39,7 @@ const card: Card = {
 	],
 	retreat: 1,
 	evolveFrom: {
-		ja: "ランクルス"
+		ja: "ユニラン"
 	},
 	variants: [
 		{

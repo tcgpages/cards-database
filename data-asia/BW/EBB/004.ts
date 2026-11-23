@@ -60,7 +60,7 @@ const card: Card = {
 	],
 	retreat: 1,
 	evolveFrom: {
-		ja: "ジャローダex"
+		ja: "ジャノビー"
 	},
 	variants: [
 		{

@@ -55,7 +55,7 @@ const card: Card = {
 	],
 	retreat: 2,
 	evolveFrom: {
-		ja: "ヒスイ ダイケンキ"
+		ja: "フタチマル"
 	},
 	variants: [
 		{

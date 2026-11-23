@@ -54,7 +54,7 @@ const card: Card = {
 	],
 	retreat: 1,
 	evolveFrom: {
-		ja: "チルタリスGX"
+		ja: "チルット"
 	},
 	variants: [
 		{

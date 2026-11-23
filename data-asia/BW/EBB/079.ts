@@ -52,7 +52,7 @@ const card: Card = {
 	],
 	retreat: 1,
 	evolveFrom: {
-		ja: "ガブリアス"
+		ja: "フカマル"
 	},
 	variants: [
 		{
