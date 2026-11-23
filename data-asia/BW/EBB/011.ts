@@ -59,7 +59,7 @@ const card: Card = {
 	],
 	retreat: 3,
 	evolveFrom: {
-		ja: "リザードンGX"
+		ja: "リザード"
 	},
 	variants: [
 		{

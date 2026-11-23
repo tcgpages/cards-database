@@ -54,7 +54,7 @@ const card: Card = {
 	],
 	retreat: 2,
 	evolveFrom: {
-		ja: "サザンドラBREAK"
+		ja: "モノズ"
 	},
 	variants: [
 		{

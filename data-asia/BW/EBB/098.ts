@@ -7,6 +7,7 @@ const card: Card = {
 		ja: "ポケモンエンタープライズ"
 	},
 	rarity: "None",
+	cameoDexIds: [501],
 	category: "Trainer",
 	trainerType: "Supporter",
 	effect: {

@@ -55,7 +55,7 @@ const card: Card = {
 	],
 	retreat: 1,
 	evolveFrom: {
-		ja: "ゴチルゼル"
+		ja: "ゴチム"
 	},
 	variants: [
 		{

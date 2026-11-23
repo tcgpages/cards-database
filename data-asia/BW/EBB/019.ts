@@ -53,7 +53,7 @@ const card: Card = {
 	],
 	retreat: 4,
 	evolveFrom: {
-		ja: "メガエンブオーex"
+		ja: "チャオブー"
 	},
 	variants: [
 		{

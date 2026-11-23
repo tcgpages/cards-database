@@ -43,7 +43,7 @@ const card: Card = {
 	],
 	retreat: 2,
 	evolveFrom: {
-		ja: "エンペルトBREAK"
+		ja: "ポッチャマ"
 	},
 	variants: [
 		{
