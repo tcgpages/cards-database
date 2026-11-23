@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Fighting"
 	],
+	evolveFrom: {
+		ja: "ガラル カモネギ"
+	},
 	stage: "Stage1",
 	dexId: [
 		865

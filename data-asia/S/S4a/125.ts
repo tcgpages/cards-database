@@ -19,6 +19,12 @@ const card: Card = {
 		"Darkness"
 	],
 
+	dexId: [
+		890
+	],
+	evolveFrom: {
+		ja: "ムゲンダイナV"
+	},
 	stage: "VMAX",
 
 	abilities: [
@@ -66,7 +72,6 @@ const card: Card = {
 
 	rarity: "Holo Rare VMAX",
 
-	suffix: "VMAX",
 
 	variants: [
 		{

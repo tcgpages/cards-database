@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "跳ねるように 敵に 近づくと 毒のツメで えぐるように 打つ！ かすり傷でも 相手は ＫＯだ。"
 	},
 
+	evolveFrom: {
+		ja: "グレッグル"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -71,6 +74,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		454

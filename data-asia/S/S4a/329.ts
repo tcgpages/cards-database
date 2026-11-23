@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Metal"
 	],
+	dexId: [
+		888
+	],
 	stage: "Basic",
 	suffix: "V",
 	abilities: [

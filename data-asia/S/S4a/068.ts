@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "勇猛果敢で 誇り 高い。 足先の 毛に サイコパワーを ためて 軽やかに 森を 駆ける。"
 	},
 
+	evolveFrom: {
+		ja: "ガラル ポニータ"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -77,6 +80,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		78

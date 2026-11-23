@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "食った ゴミが 体内で 毒に 変化する。 食う ゴミ しだいで 毒の 主成分も 変わる。"
 	},
 
+	evolveFrom: {
+		ja: "ヤブクロン"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -67,6 +70,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		569

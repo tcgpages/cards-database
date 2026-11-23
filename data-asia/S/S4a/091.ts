@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "歴戦を 生き抜いた ものが この姿に 進化する。 ネギが 枯れるとき 戦場を 去る。"
 	},
 
+	evolveFrom: {
+		ja: "ガラル カモネギ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -67,6 +70,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		865

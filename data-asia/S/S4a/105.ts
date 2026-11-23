@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "大気の 汚い 成分を 吸収し きれいな 空気を フンの 代わりに 吐き出している。"
 	},
 
+	evolveFrom: {
+		ja: "ドガース"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -68,6 +71,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		110

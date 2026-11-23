@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "進化して 双子に なった。 刃を 擦り合わせて 鳴らす 金属音で 相手を 威嚇。"
 	},
 
+	evolveFrom: {
+		ja: "ヒトツキ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -75,6 +78,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		680

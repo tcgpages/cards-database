@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "槍のように 尖った 顎は 鋼の 硬さ。 その 身は 驚くほど 美味しいらしい。"
 	},
 
+	evolveFrom: {
+		ja: "サシカマス"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -65,6 +68,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		847

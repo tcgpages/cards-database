@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Colorless"
 	],
+	dexId: [
+		832
+	],
 	stage: "Basic",
 	suffix: "V",
 	abilities: [

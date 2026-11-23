@@ -19,6 +19,12 @@ const card: Card = {
 		"Psychic"
 	],
 
+	dexId: [
+		887
+	],
+	evolveFrom: {
+		ja: "ドラパルトV"
+	},
 	stage: "VMAX",
 
 	attacks: [
@@ -73,7 +79,6 @@ const card: Card = {
 
 	rarity: "Holo Rare VMAX",
 
-	suffix: "VMAX",
 
 	variants: [
 		{

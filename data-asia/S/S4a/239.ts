@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Lightning"
 	],
+	evolveFrom: {
+		ja: "ワンパチ"
+	},
 	stage: "Stage1",
 	dexId: [
 		836

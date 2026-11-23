@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "独特の とぐろの 巻き方は 砂袋の 砂を より 効率 よく 噴射 するため なのだ。"
 	},
 
+	evolveFrom: {
+		ja: "スナヘビ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -67,6 +70,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		844

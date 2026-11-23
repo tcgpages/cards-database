@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "ずば抜けた 脚力と 顎の 力で 古代では 無敵だったが 獲物を 獲り尽くし 絶滅した。"
 	},
 
+	evolveFrom: {
+		ja: "めずらしい化石"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -67,6 +70,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		882

@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Colorless"
 	],
+	evolveFrom: {
+		ja: "ココガラ"
+	},
 	stage: "Stage1",
 	dexId: [
 		822

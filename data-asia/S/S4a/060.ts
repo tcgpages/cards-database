@@ -19,6 +19,12 @@ const card: Card = {
 		"Lightning"
 	],
 
+	dexId: [
+		849
+	],
+	evolveFrom: {
+		ja: "ストリンダーV"
+	},
 	stage: "VMAX",
 
 	attacks: [
@@ -53,7 +59,6 @@ const card: Card = {
 
 	rarity: "Holo Rare VMAX",
 
-	suffix: "VMAX",
 
 	variants: [
 		{

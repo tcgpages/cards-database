@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "攻守に 優れ 応援されると さらに 燃えるが スタンドプレイに 走り ピンチを 招くこともある。"
 	},
 
+	evolveFrom: {
+		ja: "ラビフット"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -71,6 +74,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		815

@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Colorless"
 	],
+	dexId: [
+		132
+	],
+	evolveFrom: {
+		ja: "メタモンV"
+	},
 	stage: "VMAX",
-	suffix: "VMAX",
 	attacks: [
 		{
 			name: {

@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "霊力が 高まり 殻から 解き放たれた。 霊体で 核の 魂を 守っている。"
 	},
 
+	evolveFrom: {
+		ja: "ガラル サニーゴ"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -77,6 +80,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		864

@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "すっぱい りんごを 食べて 進化。 火傷する ほど 強酸性の 液体を 頬袋に 溜める。"
 	},
 
+	evolveFrom: {
+		ja: "カジッチュ"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -70,6 +73,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		841

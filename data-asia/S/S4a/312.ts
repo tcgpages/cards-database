@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Water"
 	],
+	dexId: [
+		131
+	],
+	evolveFrom: {
+		ja: "ラプラスV"
+	},
 	stage: "VMAX",
-	suffix: "VMAX",
 	attacks: [
 		{
 			name: {

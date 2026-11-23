@@ -19,6 +19,9 @@ const card: Card = {
 		"Metal"
 	],
 
+	dexId: [
+		889
+	],
 	stage: "Basic",
 
 	suffix: "V",

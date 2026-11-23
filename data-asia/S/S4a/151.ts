@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "足で 小石を つかんで 投げたり ロープを 敵に 巻きつけるなど 道具を あつかう 知恵を もつ。"
 	},
 
+	evolveFrom: {
+		ja: "ココガラ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -73,6 +76,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		822

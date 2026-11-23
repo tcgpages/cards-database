@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "首が 伸び縮みする。 離れた ところから 首を 一気に 伸ばし 鋭い キバで 敵を しとめる。"
 	},
 
+	evolveFrom: {
+		ja: "カムカメ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -74,6 +77,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		834

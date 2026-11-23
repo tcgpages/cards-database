@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "ガス状の 舌で なめられると 体の 震えが 止まらなくなり やがては 死 に いたるという。"
 	},
 
+	evolveFrom: {
+		ja: "ゴース"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -73,6 +76,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		93

@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "頭の 綿毛で つくった 糸は 光沢があり とても 美しい。 ガラル地方の 名産品。"
 	},
 
+	evolveFrom: {
+		ja: "ヒメンカ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -64,6 +67,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		830

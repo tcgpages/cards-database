@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "周囲を 凍りつかせて 獲物を 捕まえるが 口が 頭の 上に あるので 食べづらい。"
 	},
 
+	evolveFrom: {
+		ja: "めずらしい化石"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -74,6 +77,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		883

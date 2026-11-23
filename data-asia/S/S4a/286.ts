@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Metal"
 	],
+	evolveFrom: {
+		ja: "ガラル ニャース"
+	},
 	stage: "Stage1",
 	dexId: [
 		863

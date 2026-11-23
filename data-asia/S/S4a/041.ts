@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "多彩な 機能を 隠し持つ。 指から 水を 噴射して 背中の 皮膜で 風に 乗る。"
 	},
 
+	evolveFrom: {
+		ja: "ジメレオン"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -70,6 +73,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		818

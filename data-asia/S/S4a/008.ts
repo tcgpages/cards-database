@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "特別な 切り株の パワーを ドラミングで コントロール。 根っこを 操って 戦う。"
 	},
 
+	evolveFrom: {
+		ja: "バチンキー"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -68,6 +71,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		812

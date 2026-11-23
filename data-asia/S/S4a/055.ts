@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "電気を つくって 脚に 送り 走りを アシスト。 三日三晩 休まず 走れるのだ。"
 	},
 
+	evolveFrom: {
+		ja: "ワンパチ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -72,6 +75,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		836

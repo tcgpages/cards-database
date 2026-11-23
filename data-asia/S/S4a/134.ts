@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "緑の皮膚は 水にも 強い。 昔 ほかの土地から やってきて 人と いっしょに 働いた。"
 	},
 
+	evolveFrom: {
+		ja: "ゾウドウ"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -79,6 +82,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		879

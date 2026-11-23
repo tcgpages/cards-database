@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "殻の 中で 成長中。 サイコパワーで 外の 様子を うかがい 進化に 備えている。"
 	},
 
+	evolveFrom: {
+		ja: "サッチムシ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -65,6 +68,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		825

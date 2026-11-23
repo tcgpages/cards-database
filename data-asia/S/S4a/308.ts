@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Fire"
 	],
+	dexId: [
+		6
+	],
+	evolveFrom: {
+		ja: "リザードンV"
+	},
 	stage: "VMAX",
-	suffix: "VMAX",
 	attacks: [
 		{
 			name: {

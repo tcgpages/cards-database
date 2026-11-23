@@ -64,7 +64,11 @@ const card: Card = {
 
 	regulationMark: "D",
 
-	rarity: "None",
+	rarity: "Amazing Rare",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		717

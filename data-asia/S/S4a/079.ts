@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "強い 感情を もつ ものは それが 誰であれ 黙らせる。 その手段は じつに 乱暴。"
 	},
 
+	evolveFrom: {
+		ja: "ミブリム"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -76,6 +79,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		857

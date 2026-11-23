@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "髪の毛を 全身に 巻きつけると 筋力が アップ。 カイリキーを ねじ伏せる パワーを 発揮する。"
 	},
 
+	evolveFrom: {
+		ja: "ギモー"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -71,6 +74,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		861

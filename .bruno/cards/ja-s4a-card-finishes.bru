@@ -1,0 +1,18 @@
+meta {
+  name: Japanese finishes for S4a-009
+  type: http
+  seq: 10
+}
+
+get {
+  url: {{BASE_URL}}/v2/ja/cards/S4a-009
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq S4a-009
+  res.body.variants.holo: eq true
+  res.body.variants.normal: eq false
+}

@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "夜明けと ともに スワンナたちは 踊りはじめる。 真ん中で 踊る スワンナが 群れの リーダー。"
 	},
 
+	evolveFrom: {
+		ja: "コアルヒー"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -78,6 +81,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		581

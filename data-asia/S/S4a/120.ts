@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "狙った 獲物は こっそり マーキング。 においを 辿って 油断 したころ 盗みに 来るぞ。"
 	},
 
+	evolveFrom: {
+		ja: "クスネ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -67,6 +70,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		828

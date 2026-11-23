@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "もっとも 美しい ポケモンとも 呼ばれ 多くの 芸術家に インスピレーションを 与えてきた。"
 	},
 
+	evolveFrom: {
+		ja: "ヒンバス"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -67,6 +70,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		350

@@ -22,7 +22,11 @@ const card: Card = {
 
 	regulationMark: "D",
 
-	rarity: "None"
+	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	]
 }
 
 export default card

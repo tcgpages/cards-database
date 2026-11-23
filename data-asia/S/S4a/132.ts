@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "ガラル地方の 空では 敵なし。 黒光りする 鋼の 姿は 相手を 威圧し 恐れさせる。"
 	},
 
+	evolveFrom: {
+		ja: "アオガラス"
+	},
 	stage: "Stage2",
 
 	attacks: [
@@ -74,6 +77,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		823

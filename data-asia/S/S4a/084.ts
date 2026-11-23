@@ -19,6 +19,9 @@ const card: Card = {
 		"Psychic"
 	],
 
+	dexId: [
+		876
+	],
 	stage: "Basic",
 
 	suffix: "V",

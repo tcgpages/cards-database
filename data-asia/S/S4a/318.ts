@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Psychic"
 	],
+	dexId: [
+		887
+	],
+	evolveFrom: {
+		ja: "ドラパルトV"
+	},
 	stage: "VMAX",
-	suffix: "VMAX",
 	attacks: [
 		{
 			name: {

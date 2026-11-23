@@ -72,6 +72,10 @@ const card: Card = {
 
 	rarity: "None",
 
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
+
 	dexId: [
 		875
 	]
