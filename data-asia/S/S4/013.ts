@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "体内に 炎が 溜まると ブースターの 体温も 最高 ９００度 まで 上がっていく。"
 	},
 
+	evolveFrom: {
+		ja: "イーブイ"
+	},
 	stage: "Stage1",
 
 	abilities: [

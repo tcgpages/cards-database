@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "狂暴な 性質。 鉄棒を 噛み千切る ほどの 顎の 力で 獲物に ばくりと 噛みつく。"
 	},
 
+	evolveFrom: {
+		ja: "カムカメ"
+	},
 	stage: "Stage1",
 
 	attacks: [

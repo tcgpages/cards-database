@@ -19,6 +19,12 @@ const card: Card = {
 		"Metal"
 	],
 
+	dexId: [
+		681
+	],
+	evolveFrom: {
+		ja: "ギルガルドV"
+	},
 	stage: "VMAX",
 
 	attacks: [
@@ -60,7 +66,6 @@ const card: Card = {
 
 	rarity: "Holo Rare VMAX",
 
-	suffix: "VMAX",
 
 	variants: [
 		{

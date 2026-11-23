@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "食欲 旺盛な ポケモン。 獲物を 見つけると 襲いかかり 電気で しびれさせてから 食べる。"
 	},
 
+	evolveFrom: {
+		ja: "シビシラス"
+	},
 	stage: "Stage1",
 
 	attacks: [

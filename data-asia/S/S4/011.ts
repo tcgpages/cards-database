@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "燃える しっぽを 振りまわし するどい ツメで 相手を 切り裂く 荒々しい 性格。"
 	},
 
+	evolveFrom: {
+		ja: "ヒトカゲ"
+	},
 	stage: "Stage1",
 
 	attacks: [

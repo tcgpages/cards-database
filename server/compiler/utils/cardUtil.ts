@@ -6,7 +6,7 @@ import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
-import { formatVariant, variantToIdentifier } from "./variantUtil.ts";
+import { formatVariant, variantToIdentifier, variantsForLanguage } from "./variantUtil.ts";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 
@@ -87,6 +87,8 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		throw new Error(`Card (${localId}) dont exist in (${lang})`)
 	}
 
+	const variants = variantsForLanguage(card.variants, lang)
+
 	return {
 		category: translate('category', card.category, lang) as any,
 		id: `${card.set.id}-${localId}`,
@@ -98,17 +100,17 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		rarity: translate('rarity', card.rarity, lang) as any,
 		set: await setToSetSimple(card.set, lang),
 
-		variants : Array.isArray(card.variants) ?
-			variantsDetailedToVariants(card.variants) : {
-			firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
-			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : false,
-			normal: typeof card.variants?.normal === 'boolean' ? card.variants.normal : true,
-			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : false,
-			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
+		variants : Array.isArray(variants) ?
+			variantsDetailedToVariants(variants) : {
+			firstEdition: typeof variants?.firstEdition === 'boolean' ? variants.firstEdition : false,
+			holo: typeof variants?.holo === 'boolean' ? variants.holo : false,
+			normal: typeof variants?.normal === 'boolean' ? variants.normal : true,
+			reverse: typeof variants?.reverse === 'boolean' ? variants.reverse : false,
+			wPromo: typeof variants?.wPromo === 'boolean' ? variants.wPromo : false
 		},
 
-		variants_detailed: Array.isArray(card.variants)
-			? await Promise.all(card.variants.map(async (variant, index) => {
+		variants_detailed: Array.isArray(variants)
+			? await Promise.all(variants.map(async (variant, index) => {
 				const variantId = variantToIdentifier(variant);
 				let formattedVariant = formatVariant(variant,lang)
 
@@ -117,7 +119,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 					variantId
 				} as ApiVariantDetailed
 			}))
-			: variantsToVariantsDetailed(card.variants, lang),
+			: variantsToVariantsDetailed(variants, lang),
 
 		dexId: card.dexId,
 		cameoDexIds: card.cameoDexIds,

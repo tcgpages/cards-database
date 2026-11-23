@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "自然の 洞窟に 見えても ドリュウズが 掘り荒らした 跡と いうことも よくある 話だ。"
 	},
 
+	evolveFrom: {
+		ja: "モグリュー"
+	},
 	stage: "Stage1",
 
 	attacks: [

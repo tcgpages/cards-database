@@ -19,6 +19,9 @@ const card: Card = {
 		"Darkness"
 	],
 
+	dexId: [
+		452
+	],
 	stage: "Basic",
 
 	suffix: "V",

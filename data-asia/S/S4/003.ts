@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "森の 神様と 恐れられていた ポケモン。 相手の 考えを 読み 先回りする 能力を もつ。"
 	},
 
+	evolveFrom: {
+		ja: "コノハナ"
+	},
 	stage: "Stage2",
 
 	abilities: [

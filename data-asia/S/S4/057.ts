@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "キバが 長くて 大きいほど 群れの中での ランクが 高い。 キバが 伸びるには 時間が かかる。"
 	},
 
+	evolveFrom: {
+		ja: "ゴマゾウ"
+	},
 	stage: "Stage1",
 
 	attacks: [

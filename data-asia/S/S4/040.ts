@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "腕の 力で 海から はい出し 水辺の 獲物に 襲いかかる。 一瞬で 海へ 引きずりこむ。"
 	},
 
+	evolveFrom: {
+		ja: "シビビール"
+	},
 	stage: "Stage2",
 
 	attacks: [

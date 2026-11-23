@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "泥で 固めた 脚は 岩よりも 硬くなり 一撃で トラックを 破壊する 威力を 生み出す。"
 	},
 
+	evolveFrom: {
+		ja: "ドロバンコ"
+	},
 	stage: "Stage1",
 
 	attacks: [

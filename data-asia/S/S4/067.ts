@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "１０匹 程度の 群れを 作って 一糸乱れぬ チームワークで 獲物を 追いつめて しとめるのだ。"
 	},
 
+	evolveFrom: {
+		ja: "ポチエナ"
+	},
 	stage: "Stage1",
 
 	attacks: [

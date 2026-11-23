@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Grass"
 	],
+	dexId: [
+		826
+	],
+	evolveFrom: {
+		ja: "イオルブV"
+	},
 	stage: "VMAX",
-	suffix: "VMAX",
 	abilities: [
 		{
 			name: {

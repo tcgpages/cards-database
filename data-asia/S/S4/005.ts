@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "鳴き声を 聴き つづけると 頭痛が 治まらなくなる。 見えない ほどの 速さで 動く。"
 	},
 
+	evolveFrom: {
+		ja: "ツチニン"
+	},
 	stage: "Stage1",
 
 	abilities: [

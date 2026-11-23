@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "体は いつも 波打っていて 溶岩のように 熱い。 ときどき 殻から 火の粉が漏れる。"
 	},
 
+	evolveFrom: {
+		ja: "マグマッグ"
+	},
 	stage: "Stage1",
 
 	attacks: [

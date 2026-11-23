@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "あふれるほどの 電気エネルギーを 体内に ためこんでいるので 少しの 刺激で 爆発する。"
 	},
 
+	evolveFrom: {
+		ja: "ビリリダマ"
+	},
 	stage: "Stage1",
 
 	abilities: [

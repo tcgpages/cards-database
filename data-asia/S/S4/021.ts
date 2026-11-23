@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "きびしい 修業の すえ フタチマルごとに 異なる 型の ホタチさばきを 習得する。"
 	},
 
+	evolveFrom: {
+		ja: "ミジュマル"
+	},
 	stage: "Stage1",
 
 	attacks: [

@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "稲妻のような 瞬発力。 ゼブライカが 全速力で 走ると 雷鳴が 響きわたる。"
 	},
 
+	evolveFrom: {
+		ja: "シママ"
+	},
 	stage: "Stage1",
 
 	attacks: [

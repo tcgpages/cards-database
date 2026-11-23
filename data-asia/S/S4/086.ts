@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "森に 住む 獲物を 見つけると 上空から 急降下。 鋭い ツメで 捕まえる。"
 	},
 
+	evolveFrom: {
+		ja: "スバメ"
+	},
 	stage: "Stage1",
 
 	attacks: [

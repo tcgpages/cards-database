@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "綿を まき散らし イタズラする。 水を かけると 重くなって 動けなくなり 観念するぞ。"
 	},
 
+	evolveFrom: {
+		ja: "モンメン"
+	},
 	stage: "Stage1",
 
 	attacks: [

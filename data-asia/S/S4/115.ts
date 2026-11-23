@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Metal"
 	],
+	dexId: [
+		681
+	],
+	evolveFrom: {
+		ja: "ギルガルドV"
+	},
 	stage: "VMAX",
-	suffix: "VMAX",
 	attacks: [
 		{
 			name: {
