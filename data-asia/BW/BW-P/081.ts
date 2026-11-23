@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "エモンガ"
 	},
+	variants: [{ type: "reverse" }],
 	rarity: "Promo",
 	illustrator: "Kouki Saitou",
 	category: "Pokemon",

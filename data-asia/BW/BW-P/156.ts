@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "コバルオン"
 	},
+	variants: [{ type: "reverse" }],
 	rarity: "Promo",
 	illustrator: "5ban Graphics",
 	category: "Pokemon",

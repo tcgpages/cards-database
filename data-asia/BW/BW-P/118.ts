@@ -52,7 +52,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "ドリュウズex"
+		ja: "モグリュー"
 	},
 	weaknesses: [
 		{

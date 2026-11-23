@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "チャンピオンズフェスティバル"
 	},
+	variants: [{ type: "normal" }],
 	rarity: "Promo",
 	illustrator: "Naoki Saito",
 	category: "Trainer",

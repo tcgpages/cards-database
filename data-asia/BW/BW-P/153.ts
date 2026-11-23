@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "殿堂ベルト"
 	},
+	variants: [{ type: "reverse" }],
 	rarity: "Promo",
 	illustrator: "Ryo Ueda",
 	category: "Trainer",

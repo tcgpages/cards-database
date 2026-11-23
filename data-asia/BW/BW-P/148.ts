@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "チルタリス"
 	},
+	variants: [{ type: "reverse" }],
 	rarity: "Promo",
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
@@ -45,7 +46,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "チルタリスGX"
+		ja: "チルット"
 	},
 	weaknesses: [
 		{

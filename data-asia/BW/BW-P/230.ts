@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "トルネロスEX"
 	},
+	variants: [{ type: "holo" }],
 	rarity: "Promo",
 	illustrator: "Ryo Ueda",
 	category: "Pokemon",

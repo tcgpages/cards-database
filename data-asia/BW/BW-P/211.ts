@@ -47,7 +47,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "ユキメノコex"
+		ja: "ユキワラシ"
 	},
 	weaknesses: [
 		{

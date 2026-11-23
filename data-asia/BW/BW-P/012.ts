@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "アララギ博士"
 	},
+	variants: [{ type: "reverse" }],
 	rarity: "Promo",
 	illustrator: "Ken Sugimori",
 	category: "Trainer",

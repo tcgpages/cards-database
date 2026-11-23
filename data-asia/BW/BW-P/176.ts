@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "プラズマ団のしたっぱ"
 	},
+	variants: [{ type: "reverse" }],
 	rarity: "Promo",
 	illustrator: "Yusuke Ohmura",
 	category: "Trainer",

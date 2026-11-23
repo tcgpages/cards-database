@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "キュウコン"
 	},
+	variants: [{ type: "holo" }],
 	rarity: "Promo",
 	illustrator: "Hideaki Hakozaki",
 	category: "Pokemon",
@@ -46,7 +47,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "キュウコンex"
+		ja: "ロコン"
 	},
 	weaknesses: [
 		{

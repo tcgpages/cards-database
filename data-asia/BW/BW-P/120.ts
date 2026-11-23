@@ -8,6 +8,7 @@ const card: Card = {
 	},
 	rarity: "Promo",
 	illustrator: "Kouki Saitou",
+	cameoDexIds: [494, 495],
 	category: "Pokemon",
 	hp: 50,
 	types: [

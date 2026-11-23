@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "オノノクス"
 	},
+	variants: [{ type: "holo" }],
 	rarity: "Promo",
 	illustrator: "kawayoo",
 	category: "Pokemon",

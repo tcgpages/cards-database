@@ -48,7 +48,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "エルフーンGX"
+		ja: "モンメン"
 	},
 	weaknesses: [
 		{

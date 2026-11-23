@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "ベル"
 	},
+	variants: [{ type: "reverse" }],
 	rarity: "Promo",
 	illustrator: "Megumi Mizutani",
 	category: "Trainer",

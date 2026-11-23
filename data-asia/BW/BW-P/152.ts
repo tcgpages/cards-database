@@ -50,7 +50,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "アローラライチュウ"
+		ja: "ピカチュウ"
 	},
 	weaknesses: [
 		{

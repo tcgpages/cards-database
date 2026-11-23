@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "基本水エネルギー"
 	},
+	variants: [{ type: "reverse" }],
 	rarity: "Promo",
 	category: "Energy",
 	energyType: "Normal"

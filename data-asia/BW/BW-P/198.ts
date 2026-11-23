@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "ジャローダ"
 	},
+	variants: [{ type: "holo" }],
 	rarity: "Promo",
 	illustrator: "Naoki Saito",
 	category: "Pokemon",
@@ -46,7 +47,7 @@ const card: Card = {
 		}
 	],
 	evolveFrom: {
-		ja: "ジャローダex"
+		ja: "ジャノビー"
 	},
 	weaknesses: [
 		{

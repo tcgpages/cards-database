@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "バトルシティ"
 	},
+	variants: [{ type: "holo" }],
 	rarity: "Promo",
 	illustrator: "Hideaki Hakozaki",
 	category: "Trainer",
