@@ -1,0 +1,17 @@
+meta {
+  name: Reset Stamp alternate is banned in Expanded
+  type: http
+  seq: 8
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards/sm11-206a
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq sm11-206a
+  res.body.legal.expanded: eq false
+}
