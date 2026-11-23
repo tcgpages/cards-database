@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Lightning"
 	],
+	evolveFrom: {
+		ja: "シママ"
+	},
 	stage: "Stage1",
 	dexId: [
 		523
@@ -62,6 +65,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
 		}
 	]
 }

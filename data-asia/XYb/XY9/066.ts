@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Colorless"
 	],
+	dexId: [
+		20
+	],
+	evolveFrom: {
+		ja: "ラッタ"
+	},
 	stage: "BREAK",
-	suffix: "BREAK",
 	attacks: [
 		{
 			name: {
@@ -29,10 +34,13 @@ const card: Card = {
 			]
 		}
 	],
-	retreat: 0,
 	variants: [
 		{
 			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
 		}
 	]
 }

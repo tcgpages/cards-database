@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Grass"
 	],
+	evolveFrom: {
+		ja: "チコリータ"
+	},
 	stage: "Stage1",
 	dexId: [
 		153
@@ -54,6 +57,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
 		}
 	]
 }

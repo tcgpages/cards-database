@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Water"
 	],
+	evolveFrom: {
+		ja: "ガマガル"
+	},
 	stage: "Stage2",
 	dexId: [
 		537
@@ -58,6 +61,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
 		}
 	]
 }

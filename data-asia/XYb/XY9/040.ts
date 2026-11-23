@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Psychic"
 	],
+	evolveFrom: {
+		ja: "ヤブクロン"
+	},
 	stage: "Stage1",
 	dexId: [
 		569
@@ -58,6 +61,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
 		}
 	]
 }

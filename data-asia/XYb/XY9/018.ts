@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Water"
 	],
+	dexId: [
+		130
+	],
 	stage: "Basic",
 	suffix: "EX",
 	attacks: [
@@ -53,6 +56,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
 		}
 	]
 }

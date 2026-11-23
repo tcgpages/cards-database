@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Fairy"
 	],
+	evolveFrom: {
+		ja: "ピッピ"
+	},
 	stage: "Stage1",
 	dexId: [
 		36
@@ -64,6 +67,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
 		}
 	]
 }

@@ -11,11 +11,15 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Tool",
 	effect: {
-		ja: "このカードをつけているたねポケモンの最大HPは「40」大きくなり、そのポケモンが使うワザの、相手のバトルポケモンへのダメージは「 10」される。"
+		ja: "このカードをつけているたねポケモンの最大HPは「40」大きくなり、そのポケモンが使うワザの、相手のバトルポケモンへのダメージは「+10」される。"
 	},
 	variants: [
 		{
 			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
 		}
 	]
 }

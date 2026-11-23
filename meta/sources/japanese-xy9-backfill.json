@@ -21,9 +21,11 @@
 		"Secret-tail card faces are checked against the numbered Japanese scans and individual numbered checklist entries. Where the official detail page covers a same-mechanics print, gameplay fields come from that official record; secret-only flavor text is omitted.",
 		"Printed rarity labels map to the repository taxonomy. Rare foil variants follow the Japanese printing; on sets with existing zh-tw entries, variant overrides are limited to Japanese so existing-language printing behavior is retained.",
 		"No third-party artwork URLs or marketplace identifiers are inferred. The source references document catalog data and printed scans; no images are added to the repository.",
-		"Card text and identities remain sourced from the cited card records and numbered prints."
+		"Card text and identities remain sourced from the cited card records and numbered prints.",
+		"First-edition and unlimited printings use the same finish. The official numbered card images show the Japanese first-edition stamp. The XY9 collector inventory independently lists both editions for all 89 numbers."
 	],
 	"checklists": [
+		"https://www.houseofcardsnco.com.au/sets/jp-xy/xy9-rage-of-the-broken-heavens",
 		"https://www.serebii.net/card/rageofthetornheavens/"
 	],
 	"cards": {
