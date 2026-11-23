@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "信頼する トレーナーには クリームで デコレーションした 木の実を ふるまって くれるのだ。"
 	},
 
+	evolveFrom: {
+		ja: "マホミル"
+	},
 	stage: "Stage1",
 
 	abilities: [

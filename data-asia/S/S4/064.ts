@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "全身が 筋肉の 塊。 触手を 使って 繰りだす 絞め技の 威力は 凄まじい。"
 	},
 
+	evolveFrom: {
+		ja: "タタッコ"
+	},
 	stage: "Stage1",
 
 	attacks: [

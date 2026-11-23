@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Water"
 	],
+	dexId: [
+		555
+	],
 	stage: "Basic",
 	suffix: "V",
 	attacks: [

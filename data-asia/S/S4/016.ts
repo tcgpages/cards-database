@@ -19,6 +19,9 @@ const card: Card = {
 		"Fire"
 	],
 
+	dexId: [
+		663
+	],
 	stage: "Basic",
 
 	suffix: "V",

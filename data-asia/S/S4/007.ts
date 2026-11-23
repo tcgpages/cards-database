@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "山岳地帯で 生活する。 ツノを ぶつけ合う 力比べの 勝者が 群れの リーダーだ。"
 	},
 
+	evolveFrom: {
+		ja: "メェークル"
+	},
 	stage: "Stage1",
 
 	attacks: [

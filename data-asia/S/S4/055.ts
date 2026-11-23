@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "４本の腕を すばやく 動かし あらゆる 角度から 休むことなく パンチや チョップを 叩きこむ。"
 	},
 
+	evolveFrom: {
+		ja: "ゴーリキー"
+	},
 	stage: "Stage2",
 
 	attacks: [

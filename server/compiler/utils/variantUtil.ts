@@ -1,9 +1,17 @@
 
-import { SupportedLanguages, variant_detailed } from "../../../interfaces";
+import { Card, SupportedLanguages, variant_detailed } from "../../../interfaces";
 import translate from "./translationUtil";
 
 // Adding new keys to this array will break existing identifiers, so be cautious when modifying it. Only include keys that are essential for identifying a variant uniquely.
 const includeKeys: Array<keyof variant_detailed> = ['type', 'subtype', 'size', 'stamp', 'foil'];
+
+export function variantsForLanguage(variants: Card['variants'], lang: SupportedLanguages): Card['variants'] {
+	if (!Array.isArray(variants) || variants.length === 0) return variants
+
+	const available = variants.filter(variant => !variant.languages || variant.languages.includes(lang))
+	// A card with no recorded finish in this language uses the existing unspecified-variant fallback.
+	return available.length ? available : undefined
+}
 
 export function variantToIdentifier(variant: variant_detailed): string {
 	const enVariant = formatVariant(variant,"en" as SupportedLanguages);

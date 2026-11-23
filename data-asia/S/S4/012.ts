@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "岩石も 焼けるような 灼熱の 炎を 吐いて 山火事を 起こすことが ある。"
 	},
 
+	evolveFrom: {
+		ja: "リザード"
+	},
 	stage: "Stage2",
 
 	abilities: [

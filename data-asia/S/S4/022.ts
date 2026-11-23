@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "よろいに 仕込まれた 剣の 一振りで 相手を 倒す。 ひとにらみで 敵を 黙らせる。"
 	},
 
+	evolveFrom: {
+		ja: "フタチマル"
+	},
 	stage: "Stage2",
 
 	attacks: [

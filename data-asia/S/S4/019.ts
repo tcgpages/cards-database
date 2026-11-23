@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "大きな 体を 波の上で ジャンプさせ 衝撃を 生みだし 相手を 気絶 させることがある。"
 	},
 
+	evolveFrom: {
+		ja: "ホエルコ"
+	},
 	stage: "Stage1",
 
 	attacks: [

@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "怒ったり 驚いたりすると 全身の 毛が 針の ように 逆立って 相手を つらぬく。"
 	},
 
+	evolveFrom: {
+		ja: "イーブイ"
+	},
 	stage: "Stage1",
 
 	abilities: [

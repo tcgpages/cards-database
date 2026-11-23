@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "トゲで 岩盤に キズを つけると 触手の 先端を あてて 栄養を 吸収する。"
 	},
 
+	evolveFrom: {
+		ja: "テッシード"
+	},
 	stage: "Stage1",
 
 	attacks: [

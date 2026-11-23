@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "獲物の １部は 砂の中に 埋めて 狩りが 失敗したときの 非常食に するのだ。"
 	},
 
+	evolveFrom: {
+		ja: "メグロコ"
+	},
 	stage: "Stage1",
 
 	attacks: [

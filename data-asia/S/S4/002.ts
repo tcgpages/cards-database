@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "森の 奥深くに 生息。 頭の 葉っぱで 笛を 作り 不安に させる 音色を 出す。"
 	},
 
+	evolveFrom: {
+		ja: "タネボー"
+	},
 	stage: "Stage1",
 
 	attacks: [

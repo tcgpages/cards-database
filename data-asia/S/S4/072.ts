@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "フライゴンの 起こす 砂嵐に 身を 潜めて 獲物が くるのを じっと 待ちかまえている。"
 	},
 
+	evolveFrom: {
+		ja: "ワルビル"
+	},
 	stage: "Stage2",
 
 	attacks: [

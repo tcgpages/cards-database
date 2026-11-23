@@ -19,6 +19,9 @@ const card: Card = {
 		"Lightning"
 	],
 
+	dexId: [
+		25
+	],
 	stage: "Basic",
 
 	suffix: "V",

@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Grass"
 	],
+	dexId: [
+		826
+	],
 	stage: "Basic",
 	suffix: "V",
 	attacks: [

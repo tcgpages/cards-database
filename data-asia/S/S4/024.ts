@@ -19,6 +19,12 @@ const card: Card = {
 		"Water"
 	],
 
+	dexId: [
+		555
+	],
+	evolveFrom: {
+		ja: "ガラル ヒヒダルマV"
+	},
 	stage: "VMAX",
 
 	attacks: [
@@ -54,7 +60,6 @@ const card: Card = {
 
 	rarity: "Holo Rare VMAX",
 
-	suffix: "VMAX",
 
 	variants: [
 		{

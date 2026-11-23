@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "大声の 衝撃波で トラックを ひっくりかえしてしまう。 足を 踏みならして パワーアップ。"
 	},
 
+	evolveFrom: {
+		ja: "ゴニョニョ"
+	},
 	stage: "Stage1",
 
 	attacks: [

@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "体の 中は 空っぽ。 口を 開けると ブラックホールの ように なんでも 吸いこんでしまう。"
 	},
 
+	evolveFrom: {
+		ja: "ヨマワル"
+	},
 	stage: "Stage1",
 
 	attacks: [

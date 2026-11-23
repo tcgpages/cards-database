@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "超強力な 音波を 放ったあとは 疲れて しばらく 飛べなくなるよ。"
 	},
 
+	evolveFrom: {
+		ja: "コロモリ"
+	},
 	stage: "Stage1",
 
 	attacks: [

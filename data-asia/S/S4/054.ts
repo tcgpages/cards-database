@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "すごく 強靭な 肉体なので パワーセーブ ベルトを つけて 強さを 制御している。"
 	},
 
+	evolveFrom: {
+		ja: "ワンリキー"
+	},
 	stage: "Stage1",
 
 	attacks: [

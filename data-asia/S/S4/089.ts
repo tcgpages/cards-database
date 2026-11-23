@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "戦いのときに 出す うなり声は まるで 地震の ように 地面を グラグラと 揺らす。"
 	},
 
+	evolveFrom: {
+		ja: "ドゴーム"
+	},
 	stage: "Stage2",
 
 	attacks: [

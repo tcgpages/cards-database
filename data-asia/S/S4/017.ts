@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "シャワーズの 全身の ひれが 小刻みに 震えはじめるのは 数時間後に 雨が降る しるし。"
 	},
 
+	evolveFrom: {
+		ja: "イーブイ"
+	},
 	stage: "Stage1",
 
 	abilities: [

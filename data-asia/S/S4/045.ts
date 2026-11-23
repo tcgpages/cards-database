@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "意思が あるのか わかっていない。 霊界からの 電波に 従い 人や ポケモンを 連れ去るのだ。"
 	},
 
+	evolveFrom: {
+		ja: "サマヨール"
+	},
 	stage: "Stage2",
 
 	abilities: [
