@@ -53,7 +53,7 @@ const card: Card = {
 	],
 	"retreat": 2,
 	"evolveFrom": {
-		"ja": "バイバニラ"
+		"ja": "バニプッチ"
 	},
 	"variants": [
 		{

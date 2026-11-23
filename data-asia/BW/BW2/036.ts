@@ -55,7 +55,7 @@ const card: Card = {
 	],
 	"retreat": 2,
 	"evolveFrom": {
-		"ja": "メガシャンデラex"
+		"ja": "ランプラー"
 	},
 	"variants": [
 		{
