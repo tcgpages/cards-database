@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Fighting"
 	],
+	evolveFrom: {
+		ja: "ガバイト"
+	},
 	stage: "Stage2",
 	dexId: [
 		445
@@ -57,6 +60,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
 		}
 	]
 }

@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Dragon"
 	],
+	evolveFrom: {
+		ja: "クズモー"
+	},
 	stage: "Stage1",
 	dexId: [
 		691
@@ -56,6 +59,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
 		}
 	]
 }

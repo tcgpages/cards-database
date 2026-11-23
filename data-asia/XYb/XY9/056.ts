@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Darkness"
 	],
+	evolveFrom: {
+		ja: "ヤンチャム"
+	},
 	stage: "Stage1",
 	dexId: [
 		675
@@ -64,6 +67,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
 		}
 	]
 }

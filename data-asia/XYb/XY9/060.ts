@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Metal"
 	],
+	evolveFrom: {
+		ja: "テッシード"
+	},
 	stage: "Stage1",
 	dexId: [
 		598
@@ -61,6 +64,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
 		}
 	]
 }

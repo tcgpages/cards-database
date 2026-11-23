@@ -13,6 +13,12 @@ const card: Card = {
 	types: [
 		"Water"
 	],
+	dexId: [
+		130
+	],
+	evolveFrom: {
+		ja: "ギャラドスEX"
+	},
 	stage: "MEGA",
 	suffix: "EX",
 	attacks: [
@@ -42,6 +48,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
 		}
 	]
 }

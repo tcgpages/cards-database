@@ -13,6 +13,12 @@ const card: Card = {
 	types: [
 		"Metal"
 	],
+	dexId: [
+		212
+	],
+	evolveFrom: {
+		ja: "ハッサムEX"
+	},
 	stage: "MEGA",
 	suffix: "EX",
 	attacks: [
@@ -46,6 +52,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
 		}
 	]
 }

@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Fire"
 	],
+	evolveFrom: {
+		ja: "ドンメル"
+	},
 	stage: "Stage1",
 	dexId: [
 		323
@@ -56,6 +59,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
 		}
 	]
 }

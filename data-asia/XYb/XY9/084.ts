@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Psychic"
 	],
+	dexId: [
+		196
+	],
 	stage: "Basic",
 	suffix: "EX",
 	attacks: [
@@ -52,6 +55,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
 		}
 	]
 }

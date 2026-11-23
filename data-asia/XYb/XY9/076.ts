@@ -11,11 +11,15 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Tool",
 	effect: {
-		ja: "このカードをつけているポケモンが「ハッサムEX」になっても、自分の番は終わらない。"
+		ja: "このカードをつけているポケモンが「メガハッサムEX」になっても、自分の番は終わらない。"
 	},
 	variants: [
 		{
 			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"]
 		}
 	]
 }

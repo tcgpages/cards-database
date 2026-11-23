@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Water"
 	],
+	dexId: [
+		658
+	],
+	evolveFrom: {
+		ja: "ゲッコウガ"
+	},
 	stage: "BREAK",
-	suffix: "BREAK",
 	abilities: [
 		{
 			name: {
@@ -26,10 +31,13 @@ const card: Card = {
 			type: "Ability"
 		}
 	],
-	retreat: 0,
 	variants: [
 		{
 			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"]
 		}
 	]
 }
