@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "妖精の 仲間で めったに 人前に 出てこない。 気配を 感じて すぐに 逃げてしまうようだ。"
 	},
 
+	evolveFrom: {
+		ja: "ピッピ"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -66,6 +69,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		36

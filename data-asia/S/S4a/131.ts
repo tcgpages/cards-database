@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "鋼の 体と 霊力の バリアで あらゆる 攻撃を 弱める 防御の 体勢。"
 	},
 
+	evolveFrom: {
+		ja: "ニダンギル"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -74,6 +77,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		681

@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "勝つためには 手段を 問わない。 相手の 隙を ついて 前脚の 小さな ツメで とどめを 刺す。"
 	},
 
+	evolveFrom: {
+		ja: "コソクムシ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -72,6 +75,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		768

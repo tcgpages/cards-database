@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Lightning"
 	],
+	dexId: [
+		849
+	],
+	evolveFrom: {
+		ja: "ストリンダーV"
+	},
 	stage: "VMAX",
-	suffix: "VMAX",
 	attacks: [
 		{
 			name: {

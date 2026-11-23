@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Water"
 	],
+	evolveFrom: {
+		ja: "ガラル ダルマッカ"
+	},
 	stage: "Stage1",
 	dexId: [
 		555

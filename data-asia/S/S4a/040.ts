@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "手のひらから 出る 水分を 丸めて つくった 水の 玉を 使い 頭脳戦を 繰り広げる。"
 	},
 
+	evolveFrom: {
+		ja: "メッソン"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -66,6 +69,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		817

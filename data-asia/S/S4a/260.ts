@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Psychic"
 	],
+	evolveFrom: {
+		ja: "ドラメシヤ"
+	},
 	stage: "Stage1",
 	dexId: [
 		886

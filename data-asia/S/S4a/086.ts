@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "飛行速度は 時速２００キロ。ドラメシヤと いっしょに 戦い 無事に 進化するまで 世話をする。"
 	},
 
+	evolveFrom: {
+		ja: "ドラメシヤ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -72,6 +75,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		886

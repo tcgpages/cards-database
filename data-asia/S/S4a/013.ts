@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "サイコパワーを 放ち 周囲を 調べている。 観測範囲は 周囲 １０キロにも 達するぞ。"
 	},
 
+	evolveFrom: {
+		ja: "レドームシ"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -70,6 +73,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		826

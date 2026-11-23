@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "甘い りんごを 食べて 進化。 体から 甘い においを だして 餌の 虫ポケモンを 引き寄せる。"
 	},
 
+	evolveFrom: {
+		ja: "カジッチュ"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -66,6 +69,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		842

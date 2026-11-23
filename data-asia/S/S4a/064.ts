@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "氷漬けの 上半身が 震えると 電気が つくられる。 歩くことが 非常に 苦手。"
 	},
 
+	evolveFrom: {
+		ja: "めずらしい化石"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -66,6 +69,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		881

@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "発熱時の 体温は およそ ８００度。 体を 鞭のように しならせて 跳びかかってくるぞ。"
 	},
 
+	evolveFrom: {
+		ja: "ヤクデ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -71,6 +74,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		851

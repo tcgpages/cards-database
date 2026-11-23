@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Fire"
 	],
+	evolveFrom: {
+		ja: "ヒバニー"
+	},
 	stage: "Stage1",
 	dexId: [
 		814

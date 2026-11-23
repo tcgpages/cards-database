@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "強い 呪いを こめて 描かれた 古代の 絵が デスマスの 魂を 取り込み 動きだした。"
 	},
 
+	evolveFrom: {
+		ja: "ガラル デスマス"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -71,6 +74,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		867

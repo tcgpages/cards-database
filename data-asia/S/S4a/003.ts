@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "翼に 仕込まれた 矢羽根を 弓矢のように つがえて 放つ。 狙った 的は 外さない。"
 	},
 
+	evolveFrom: {
+		ja: "フクスロー"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -70,6 +73,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		724

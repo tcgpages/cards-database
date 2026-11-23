@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "普段は 穏やかだが 人間が 鉱山を 荒らすと 怒りくるい １５００度の 炎で 焼きつくす。"
 	},
 
+	evolveFrom: {
+		ja: "トロッゴン"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -68,6 +71,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		839

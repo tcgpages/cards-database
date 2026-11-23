@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "ツノの 穴に ドラメシヤを 入れて 暮らす。 戦いになると マッハの スピードで ドラメシヤを 飛ばす。"
 	},
 
+	evolveFrom: {
+		ja: "ドロンチ"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -77,6 +80,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		887

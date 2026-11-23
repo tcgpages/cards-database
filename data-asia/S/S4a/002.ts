@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "刃羽根 と 呼ばれる ナイフのような 羽根を 立て続けに 投げて 敵の 急所を 確実に つらぬく。"
 	},
 
+	evolveFrom: {
+		ja: "モクロー"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -51,6 +54,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		723

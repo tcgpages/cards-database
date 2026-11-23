@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "満月の夜 影が 勝手に 動きだして 笑うのは ゲンガーの しわざに 違いない。"
 	},
 
+	evolveFrom: {
+		ja: "ゴースト"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -78,6 +81,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		94

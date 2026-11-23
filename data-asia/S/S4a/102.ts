@@ -19,6 +19,9 @@ const card: Card = {
 		"Fighting"
 	],
 
+	dexId: [
+		870
+	],
 	stage: "Basic",
 
 	suffix: "V",

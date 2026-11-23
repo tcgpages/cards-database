@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "頭の 体毛が 硬質化して 鉄の ヘルメットのように なった。 とても 好戦的な 性質。"
 	},
 
+	evolveFrom: {
+		ja: "ガラル ニャース"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -74,6 +77,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		863

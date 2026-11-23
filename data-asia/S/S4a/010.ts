@@ -19,6 +19,12 @@ const card: Card = {
 		"Grass"
 	],
 
+	dexId: [
+		812
+	],
+	evolveFrom: {
+		ja: "ゴリランダーV"
+	},
 	stage: "VMAX",
 
 	attacks: [
@@ -64,7 +70,6 @@ const card: Card = {
 
 	rarity: "Holo Rare VMAX",
 
-	suffix: "VMAX",
 
 	variants: [
 		{

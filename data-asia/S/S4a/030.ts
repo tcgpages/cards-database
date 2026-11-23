@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "タップダンスの 達人。 氷で できた ステッキを 振り 軽やかな ステップを 披露する。"
 	},
 
+	evolveFrom: {
+		ja: "ガラル バリヤード"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -71,6 +74,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		866

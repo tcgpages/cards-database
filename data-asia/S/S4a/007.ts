@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "２本の スティックで 激しい ビートを 刻める バチンキーほど 仲間たちの 尊敬を 集める。"
 	},
 
+	evolveFrom: {
+		ja: "サルノリ"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -65,6 +68,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		811

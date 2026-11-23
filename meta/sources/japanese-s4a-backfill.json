@@ -20,11 +20,14 @@
 		"The full Japanese numbered sequence is reconciled against an independent set checklist. Parallel print records are grouped only when the official pages carry the same printed number and name.",
 		"Secret-tail card faces are checked against the numbered Japanese scans and individual numbered checklist entries. Where the official detail page covers a same-mechanics print, gameplay fields come from that official record; secret-only flavor text is omitted.",
 		"Printed rarity labels map to the repository taxonomy. Rare foil variants follow the Japanese printing; on sets with existing zh-tw entries, variant overrides are limited to Japanese so existing-language printing behavior is retained.",
+		"Japanese finishes were checked by collector number against all ten pages of TCG Republic’s Shiny Star V inventory. Its 124 normal and mirror pairs agree with the separate mirror products in TCGplayer group 23643. Each of the other 206 numbers has a foil printing. The publisher identifies Reshiram 021, Kyogre 036, and Yveltal 117 as Amazing Rares.",
 		"No third-party artwork URLs or marketplace identifiers are inferred. The source references document catalog data and printed scans; no images are added to the repository.",
 		"Card text and identities remain sourced from the cited card records and numbered prints."
 	],
 	"checklists": [
-		"https://www.serebii.net/card/shinystarv/"
+		"https://www.serebii.net/card/shinystarv/",
+		"https://tcgrepublic.com/category/subcategory_page_3297.html?graded=2&inventory=all&order=card_number&p=1&single=1",
+		"https://tcgcsv.com/tcgplayer/85/23643/products"
 	],
 	"cards": {
 		"S4a-001": {
@@ -208,6 +211,7 @@
 			]
 		},
 		"S4a-021": {
+			"traditionalChineseRarityScan": "https://asia.pokemon-card.com/tw/card-img/tw00000122.png",
 			"printedNumber": 21,
 			"officialPrints": [
 				{
@@ -343,6 +347,7 @@
 			]
 		},
 		"S4a-036": {
+			"traditionalChineseRarityScan": "https://asia.pokemon-card.com/tw/card-img/tw00000291.png",
 			"printedNumber": 36,
 			"officialPrints": [
 				{
@@ -1072,6 +1077,7 @@
 			]
 		},
 		"S4a-117": {
+			"traditionalChineseRarityScan": "https://asia.pokemon-card.com/tw/card-img/tw00000217.png",
 			"printedNumber": 117,
 			"officialPrints": [
 				{

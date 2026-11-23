@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "立派に 伸びた ツノは 異性に アピールするために 生えている。 武器として 使うことはない。"
 	},
 
+	evolveFrom: {
+		ja: "ウールー"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -71,6 +74,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		832

@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Darkness"
 	],
+	dexId: [
+		861
+	],
 	stage: "Basic",
 	suffix: "V",
 	attacks: [

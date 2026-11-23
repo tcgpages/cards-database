@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "とても 好戦的な 性質。 自分より 格上の 相手にも 平気で 挑む むこうみず。"
 	},
 
+	evolveFrom: {
+		ja: "ガラル ジグザグマ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -67,6 +70,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		264

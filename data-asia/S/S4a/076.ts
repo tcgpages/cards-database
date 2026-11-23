@@ -62,6 +62,11 @@ const card: Card = {
 
 	rarity: "None",
 
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
+
 	dexId: [
 		854
 	]

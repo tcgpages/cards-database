@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "しっぽに 木の実を 溜めこむ。 溜めこみすぎて ポロポロ こぼすが 鈍いので 気がつかない。"
 	},
 
+	evolveFrom: {
+		ja: "ホシガリス"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -67,6 +70,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		820

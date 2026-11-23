@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "１５０００ボルトもの 電気を 発生させることが できる。 どんな 相手も 舐めている。"
 	},
 
+	evolveFrom: {
+		ja: "エレズン"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -71,6 +74,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		849

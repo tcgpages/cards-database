@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "糸を はいて 獲物を 捕らえる。 夜に なると 巣から 離れて 積極的に 狩りを するぞ。"
 	},
 
+	evolveFrom: {
+		ja: "イトマル"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -70,6 +73,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		168

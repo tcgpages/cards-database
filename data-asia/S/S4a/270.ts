@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Fighting"
 	],
+	evolveFrom: {
+		ja: "スナヘビ"
+	},
 	stage: "Stage1",
 	dexId: [
 		844

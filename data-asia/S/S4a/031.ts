@@ -19,6 +19,9 @@ const card: Card = {
 		"Water"
 	],
 
+	dexId: [
+		131
+	],
 	stage: "Basic",
 
 	suffix: "V",

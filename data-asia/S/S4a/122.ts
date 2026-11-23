@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "土下座して 謝る 振りをして 槍のように 尖った 後ろ髪で 突き刺してくる 戦法を 使う。"
 	},
 
+	evolveFrom: {
+		ja: "ベロバー"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -67,6 +70,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		860

@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "ケンカを 繰り返し 進化。 腕をクロスし 叫ぶ 雄叫びは どんな 相手も 怯ませるぞ。"
 	},
 
+	evolveFrom: {
+		ja: "ガラル マッスグマ"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -70,6 +73,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		862

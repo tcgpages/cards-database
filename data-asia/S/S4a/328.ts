@@ -13,8 +13,13 @@ const card: Card = {
 	types: [
 		"Darkness"
 	],
+	dexId: [
+		890
+	],
+	evolveFrom: {
+		ja: "ムゲンダイナV"
+	},
 	stage: "VMAX",
-	suffix: "VMAX",
 	abilities: [
 		{
 			name: {

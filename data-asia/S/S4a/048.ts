@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "野山を 荒らすものには 容赦 しない。 冷たいはねで 飛びまわり 吹雪を 起こして 懲らしめる。"
 	},
 
+	evolveFrom: {
+		ja: "ユキハミ"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -66,6 +69,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		873

@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Fighting"
 	],
+	evolveFrom: {
+		ja: "ガラル デスマス"
+	},
 	stage: "Stage1",
 	dexId: [
 		867

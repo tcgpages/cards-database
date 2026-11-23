@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "頭の 上の 雪玉に エサを しまって 持ち帰る。 吹雪の 日は 人里まで 降りてくる。"
 	},
 
+	evolveFrom: {
+		ja: "ガラル ダルマッカ"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -74,6 +77,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		555

@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Darkness"
 	],
+	evolveFrom: {
+		ja: "ドガース"
+	},
 	stage: "Stage1",
 	dexId: [
 		110

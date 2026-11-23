@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Darkness"
 	],
+	evolveFrom: {
+		ja: "ガラル マッスグマ"
+	},
 	stage: "Stage2",
 	dexId: [
 		862

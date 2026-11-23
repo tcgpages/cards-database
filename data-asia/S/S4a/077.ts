@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "アンティークの ポットに 棲みつく。 ほとんどが 贋作だが ごくまれに 真作が 見つかる ことも。"
 	},
 
+	evolveFrom: {
+		ja: "ヤバチャ"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -77,6 +80,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		855

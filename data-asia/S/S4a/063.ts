@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "古代では たくましい 下半身で 無敵だったが 餌の 植物を 食べつくしてしまい 絶滅した。"
 	},
 
+	evolveFrom: {
+		ja: "めずらしい化石"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -72,6 +75,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		880

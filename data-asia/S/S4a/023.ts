@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "手を 使わずに 木の 枝から 木の実を 摘み取り リフティング。 足技を 磨く 練習。"
 	},
 
+	evolveFrom: {
+		ja: "ヒバニー"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -67,6 +70,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		814

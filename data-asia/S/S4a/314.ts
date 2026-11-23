@@ -13,6 +13,9 @@ const card: Card = {
 	types: [
 		"Lightning"
 	],
+	dexId: [
+		849
+	],
 	stage: "Basic",
 	suffix: "V",
 	attacks: [

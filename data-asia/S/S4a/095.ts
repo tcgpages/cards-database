@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "体内で 石炭を つくりだす。 昔の ガラルでは 落とした 石炭を 生活に 利用した。"
 	},
 
+	evolveFrom: {
+		ja: "タンドン"
+	},
 	stage: "Stage1",
 
 	attacks: [
@@ -64,6 +67,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		838

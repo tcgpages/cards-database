@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "塵ひとつ 許せない 潔癖。 体から 染み出る 油を 巣に 塗りつけ コーティングする。"
 	},
 
+	evolveFrom: {
+		ja: "チラーミィ"
+	},
 	stage: "Stage1",
 
 	abilities: [
@@ -69,6 +72,11 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
 
 	dexId: [
 		573

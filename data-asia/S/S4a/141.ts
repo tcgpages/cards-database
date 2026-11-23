@@ -19,6 +19,12 @@ const card: Card = {
 		"Colorless"
 	],
 
+	dexId: [
+		132
+	],
+	evolveFrom: {
+		ja: "メタモンV"
+	},
 	stage: "VMAX",
 
 	attacks: [
@@ -52,7 +58,6 @@ const card: Card = {
 
 	rarity: "Holo Rare VMAX",
 
-	suffix: "VMAX",
 
 	variants: [
 		{

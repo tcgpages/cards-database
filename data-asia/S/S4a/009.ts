@@ -19,6 +19,9 @@ const card: Card = {
 		"Grass"
 	],
 
+	dexId: [
+		812
+	],
 	stage: "Basic",
 
 	suffix: "V",

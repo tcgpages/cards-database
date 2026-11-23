@@ -19,6 +19,9 @@ const card: Card = {
 		"Colorless"
 	],
 
+	dexId: [
+		132
+	],
 	stage: "Basic",
 
 	suffix: "V",

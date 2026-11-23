@@ -24,6 +24,9 @@ const card: Card = {
 		ja: "頭痛になるほどの サイコパワーを 周囲に 放って ほかの 生物を 遠ざけているのだ。"
 	},
 
+	evolveFrom: {
+		ja: "テブリム"
+	},
 	stage: "Stage2",
 
 	abilities: [
@@ -75,6 +78,10 @@ const card: Card = {
 	regulationMark: "D",
 
 	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
 
 	dexId: [
 		858
