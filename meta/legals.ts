@@ -43,7 +43,7 @@ export const standard: Filter = {
 export const expanded: Filter = {
 	includes: {
 		series: ['bw', 'xy', 'sm', 'swsh', 'sv', 'me'],
-		sets: [],
+		sets: ['2026me'],
 		regulationMark: []
 	},
 	excludes: {
