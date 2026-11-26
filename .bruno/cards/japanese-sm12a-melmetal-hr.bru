@@ -1,0 +1,26 @@
+meta {
+  name: Japanese SM12a Melmetal GX HR
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{BASE_URL}}/v2/ja/cards/SM12a-217
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq SM12a-217
+  res.body.name: eq メルメタルGX
+  res.body.rarity: eq Hyper rare
+  res.body.hp: eq 220
+  res.body.stage: eq Stage1
+  res.body.suffix: eq GX
+  res.body.abilities[0].name: eq ハードコート
+  res.body.attacks[0].name: eq メタルブラスト
+  res.body.attacks[1].name: eq パンツァーフォースGX
+  res.body.variants_detailed[0].type: eq holo
+  res.body.variants_detailed[0].thirdParty.cardmarket: eq 547101
+}

@@ -3,6 +3,7 @@ import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [25, 263, 810, 830, 855, 869, 872],
 	name: {
 		ja: "プレイヤーズセレモニー",
 	},

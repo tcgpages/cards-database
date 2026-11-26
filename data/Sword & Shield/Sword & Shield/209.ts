@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Secret Rare",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [823],
 
 	effect: {
 		en: "Discard your hand and draw 7 cards.",

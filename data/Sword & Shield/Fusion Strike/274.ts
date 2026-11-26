@@ -3,6 +3,7 @@ import Set from "../Fusion Strike"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [836],
 
 	name: {
 		en: "Dancer",

@@ -1,0 +1,36 @@
+meta {
+  name: Find Bruno's VS cards by their Japanese names
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{BASE_URL}}/v2/ja/cards?id=VS1-*&name=シバの*
+  body: none
+  auth: none
+}
+
+params:query {
+  id: VS1-*
+  name: シバの*
+}
+
+assert {
+  res.status: eq 200
+}
+
+tests {
+  test("The printed owner name finds all eight cards by their original IDs", function () {
+    const cards = res.getBody().map(card => [card.id, card.name]);
+    expect(cards).to.have.deep.members([
+      ["VS1-081", "シバのカイリキー"],
+      ["VS1-082", "シバのサワムラー"],
+      ["VS1-083", "シバのエビワラー"],
+      ["VS1-084", "シバのハガネール"],
+      ["VS1-085", "シバのリングマ"],
+      ["VS1-086", "シバのカポエラー"],
+      ["VS1-123", "シバのワザマシン01"],
+      ["VS1-124", "シバのワザマシン02"],
+    ]);
+  });
+}

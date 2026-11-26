@@ -4,7 +4,7 @@ import Set from "../VS1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルーノのヒットモンリー",
+		ja: "シバのサワムラー",
 	},
 
 	rarity: "Common",
@@ -25,10 +25,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "速いキック",
+				ja: "スピードキック",
 			},
 			effect: {
-				ja: "衰弱や抵抗を適用しないでください。",
+				ja: "このワザは、相手の「弱点・抵抗力」に関係なく、ダメージを与える。",
 			},
 			damage: 30,
 		},

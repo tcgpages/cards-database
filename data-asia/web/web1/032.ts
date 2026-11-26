@@ -3,6 +3,7 @@ import Set from "../web1"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [57],
 	name: {
 		ja: "ポケモン再送信",
 	},
@@ -16,7 +17,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st edition"],
+			stamp: ["1st-edition"],
 		},
 	],
 };

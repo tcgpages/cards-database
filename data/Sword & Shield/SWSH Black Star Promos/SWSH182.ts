@@ -4,6 +4,7 @@ import Set from "../SWSH Black Star Promos"
 const card: Card = {
 	dexId: [134],
 	set: Set,
+	cameoDexIds: [116, 223, 226, 349, 350, 458, 592, 746],
 
 	name: {
 		fr: "Aquali VMAX",

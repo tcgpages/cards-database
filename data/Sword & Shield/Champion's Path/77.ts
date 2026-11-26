@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Secret Rare",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [851],
 
 	effect: {
 		en: "Shuffle your hand into your deck. Then, draw 4 cards. If your Active Pokémon is your only Pokémon in play, draw 8 cards instead.",

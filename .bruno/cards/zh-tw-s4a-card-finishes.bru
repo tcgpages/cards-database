@@ -1,0 +1,19 @@
+meta {
+  name: Traditional Chinese finishes for S4a-009
+  type: http
+  seq: 11
+}
+
+get {
+  url: {{BASE_URL}}/v2/zh-tw/cards/S4a-009
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq S4a-009
+  res.body.variants.holo: eq false
+  res.body.variants.normal: eq true
+  res.body.variants_detailed[0].variantId: eq generated
+}

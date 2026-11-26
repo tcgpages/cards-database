@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [582],
 
 	effect: {
 		fr: "Piochez 3 cartes.",

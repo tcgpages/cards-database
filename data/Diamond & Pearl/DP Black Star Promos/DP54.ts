@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [493],
 
 	effect: {
 		en: "Search your deck for Arceus, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",

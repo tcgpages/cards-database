@@ -5,43 +5,74 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "咬咬龜"
+		'zh-tw': "咬咬龜",
+		ja: "カムカメ"
 	},
 
 	illustrator: "Mina Nakai",
+
 	category: "Pokemon",
+
 	hp: 80,
-	types: ["Water"],
+
+	types: [
+		"Water"
+	],
 
 	description: {
-		'zh-tw': "有著不管看到什麼都會咬上去的習性。這似乎是因為長門牙的時候會癢的緣故。"
+		'zh-tw': "有著不管看到什麼都會咬上去的習性。這似乎是因為長門牙的時候會癢的緣故。",
+		ja: "頭の ツノは 岩の 硬さ。 ツノで 戦い ひるんだ 隙に パクリと 噛みつき 離さない。"
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "咬住"
+	attacks: [
+		{
+			name: {
+				'zh-tw': "咬住",
+				ja: "かみつく"
+			},
+			damage: 30,
+			cost: [
+				"Colorless",
+				"Colorless"
+			]
 		},
+		{
+			name: {
+				'zh-tw': "水槍",
+				ja: "みずでっぽう"
+			},
+			damage: 50,
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
 
-		damage: 30,
-		cost: ["Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "水槍"
-		},
-
-		damage: 50,
-		cost: ["Water", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		}
+	],
 
 	retreat: 2,
-	regulationMark: "D"
+
+	regulationMark: "D",
+
+	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
+
+	dexId: [
+		833
+	]
 }
 
 export default card

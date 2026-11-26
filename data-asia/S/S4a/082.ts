@@ -5,50 +5,82 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "霜奶仙"
+		'zh-tw': "霜奶仙",
+		ja: "マホイップ"
 	},
 
 	illustrator: "sui",
+
 	category: "Pokemon",
+
 	hp: 110,
-	types: ["Psychic"],
+
+	types: [
+		"Psychic"
+	],
 
 	description: {
-		'zh-tw': "牠會把自己用鮮奶油裝飾過的樹果送給自己信任的訓練家。"
+		'zh-tw': "牠會把自己用鮮奶油裝飾過的樹果送給自己信任的訓練家。",
+		ja: "信頼する トレーナーには クリームで デコレーションした 木の実を ふるまって くれるのだ。"
 	},
 
+	evolveFrom: {
+		ja: "マホミル"
+	},
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "裝飾"
+	attacks: [
+		{
+			name: {
+				'zh-tw': "裝飾",
+				ja: "デコレーション"
+			},
+			effect: {
+				'zh-tw': "從自己的手牌選擇任意數量的基本能量卡，以任意方式附於自己的寶可夢身上。",
+				ja: "自分の手札から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。"
+			},
+			cost: [
+				"Colorless"
+			]
 		},
+		{
+			name: {
+				'zh-tw': "吸取之吻",
+				ja: "ドレインキッス"
+			},
+			effect: {
+				'zh-tw': "將這隻寶可夢恢復「30」HP。",
+				ja: "このポケモンのHPを「30」回復する。"
+			},
+			damage: 50,
+			cost: [
+				"Psychic",
+				"Colorless"
+			]
+		}
+	],
 
-		effect: {
-			'zh-tw': "從自己的手牌選擇任意數量的基本能量卡，以任意方式附於自己的寶可夢身上。"
-		},
-
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "吸取之吻"
-		},
-
-		effect: {
-			'zh-tw': "將這隻寶可夢恢復「30」HP。"
-		},
-
-		damage: 50,
-		cost: ["Psychic", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		}
+	],
 
 	retreat: 1,
-	regulationMark: "D"
+
+	regulationMark: "D",
+
+	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
+
+	dexId: [
+		869
+	]
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from "../Silver Tempest"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [434],
 
 	name: {
 		en: "Gapejaw Bog",
