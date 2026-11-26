@@ -1,0 +1,19 @@
+meta {
+  name: Get Eevee by its alternate collector number
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/sets/sm1/101a
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq sm1-101a
+  res.body.localId: eq 101a
+  res.body.name: eq Eevee
+  res.body.illustrator: eq Saya Tsuruta
+}
