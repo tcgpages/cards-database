@@ -4,35 +4,40 @@ import Set from "../SM12a";
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルカリオ&メルメタルGX",
+		ja: "メルメタルGX",
 	},
 
 	illustrator: "sadaji",
 	category: "Pokemon",
-	hp: 260,
+	hp: 220,
 	types: ["Metal"],
 
-	stage: "Basic",
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "ハードコート" },
+			effect: {
+				ja: "このポケモンが受けるワザのダメージは「-30」される。",
+			},
+		},
+	],
 
 	attacks: [
 		{
-			name: { ja: "こうてつのこぶし" },
-			damage: 50,
-			cost: ["Colorless", "Colorless"],
+			name: { ja: "メタルブラスト" },
+			damage: "110+",
+			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札にある[鋼]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
+				ja: "このポケモンについている[鋼]エネルギーの数×20ダメージ追加。",
 			},
 		},
 		{
-			name: { ja: "ヘビーインパクト" },
-			damage: 150,
-			cost: ["Metal", "Metal", "Colorless", "Colorless"],
-		},
-		{
-			name: { ja: "フルメタルウォールGX" },
-			cost: ["Colorless"],
+			name: { ja: "パンツァーフォースGX" },
+			cost: ["Metal"],
 			effect: {
-				ja: "この対戦が終わるまで、自分の[鋼]ポケモン全員が、相手のポケモンから受けるワザのダメージは、すべて「-30」される。追加でエネルギーが1個ついているなら、相手のバトルポケモンについているエネルギーを、すべてトラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				ja: "自分のトラッシュにある[鋼]エネルギーを好きなだけ、このポケモンにつける。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -49,12 +54,16 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3,
+	evolveFrom: {
+		ja: "メルタン",
+	},
+
+	retreat: 4,
 	regulationMark: "C",
 	rarity: "Hyper rare",
-	dexId: [448, 809],
+	dexId: [809],
 
-	suffix: "TAG TEAM-GX",
+	suffix: "GX",
 };
 
 export default card;
