@@ -10,7 +10,6 @@ const set: Set = {
 
 	serie: serie,
 
-	// TODO: fill the rest
 
 	cardCount: {
 		official: 96
