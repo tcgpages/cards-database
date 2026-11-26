@@ -4,13 +4,13 @@ import serie from '../DP'
 const set: Set = {
 	id: 'DP-P',
 	name: {
-		ja: 'DP-P'
+		ja: 'DP プロモカード'
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 127
+		official: 0
 	},
 
 	releaseDate: '2006-11-15',
