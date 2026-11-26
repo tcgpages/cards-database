@@ -27,6 +27,8 @@ const card: Card = {
 			effect: { en: "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack." }
 		}
 	],
+
+	weaknesses: [{ type: "Grass", value: "×2" }],
 	retreat: 1,
 	description: { en: "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents." },
 	regulationMark: "I",
