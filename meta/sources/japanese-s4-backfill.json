@@ -1,0 +1,1130 @@
+{
+	"description": "Japanese Amazing Volt Tackle card backfill.",
+	"upstreamBase": "a8fe5736aef9bd6be2436e3be730109030f4c6e2",
+	"setCounts": {
+		"S4": {
+			"official": 100,
+			"total": 121
+		}
+	},
+	"productSources": {
+		"S4": {
+			"url": "https://www.pokemon-card.com/ex/s4/index.html",
+			"sha256": "92a01791feac4bfd7973ab05d39146ec8ad55b1f7df64fd03ee352ffac0d9211",
+			"officialResultRows": 111,
+			"numberedResultCards": 111
+		}
+	},
+	"method": [
+		"Regular card text, illustrator, printed rarity, and gameplay fields are transcribed from official Pokémon Card Game detail pages. Every page’s printed card number is read directly and checked for a gap-free sequence before import; page URLs and SHA-256 hashes are listed per card.",
+		"The full Japanese numbered sequence is reconciled against an independent set checklist. Parallel print records are grouped only when the official pages carry the same printed number and name.",
+		"Secret-tail card faces are checked against the numbered Japanese scans and individual numbered checklist entries. Where the official detail page covers a same-mechanics print, gameplay fields come from that official record; secret-only flavor text is omitted.",
+		"Printed rarity labels map to the repository taxonomy. Rare foil variants follow the Japanese printing; on sets with existing zh-tw entries, variant overrides are limited to Japanese so existing-language printing behavior is retained.",
+		"No third-party artwork URLs or marketplace identifiers are inferred. The source references document catalog data and printed scans; no images are added to the repository.",
+		"Card text and identities remain sourced from the cited card records and numbered prints."
+	],
+	"checklists": [
+		"https://www.serebii.net/card/astonishingvolttackle/"
+	],
+	"cards": {
+		"S4-001": {
+			"printedNumber": 1,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38499/regu/all",
+					"sha256": "0c8ca2518826198aee1add0e6aafa93dc1ff544c6e7a84cf1e061cbe5a3c85b7"
+				}
+			]
+		},
+		"S4-002": {
+			"printedNumber": 2,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38500/regu/all",
+					"sha256": "6e759f02934ff043a6b7d0d300efa4ddf18f1c019daafb410d7bc25e0f982cd5"
+				}
+			]
+		},
+		"S4-003": {
+			"printedNumber": 3,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38501/regu/all",
+					"sha256": "d433e84f76588ee792450e7ca5a1947bcc4a1428376faf045f9356fa39ac834d"
+				}
+			]
+		},
+		"S4-004": {
+			"printedNumber": 4,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38502/regu/all",
+					"sha256": "6d8f4a431a50d0af8f169f8c1e0dc215b2c5c35538a17235735289dec6f00a8a"
+				}
+			]
+		},
+		"S4-005": {
+			"printedNumber": 5,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38503/regu/all",
+					"sha256": "ea454d215844bf0e8feb92c449def78c2475354ff23642364ab74b893f9e4418"
+				}
+			]
+		},
+		"S4-006": {
+			"printedNumber": 6,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38504/regu/all",
+					"sha256": "09be33c416275e5b9c4eac1cdee6d47db3f59013abb2dad32f1c4e0d42057f89"
+				}
+			]
+		},
+		"S4-007": {
+			"printedNumber": 7,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38505/regu/all",
+					"sha256": "b4445d55a7c76b963469b7814adb32298e8e3cfd2fe902d869c2b85a78ce2e18"
+				}
+			]
+		},
+		"S4-008": {
+			"printedNumber": 8,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38506/regu/all",
+					"sha256": "e70f1db63e3eb45c62ff9560e945b6503b26e0f90a890654e71c3dc0bb97f94c"
+				}
+			]
+		},
+		"S4-009": {
+			"printedNumber": 9,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38507/regu/all",
+					"sha256": "ce87ac1c2f760e3bdb6d8bb2b0943240140c89180c98b76307d43d62c173a0b5"
+				}
+			]
+		},
+		"S4-010": {
+			"printedNumber": 10,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38508/regu/all",
+					"sha256": "7bc29e4bb221db854eed0decb13f3b77ec479f66ab50cd9686c9b5c66e4b244f"
+				}
+			]
+		},
+		"S4-011": {
+			"printedNumber": 11,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38509/regu/all",
+					"sha256": "885f4463305e7b3442a657c415178af3d421a69023bd6852d7adf767a4b2f0dd"
+				}
+			]
+		},
+		"S4-012": {
+			"printedNumber": 12,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38510/regu/all",
+					"sha256": "922feb4ab96f472a5f8dac7387f1cd5c32378a94c52abf08a7a4c22472240555"
+				}
+			]
+		},
+		"S4-013": {
+			"printedNumber": 13,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38511/regu/all",
+					"sha256": "bf25e2f6e9a29ccdd6d370d167286a25a4048f9b2b748a416192ff3d342065ac"
+				}
+			]
+		},
+		"S4-014": {
+			"printedNumber": 14,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38512/regu/all",
+					"sha256": "d9df18effa3f0b39527c1b61a6657e5b260da13ed03bc6e2128f79a13b5a26c9"
+				}
+			]
+		},
+		"S4-015": {
+			"printedNumber": 15,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38513/regu/all",
+					"sha256": "3dc3b88046495848afc54bdb21d9a7f82a3243234b014ac97016a153fd8d17ae"
+				}
+			]
+		},
+		"S4-016": {
+			"printedNumber": 16,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38514/regu/all",
+					"sha256": "76a3722999ef3b023e404d7aaebc383b0b73d8b22c46b1fdea7115ea5101552d"
+				}
+			]
+		},
+		"S4-017": {
+			"printedNumber": 17,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38515/regu/all",
+					"sha256": "d9576c17152540ba451e77accda46e728d9af127452d371c4a8359cc128526b2"
+				}
+			]
+		},
+		"S4-018": {
+			"printedNumber": 18,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38516/regu/all",
+					"sha256": "a5837af51383f67eb091b725b976dae363c49e5efed1a049271cddee4a14547c"
+				}
+			]
+		},
+		"S4-019": {
+			"printedNumber": 19,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38517/regu/all",
+					"sha256": "223858b0284e9b1b2b3ffde54becda8d93831db5165ccbba2473ecd375f78286"
+				}
+			]
+		},
+		"S4-020": {
+			"printedNumber": 20,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38518/regu/all",
+					"sha256": "e5d28956bdeabec3c2021d5e5cfbfb6a06f511d03c7ed5118b0e7c3c0d3562ad"
+				}
+			]
+		},
+		"S4-021": {
+			"printedNumber": 21,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38519/regu/all",
+					"sha256": "305c33e19f36edf11c29b58c6eb146fb0973f31d44be13367cb22f38bda28c2f"
+				}
+			]
+		},
+		"S4-022": {
+			"printedNumber": 22,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38520/regu/all",
+					"sha256": "b4588f0dabdac1915e1aa3ccc14310016d376774d3140a64140d83bd9450c1d5"
+				}
+			]
+		},
+		"S4-023": {
+			"printedNumber": 23,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38521/regu/all",
+					"sha256": "15d53b7ba4c1e26fa2022760428eb413a697c65f609876668efd795a03c2c4c6"
+				}
+			]
+		},
+		"S4-024": {
+			"printedNumber": 24,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38522/regu/all",
+					"sha256": "fc51aff3cdad1d5e0a7bf6d5773c2f7c1ab470d2044e6302892573732ce31a87"
+				}
+			]
+		},
+		"S4-025": {
+			"printedNumber": 25,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38523/regu/all",
+					"sha256": "07c446c0e49492558d49bb726b8f4860df032dfcc42712e656639881cc70631f"
+				}
+			]
+		},
+		"S4-026": {
+			"printedNumber": 26,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38524/regu/all",
+					"sha256": "4c9e811d1cc84d8c99afcee148e320821284b5d942d216a548669d03f847213c"
+				}
+			]
+		},
+		"S4-027": {
+			"printedNumber": 27,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38525/regu/all",
+					"sha256": "4115838337b06454943c53d28d4af4edbc3b8e85aa19cea9fdeb357e7d898593"
+				}
+			]
+		},
+		"S4-028": {
+			"printedNumber": 28,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38526/regu/all",
+					"sha256": "aba5af0fa53fe5d4021d25dd7b792dfb08ed6e9626a7d5d440cf6ed586fa5d9a"
+				}
+			]
+		},
+		"S4-029": {
+			"printedNumber": 29,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38527/regu/all",
+					"sha256": "bd05d37824cd3d09450ea29ea2fdac9b720a0bdfe2befc85331f5e045ef689ea"
+				}
+			]
+		},
+		"S4-030": {
+			"printedNumber": 30,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38528/regu/all",
+					"sha256": "e21877e3f4a13d6b77c23136855ab16a7e292cb764c0fc3de0717619983c6ab9"
+				}
+			]
+		},
+		"S4-031": {
+			"printedNumber": 31,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38529/regu/all",
+					"sha256": "82d44b8254c54fd3ab990e2367e2eac79077dd86d7d641b21c78e2011ffbed4c"
+				}
+			]
+		},
+		"S4-032": {
+			"printedNumber": 32,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38530/regu/all",
+					"sha256": "fbddde5dadcfbfde7c7baffa459fbf352ac16e4177f1c3181642de4e4adf8be4"
+				}
+			]
+		},
+		"S4-033": {
+			"printedNumber": 33,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38531/regu/all",
+					"sha256": "25da77449ca765fe3fba1eec47dc167600a2fbfab75be8f7b3049b6b55ffde37"
+				}
+			]
+		},
+		"S4-034": {
+			"printedNumber": 34,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38532/regu/all",
+					"sha256": "34645cbd56b00d8cec7a38c7f5f16ad7f53d76eb16bcca04c2dbe6c04e911926"
+				}
+			]
+		},
+		"S4-035": {
+			"printedNumber": 35,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38533/regu/all",
+					"sha256": "118e302e4801116743f4ae8f8a4e53322842adaa4a6d3c46d28315595636ac74"
+				}
+			]
+		},
+		"S4-036": {
+			"printedNumber": 36,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38534/regu/all",
+					"sha256": "b42c0a3136a252901f421b0c69fcab68433a21dec125f2bc703cdc49d49b1ff0"
+				}
+			]
+		},
+		"S4-037": {
+			"printedNumber": 37,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38535/regu/all",
+					"sha256": "a113f5ed7ae7e912394245b45fb1a313076be572b1b8d2c7702f388ee8f21735"
+				}
+			]
+		},
+		"S4-038": {
+			"printedNumber": 38,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38536/regu/all",
+					"sha256": "091be30174d324127bf64094fee9ca872302715503bb93e7b6705965c66499e9"
+				}
+			]
+		},
+		"S4-039": {
+			"printedNumber": 39,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38537/regu/all",
+					"sha256": "d07fe28fcd6ca2dc10ad69854ec0c1bf9476a87f0c50dc424464e1bbc3fb4388"
+				}
+			]
+		},
+		"S4-040": {
+			"printedNumber": 40,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38538/regu/all",
+					"sha256": "bece04aefc3f756bfaacbe10dbe6e34dead55e483a892a343439e3ee237ee17b"
+				}
+			]
+		},
+		"S4-041": {
+			"printedNumber": 41,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38539/regu/all",
+					"sha256": "430e2d6b9ad872619be465036cd550e7ebd50e25a06b441c666b9ff7289551a2"
+				}
+			]
+		},
+		"S4-042": {
+			"printedNumber": 42,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38540/regu/all",
+					"sha256": "d0a7a69df60bf4c2d4514e90839037cf63e6de836934b7d187b17f920563915e"
+				}
+			]
+		},
+		"S4-043": {
+			"printedNumber": 43,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38541/regu/all",
+					"sha256": "0d802d98c0570731ad08c3b9848d4e65c3adc7f52120c503c0ad4a5a53c1d700"
+				}
+			]
+		},
+		"S4-044": {
+			"printedNumber": 44,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38542/regu/all",
+					"sha256": "f27038c39d5736386619882987a2baa311217438df2ac7514b48902f11e2a98a"
+				}
+			]
+		},
+		"S4-045": {
+			"printedNumber": 45,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38543/regu/all",
+					"sha256": "cde347052c2cf53bb5b7db4aeadad0d69e8591a6af16c5de5694bbc1b45b0d63"
+				}
+			]
+		},
+		"S4-046": {
+			"printedNumber": 46,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38544/regu/all",
+					"sha256": "c15909472ab92f3c152014175b34be18ea2a0b3d595d7912d6d7de68f73c8149"
+				}
+			]
+		},
+		"S4-047": {
+			"printedNumber": 47,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38545/regu/all",
+					"sha256": "25588e8ac07eb1bbab0c7881168bff8e5245334c405c154248fa4b5be847b830"
+				}
+			]
+		},
+		"S4-048": {
+			"printedNumber": 48,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38546/regu/all",
+					"sha256": "782c703388b001b5e601c865a4db4dc65eea1010df0f304d8b5c8c4463d2f396"
+				}
+			]
+		},
+		"S4-049": {
+			"printedNumber": 49,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38547/regu/all",
+					"sha256": "81975ce3b018e52fad2e64fe4c9dde28a912066e0ac616915321741c8cc2834d"
+				}
+			]
+		},
+		"S4-050": {
+			"printedNumber": 50,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38548/regu/all",
+					"sha256": "1b58de9bf4fb1794d9e49651363fbc4a56fcda221d4a696afdcb8431578fb577"
+				}
+			]
+		},
+		"S4-051": {
+			"printedNumber": 51,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38549/regu/all",
+					"sha256": "1c3f640693691f538390721a689fa0e66fdf69685bf56bcd1d745d433dd99aae"
+				}
+			]
+		},
+		"S4-052": {
+			"printedNumber": 52,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38550/regu/all",
+					"sha256": "a2bf6a17bd9b4665d314fdc281f552a72a29a6b8156d4268f0a32588f4caf0ca"
+				}
+			]
+		},
+		"S4-053": {
+			"printedNumber": 53,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38551/regu/all",
+					"sha256": "cacf61f089458e3fbf879835cb2a2430c81395f02e67baf5c611e066d13feeec"
+				}
+			]
+		},
+		"S4-054": {
+			"printedNumber": 54,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38552/regu/all",
+					"sha256": "3664d4478e21d124474b14b33b307b5834220699a984e47ec9011bfeb60ade54"
+				}
+			]
+		},
+		"S4-055": {
+			"printedNumber": 55,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38553/regu/all",
+					"sha256": "c06ddc0be9ba19a5dba00594cb6507cb84b75f4ae5123ec65af1a37d98e54573"
+				}
+			]
+		},
+		"S4-056": {
+			"printedNumber": 56,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38554/regu/all",
+					"sha256": "0d32c35ae35fb4d1cf6bd189b6df3b069ae0e5088a1305657ebce63a11083fb8"
+				}
+			]
+		},
+		"S4-057": {
+			"printedNumber": 57,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38555/regu/all",
+					"sha256": "5e52e1d8207e0c670263b67fb1c2bdecbf93b46a10d69ea7443d561e50d85217"
+				}
+			]
+		},
+		"S4-058": {
+			"printedNumber": 58,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38556/regu/all",
+					"sha256": "58759635cd1e6bd5d6a10a0dd478616372ecf7c51b62fbb27d29e5750cb3caea"
+				}
+			]
+		},
+		"S4-059": {
+			"printedNumber": 59,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38557/regu/all",
+					"sha256": "6942f60abe182dfd0689062984f27d2a5600f61410c3fba2a586df3000241550"
+				}
+			]
+		},
+		"S4-060": {
+			"printedNumber": 60,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38558/regu/all",
+					"sha256": "c913bbda8c478d8ca16768815f3a213cd5abb4b6024f9d439c2a30f546379441"
+				}
+			]
+		},
+		"S4-061": {
+			"printedNumber": 61,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38559/regu/all",
+					"sha256": "306a5bfdbb9c4ff3a1659c5eb617b4eb5a47546e4419316326da09ee05d5d9f4"
+				}
+			]
+		},
+		"S4-062": {
+			"printedNumber": 62,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38560/regu/all",
+					"sha256": "f0f5bd283619410f84f1fbce6d2d54c00c38ef47c0775410cd6749645c43d680"
+				}
+			]
+		},
+		"S4-063": {
+			"printedNumber": 63,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38561/regu/all",
+					"sha256": "4c8932251753916f0d48229f3f830597a2d199bfb112d007e80b6e8b533bd543"
+				}
+			]
+		},
+		"S4-064": {
+			"printedNumber": 64,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38562/regu/all",
+					"sha256": "6384f7c76ab6427c9d3350d17e5c9aac3e4415a659e2c947d37dd07e3a9c4244"
+				}
+			]
+		},
+		"S4-065": {
+			"printedNumber": 65,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38563/regu/all",
+					"sha256": "8c1ec72e0f25972bf33fcd30525fa4f60b4bb4ad6ba7c96ce5ef30df7fae9f34"
+				}
+			]
+		},
+		"S4-066": {
+			"printedNumber": 66,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38564/regu/all",
+					"sha256": "9e1de213a3964d10dfe31d77f505e5be9381d54f4c9659dceaa97bba155e4859"
+				}
+			]
+		},
+		"S4-067": {
+			"printedNumber": 67,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38565/regu/all",
+					"sha256": "708dba0da2c780e2fc5928a0e8588a92718bf49eeec99545d506d173c2ae92c7"
+				}
+			]
+		},
+		"S4-068": {
+			"printedNumber": 68,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38566/regu/all",
+					"sha256": "7723f3be8284550740e0d630179fa2465315abe9f7d6e9bf69d7ecd6aa650858"
+				}
+			]
+		},
+		"S4-069": {
+			"printedNumber": 69,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38567/regu/all",
+					"sha256": "80c00c3baaf2ab9ebae7ab5dad6e549c88e9cae97ae56e6a22ee1a320711c52f"
+				}
+			]
+		},
+		"S4-070": {
+			"printedNumber": 70,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38568/regu/all",
+					"sha256": "f5a33fed98ca95ad6f813d85691768249f3ab54d5c05716fdcd393c9f460d607"
+				}
+			]
+		},
+		"S4-071": {
+			"printedNumber": 71,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38569/regu/all",
+					"sha256": "d565e0c19eddc38d4e6e7a38cb2d3a635b98a48369f44dea32c19ad2512126c7"
+				}
+			]
+		},
+		"S4-072": {
+			"printedNumber": 72,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38570/regu/all",
+					"sha256": "683fff06ce1c1bc0e271ae5140060bd657d4ea80db87f7caead2c41080eb7dbc"
+				}
+			]
+		},
+		"S4-073": {
+			"printedNumber": 73,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38571/regu/all",
+					"sha256": "eaa2c2610119d1541d91511277c2f8c754a1db8ec634ab7c30ddf7d20959a27a"
+				}
+			]
+		},
+		"S4-074": {
+			"printedNumber": 74,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38572/regu/all",
+					"sha256": "86f6bb71aece19954adffcba044ac310e0bee5d0c66d80e6fc7182d798717362"
+				}
+			]
+		},
+		"S4-075": {
+			"printedNumber": 75,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38573/regu/all",
+					"sha256": "662e9788ac22d03f5cc16c676790eda9f587fd5ba81d883e75dad4ff2a17c1bd"
+				}
+			]
+		},
+		"S4-076": {
+			"printedNumber": 76,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38574/regu/all",
+					"sha256": "96b248aa3018b86588232cf74a44e74965537c0e54164e88042acadb66104393"
+				}
+			]
+		},
+		"S4-077": {
+			"printedNumber": 77,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38575/regu/all",
+					"sha256": "7d2c74c441ab70ed141d64e50758960319c6efaf6d15518654dbb333887cf3b6"
+				}
+			]
+		},
+		"S4-078": {
+			"printedNumber": 78,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38576/regu/all",
+					"sha256": "7c079f06557b3c08e0eb764d5df35e169399ecfd7224380c8d54a1a21ae401de"
+				}
+			]
+		},
+		"S4-079": {
+			"printedNumber": 79,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38577/regu/all",
+					"sha256": "450e5afebc89c7e6304b52e1244a6877bb01586c9030a418ca7e92ec813041b1"
+				}
+			]
+		},
+		"S4-080": {
+			"printedNumber": 80,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38578/regu/all",
+					"sha256": "9724cc5f80b7f0a5fc77f923e125bd44de1a84230b0e8ea332459fe2749d487e"
+				}
+			]
+		},
+		"S4-081": {
+			"printedNumber": 81,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38579/regu/all",
+					"sha256": "faa7c140ba1c9bb6a8f4fb13f27be2e8e0a6dd86dc383e71a913ccabb1408431"
+				}
+			]
+		},
+		"S4-082": {
+			"printedNumber": 82,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38580/regu/all",
+					"sha256": "e5544368c49cef10ff8934a01ce77c2adfebb0d74508fe721abdb4e63d748723"
+				}
+			]
+		},
+		"S4-083": {
+			"printedNumber": 83,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38581/regu/all",
+					"sha256": "3ff5528fda3c79c3add72a0ebe709104d311dafa35d0344ef85fec684566cd38"
+				}
+			]
+		},
+		"S4-084": {
+			"printedNumber": 84,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38582/regu/all",
+					"sha256": "714dcccfa957cab620cef5bfe0d35c00fa5084561507d5637f8da75fbcbaa0ac"
+				}
+			]
+		},
+		"S4-085": {
+			"printedNumber": 85,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38583/regu/all",
+					"sha256": "f1ce706243fd4bf8e3950d1cbf06239d0b6631b8d0ba591bcc283c52f3039592"
+				}
+			]
+		},
+		"S4-086": {
+			"printedNumber": 86,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38584/regu/all",
+					"sha256": "da590fc7ef99a9060a11b6c36b72c8d5d695dc6f983fc49479ba53498b6f1abe"
+				}
+			]
+		},
+		"S4-087": {
+			"printedNumber": 87,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38585/regu/all",
+					"sha256": "8df09fd07fd417b4bf76ffe92298c37ea20678cc416dbd3f8063bcaf33cfe04c"
+				}
+			]
+		},
+		"S4-088": {
+			"printedNumber": 88,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38586/regu/all",
+					"sha256": "9b99be83c4dc7dcb8b3070b10a6bffcc53295551444944f51dca470c80faf2e3"
+				}
+			]
+		},
+		"S4-089": {
+			"printedNumber": 89,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38587/regu/all",
+					"sha256": "66f12f92d0e50e8d1ab2e1741ae62362130e3a0c97fe934a65706f11bcbf328c"
+				}
+			]
+		},
+		"S4-090": {
+			"printedNumber": 90,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38588/regu/all",
+					"sha256": "71762d45246c1eca92472691c8da3e8d1a49eef110d077e9df8830a756eb7b03"
+				}
+			]
+		},
+		"S4-091": {
+			"printedNumber": 91,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38589/regu/all",
+					"sha256": "8430ad8233604a95b7016708621536c5afdc67b4af8421aedbac758c0b606509"
+				}
+			]
+		},
+		"S4-092": {
+			"printedNumber": 92,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38590/regu/all",
+					"sha256": "1768bbd246e494ebedb910aa292aaab86ed58a14ce44618dc0c3df6f0ffb9455"
+				}
+			]
+		},
+		"S4-093": {
+			"printedNumber": 93,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38591/regu/all",
+					"sha256": "bf15ad298448a77d6f13b053d7073bb7ca7c9d2e179704dfa980e90eb33cc817"
+				}
+			]
+		},
+		"S4-094": {
+			"printedNumber": 94,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38592/regu/all",
+					"sha256": "fba97ca6f0790c58c0ed761d87b9435cb1ca4d2b82f52b5cd467d4f0faf7079a"
+				}
+			]
+		},
+		"S4-095": {
+			"printedNumber": 95,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38593/regu/all",
+					"sha256": "12d8c54af036f859af002fb8dd515c3e12b0a747448629463dff4591353f8f3d"
+				}
+			]
+		},
+		"S4-096": {
+			"printedNumber": 96,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38594/regu/all",
+					"sha256": "901c7ffdc10ea8fac5deb2ce7026ebf8ba6c3706dfbc012584e4bfdb1e815d04"
+				}
+			]
+		},
+		"S4-097": {
+			"printedNumber": 97,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38595/regu/all",
+					"sha256": "d4c983c3aa520d6f77663603ddf5a140b73d95c6ed4d7427fb4b268842be9398"
+				}
+			]
+		},
+		"S4-098": {
+			"printedNumber": 98,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38596/regu/all",
+					"sha256": "4f7bbc6fa84003d3392007ae12cabb3a0ef60b4cfc13474ab0ba8f45967d05f6"
+				}
+			]
+		},
+		"S4-099": {
+			"printedNumber": 99,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38597/regu/all",
+					"sha256": "58636fc65fd28bb4bbe3db0c825ca9c3f5de2597ef68d0e482fd0dd3439a2cec"
+				}
+			]
+		},
+		"S4-100": {
+			"printedNumber": 100,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38598/regu/all",
+					"sha256": "e33dab1320f5767d21c239b703e5b840bf314023e2a99cb155569714cec399c2"
+				}
+			]
+		},
+		"S4-101": {
+			"printedNumber": 101,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38912/regu/all",
+					"sha256": "f0a8242465048ce31ede51d1f8267fd0a6e39b079d8a6cc904936c37518d4490"
+				}
+			]
+		},
+		"S4-102": {
+			"printedNumber": 102,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38913/regu/all",
+					"sha256": "3ecd69f5e41a14193152a9a95b973595e92a03e195c27c8b0ea89a69eda6de21"
+				}
+			]
+		},
+		"S4-103": {
+			"printedNumber": 103,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38914/regu/all",
+					"sha256": "4e95a445fbea90180fd7c71f86d753f2179521a0077f9054fdbaa33b2acaa3c4"
+				}
+			]
+		},
+		"S4-104": {
+			"printedNumber": 104,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38915/regu/all",
+					"sha256": "9bca7f9904adfb3749a06729d1ecd196f0970577174e1842efd693d6b06aeebe"
+				}
+			]
+		},
+		"S4-105": {
+			"printedNumber": 105,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38916/regu/all",
+					"sha256": "c0cba5ef1e1f6992574870c546a442b17be8a6c27511748531782aef998811c0"
+				}
+			]
+		},
+		"S4-106": {
+			"printedNumber": 106,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38917/regu/all",
+					"sha256": "92114dff7af2f00347564fe13ed260a3aeac229154da1a4c9e57cf2d8febff02"
+				}
+			]
+		},
+		"S4-107": {
+			"printedNumber": 107,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38918/regu/all",
+					"sha256": "e13b90b414048a2a36a1c93301966c26798aa544acb8485b1b10ebd791fc03af"
+				}
+			]
+		},
+		"S4-108": {
+			"printedNumber": 108,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38919/regu/all",
+					"sha256": "e3537c172f5991c0fb5968a3431a356940caa2c5a1c7aa2f2bb198b5e535ba8d"
+				}
+			]
+		},
+		"S4-109": {
+			"printedNumber": 109,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38920/regu/all",
+					"sha256": "39963ed132404a5d0759c2bbc5eed68591fb945e5e96be13d1693f9c540cf8f2"
+				}
+			]
+		},
+		"S4-110": {
+			"printedNumber": 110,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38921/regu/all",
+					"sha256": "8a610380e33c5df3fd2da2058b67b646679d7684aee23d176c0c25e5b4abc7e8"
+				}
+			]
+		},
+		"S4-111": {
+			"printedNumber": 111,
+			"officialPrints": [
+				{
+					"url": "https://www.pokemon-card.com/card-search/details.php/card/38922/regu/all",
+					"sha256": "68f9a7d578ec12ee739d57a2541dc877def0155f0ec42c0210cf9d2bb12fa8ca"
+				}
+			]
+		},
+		"S4-112": {
+			"printedNumber": 112,
+			"name": "イオルブVMAX",
+			"illustrator": "5ban Graphics",
+			"rarity": "Hyper rare",
+			"gameplayURL": "https://www.pokemon-card.com/card-search/details.php/card/38507/regu/all",
+			"gameplaySha256": "ce87ac1c2f760e3bdb6d8bb2b0943240140c89180c98b76307d43d62c173a0b5",
+			"scanURL": "https://www.serebii.net/card/astonishingvolttackle/112.jpg",
+			"checklistURL": "https://www.serebii.net/card/astonishingvolttackle/112.shtml"
+		},
+		"S4-113": {
+			"printedNumber": 113,
+			"name": "ガラル ヒヒダルマVMAX",
+			"illustrator": "5ban Graphics",
+			"rarity": "Hyper rare",
+			"gameplayURL": "https://www.pokemon-card.com/card-search/details.php/card/38522/regu/all",
+			"gameplaySha256": "fc51aff3cdad1d5e0a7bf6d5773c2f7c1ab470d2044e6302892573732ce31a87",
+			"scanURL": "https://www.serebii.net/card/astonishingvolttackle/113.jpg",
+			"checklistURL": "https://www.serebii.net/card/astonishingvolttackle/113.shtml"
+		},
+		"S4-114": {
+			"printedNumber": 114,
+			"name": "ピカチュウVMAX",
+			"illustrator": "aky CG Works",
+			"rarity": "Hyper rare",
+			"gameplayURL": "https://www.pokemon-card.com/card-search/details.php/card/38529/regu/all",
+			"gameplaySha256": "82d44b8254c54fd3ab990e2367e2eac79077dd86d7d641b21c78e2011ffbed4c",
+			"scanURL": "https://www.serebii.net/card/astonishingvolttackle/114.jpg",
+			"checklistURL": "https://www.serebii.net/card/astonishingvolttackle/114.shtml"
+		},
+		"S4-115": {
+			"printedNumber": 115,
+			"name": "ギルガルドVMAX",
+			"illustrator": "aky CG Works",
+			"rarity": "Hyper rare",
+			"gameplayURL": "https://www.pokemon-card.com/card-search/details.php/card/38579/regu/all",
+			"gameplaySha256": "faa7c140ba1c9bb6a8f4fb13f27be2e8e0a6dd86dc383e71a913ccabb1408431",
+			"scanURL": "https://www.serebii.net/card/astonishingvolttackle/115.jpg",
+			"checklistURL": "https://www.serebii.net/card/astonishingvolttackle/115.shtml"
+		},
+		"S4-116": {
+			"printedNumber": 116,
+			"name": "サイトウ",
+			"illustrator": "Hideki Ishikawa",
+			"rarity": "Hyper rare",
+			"gameplayURL": "https://www.pokemon-card.com/card-search/details.php/card/38920/regu/all",
+			"gameplaySha256": "39963ed132404a5d0759c2bbc5eed68591fb945e5e96be13d1693f9c540cf8f2",
+			"scanURL": "https://www.serebii.net/card/astonishingvolttackle/116.jpg",
+			"checklistURL": "https://www.serebii.net/card/astonishingvolttackle/116.shtml"
+		},
+		"S4-117": {
+			"printedNumber": 117,
+			"name": "ダンデ",
+			"illustrator": "Hideki Ishikawa",
+			"rarity": "Hyper rare",
+			"gameplayURL": "https://www.pokemon-card.com/card-search/details.php/card/38921/regu/all",
+			"gameplaySha256": "8a610380e33c5df3fd2da2058b67b646679d7684aee23d176c0c25e5b4abc7e8",
+			"scanURL": "https://www.serebii.net/card/astonishingvolttackle/117.jpg",
+			"checklistURL": "https://www.serebii.net/card/astonishingvolttackle/117.shtml"
+		},
+		"S4-118": {
+			"printedNumber": 118,
+			"name": "ルリナ",
+			"illustrator": "Ryuta Fuse",
+			"rarity": "Hyper rare",
+			"gameplayURL": "https://www.pokemon-card.com/card-search/details.php/card/38922/regu/all",
+			"gameplaySha256": "68f9a7d578ec12ee739d57a2541dc877def0155f0ec42c0210cf9d2bb12fa8ca",
+			"scanURL": "https://www.serebii.net/card/astonishingvolttackle/118.jpg",
+			"checklistURL": "https://www.serebii.net/card/astonishingvolttackle/118.shtml"
+		},
+		"S4-119": {
+			"printedNumber": 119,
+			"name": "ガラル タチフサグマ",
+			"illustrator": "aky CG Works",
+			"rarity": "Secret Rare",
+			"gameplayURL": "https://www.pokemon-card.com/card-search/details.php/card/37705/regu/all",
+			"gameplaySha256": "d96d7be948375e1392248d0432bf723ddaa672b70a9a76fd889c950e8cccf49e",
+			"scanURL": "https://www.serebii.net/card/astonishingvolttackle/119.jpg",
+			"checklistURL": "https://www.serebii.net/card/astonishingvolttackle/119.shtml"
+		},
+		"S4-120": {
+			"printedNumber": 120,
+			"name": "望遠スコープ",
+			"illustrator": "Toyste Beach",
+			"rarity": "Secret Rare",
+			"gameplayURL": "https://www.pokemon-card.com/card-search/details.php/card/38589/regu/all",
+			"gameplaySha256": "8430ad8233604a95b7016708621536c5afdc67b4af8421aedbac758c0b606509",
+			"scanURL": "https://www.serebii.net/card/astonishingvolttackle/120.jpg",
+			"checklistURL": "https://www.serebii.net/card/astonishingvolttackle/120.shtml"
+		},
+		"S4-121": {
+			"printedNumber": 121,
+			"name": "メモリーカプセル",
+			"illustrator": "sadaji",
+			"rarity": "Secret Rare",
+			"gameplayURL": "https://www.pokemon-card.com/card-search/details.php/card/38590/regu/all",
+			"gameplaySha256": "1768bbd246e494ebedb910aa292aaab86ed58a14ce44618dc0c3df6f0ffb9455",
+			"scanURL": "https://www.serebii.net/card/astonishingvolttackle/121.jpg",
+			"checklistURL": "https://www.serebii.net/card/astonishingvolttackle/121.shtml"
+		}
+	}
+}
