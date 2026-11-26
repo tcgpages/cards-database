@@ -3,6 +3,7 @@ import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [479],
 	name: {
 		ja: "キバナ",
 	},

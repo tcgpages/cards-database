@@ -3,6 +3,7 @@ import Set from '../Battle Styles'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [891],
 
 	name: {
 		en: "Rapid Strike Style Mustard",

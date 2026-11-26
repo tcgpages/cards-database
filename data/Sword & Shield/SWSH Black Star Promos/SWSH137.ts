@@ -4,6 +4,7 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [849],
 	set: Set,
+	cameoDexIds: [43],
 	weaknesses: [
 		{
 			type: "Fighting",

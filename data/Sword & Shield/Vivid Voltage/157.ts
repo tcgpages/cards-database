@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [321],
 
 	effect: {
 		en: "Put up to 4 in any combination of Water Pokémon and Water Energy cards from your discard pile into your hand.",

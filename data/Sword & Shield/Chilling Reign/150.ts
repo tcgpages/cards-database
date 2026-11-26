@@ -3,6 +3,7 @@ import Set from '../Chilling Reign'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [898],
 
 	name: {
 		fr: "Dhilan",

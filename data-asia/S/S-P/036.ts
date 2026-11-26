@@ -3,6 +3,7 @@ import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [1, 279],
 	name: {
 		ja: "救助隊DXのピカチュウ",
 	},

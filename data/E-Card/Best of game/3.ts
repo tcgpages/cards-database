@@ -3,6 +3,7 @@ import Set from '../Best of game'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [155],
 
 	name: {
 		en: "Professor Elm"
