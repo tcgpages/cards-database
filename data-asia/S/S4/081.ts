@@ -5,40 +5,76 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "堅盾劍怪VMAX"
+		'zh-tw': "堅盾劍怪VMAX",
+		ja: "ギルガルドVMAX"
 	},
 
 	illustrator: "aky CG Works",
+
 	category: "Pokemon",
+
 	hp: 320,
-	types: ["Metal"],
+
+	types: [
+		"Metal"
+	],
+
+	dexId: [
+		681
+	],
+	evolveFrom: {
+		ja: "ギルガルドV"
+	},
 	stage: "VMAX",
 
-	attacks: [{
-		name: {
-			'zh-tw': "極巨斬擊"
-		},
+	attacks: [
+		{
+			name: {
+				'zh-tw': "極巨斬擊",
+				ja: "ダイザンゲキ"
+			},
+			effect: {
+				'zh-tw': "增加自己已經獲得的獎賞卡的張數×30點傷害。",
+				ja: "自分がすでにとったサイドの枚数×30ダメージ追加。"
+			},
+			damage: "160+",
+			cost: [
+				"Metal",
+				"Metal",
+				"Colorless"
+			]
+		}
+	],
 
-		effect: {
-			'zh-tw': "增加自己已經獲得的獎賞卡的張數×30點傷害。"
-		},
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		}
+	],
 
-		damage: "160+",
-		cost: ["Metal", "Metal", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Grass",
-		value: "-30"
-	}],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30"
+		}
+	],
 
 	retreat: 3,
-	regulationMark: "D"
+
+	regulationMark: "D",
+
+	rarity: "Holo Rare VMAX",
+
+
+	variants: [
+		{
+			type: "holo",
+			languages: [
+				"ja"
+			]
+		}
+	]
 }
 
 export default card

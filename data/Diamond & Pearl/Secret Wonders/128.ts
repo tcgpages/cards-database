@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [387, 448],
 
 	effect: {
 		en: "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.",

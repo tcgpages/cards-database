@@ -5,52 +5,86 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "鬼斯通"
+		'zh-tw': "鬼斯通",
+		ja: "ゴースト"
 	},
 
 	illustrator: "HYOGONOSUKE",
+
 	category: "Pokemon",
+
 	hp: 70,
-	types: ["Psychic"],
+
+	types: [
+		"Psychic"
+	],
 
 	description: {
-		'zh-tw': "據說如果被牠氣體狀的舌頭舔到，身體就會無法停止顫抖，最終將會導致死亡。"
+		'zh-tw': "據說如果被牠氣體狀的舌頭舔到，身體就會無法停止顫抖，最終將會導致死亡。",
+		ja: "ガス状の 舌で なめられると 体の 震えが 止まらなくなり やがては 死 に いたるという。"
 	},
 
+	evolveFrom: {
+		ja: "ゴース"
+	},
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "惡夢"
+	attacks: [
+		{
+			name: {
+				'zh-tw': "惡夢",
+				ja: "あくむ"
+			},
+			effect: {
+				'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
+				ja: "相手のバトルポケモンをねむりにする。"
+			},
+			damage: 20,
+			cost: [
+				"Colorless"
+			]
 		},
+		{
+			name: {
+				'zh-tw': "陰森射擊",
+				ja: "ホロウショット"
+			},
+			damage: 40,
+			cost: [
+				"Psychic",
+				"Colorless"
+			]
+		}
+	],
 
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。"
-		},
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2"
+		}
+	],
 
-		damage: 20,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "陰森射擊"
-		},
-
-		damage: 40,
-		cost: ["Psychic", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		}
+	],
 
 	retreat: 1,
-	regulationMark: "D"
+
+	regulationMark: "D",
+
+	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
+
+	dexId: [
+		93
+	]
 }
 
 export default card

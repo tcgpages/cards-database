@@ -1,0 +1,117 @@
+{
+	"releaseDate": {
+		"date": "2010-11-04",
+		"scope": "Earliest BW-P distribution verified to an exact date from issuer material. The Pokémon Center birthday leaflet announces the original Jumbo card from November 4, 2010. The 2010 card face bears the BW-P mark. The numbered run (#001 and #007) started on December 17. The separate standard-size Smile School cards have no confirmed day of first distribution.",
+		"issuerLeaflet": "https://cdn-ak.f.st-hatena.com/images/fotolife/p/pekachu_photo/20101004/20101004003014.jpg",
+		"leafletArchive": "https://blogpeka.blog116.fc2.com/blog-entry-992.html",
+		"cardScan": "https://cdn6966.templcdn.com/wp-content/uploads/2021/05/JP_U004BW-P.jpg",
+		"numberedSources": [
+			"https://pokeboon.com/jp/001bwp-pansage-promo/",
+			"https://pokeboon.com/jp/007bwp-zoroark-promo/"
+		],
+		"smileSchoolSource": "https://pokeboon.com/bwp-snivy-smileschool-promo/"
+	},
+	"numberedFinishes": {
+		"catalogs": [
+			"https://binderboss.io/sets/bwp_ja",
+			"https://pokumon.com/promo_set/bw-p/"
+		],
+		"notes": [
+			"Compared by printed number. The seven canceled numbers are outside this inventory. Specific foil patterns on alternate printings are represented by the finish of the card face.",
+			"Pokumon provides print-specific classifications for 037–039, 048–049, 103–105, 175–180 and 207–208. The Japanese event descriptions below support the foil Energy rewards numbered 014–017, 071–074 and 221–228."
+		],
+		"energyPrizeSources": [
+			"https://blog.livedoor.jp/alice_umbreon/archives/1800030.html",
+			"https://pokeboon.com/jp/promo_event/red-collection-launch-tournament/",
+			"https://pokeboon.com/jp/promo_event/battle-carnival-2013-spring/"
+		],
+		"premiumPikachu": "https://www.pokemon-card.com/card-search/details.php/card/28906"
+	},
+	"unnumberedPrintings": {
+		"27756": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/027756_T_BIKUTORIKAPPU.jpg",
+			"finish": "holo",
+			"trophyPlace": "1st-place"
+		},
+		"27757": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/027757_T_BIKUTORIKAPPU.jpg",
+			"finish": "holo",
+			"trophyPlace": "2nd-place"
+		},
+		"27758": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/027758_T_BIKUTORIKAPPU.jpg",
+			"finish": "holo",
+			"trophyPlace": "3rd-place"
+		},
+		"27759": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/027759_T_HEBIBORU.jpg",
+			"finish": "reverse",
+			"finishSource": "https://pokumon.com/card/heavy-ball-battle-carnival-2011-bw-p/"
+		},
+		"27760": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/027760_T_REBERUBORU.jpg",
+			"finish": "reverse",
+			"finishSource": "https://pokumon.com/card/level-ball-battle-carnival-2011-bw-p/"
+		},
+		"28080": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028080_T_KAIZOUHANMA.jpg",
+			"finish": "reverse",
+			"finishSource": "https://pokumon.com/card/enhanced-hammer-battle-carnival-2012-bw-p/"
+		},
+		"28081": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028081_T_MANTANNOKUSURI.jpg",
+			"finish": "reverse",
+			"finishSource": "https://pokumon.com/card/max-potion-battle-carnival-2012-bw-p/"
+		},
+		"28082": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028082_T_BIKUTORIKAPPU.jpg",
+			"finish": "holo",
+			"trophyPlace": "1st-place"
+		},
+		"28083": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028083_T_BIKUTORIKAPPU.jpg",
+			"finish": "holo",
+			"trophyPlace": "2nd-place"
+		},
+		"28084": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028084_T_BIKUTORIKAPPU.jpg",
+			"finish": "holo",
+			"trophyPlace": "3rd-place"
+		},
+		"28636": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028636_T_TOROPIKARUBICHI.jpg",
+			"finish": "normal",
+			"finishSource": "https://pokumon.com/card/tropical-beach-world-championships-2012-bw-p/"
+		},
+		"28650": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028650_T_PURAZUMADANBAJJI.jpg",
+			"finish": "reverse",
+			"finishSource": "https://pokumon.com/card/team-plasma-badge-battle-carnival-2012-bw-p/"
+		},
+		"28651": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028651_T_BIKUTORIKAPPU.jpg",
+			"finish": "holo",
+			"trophyPlace": "1st-place"
+		},
+		"28652": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028652_T_BIKUTORIKAPPU.jpg",
+			"finish": "holo",
+			"trophyPlace": "2nd-place"
+		},
+		"28653": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028653_T_BIKUTORIKAPPU.jpg",
+			"finish": "holo",
+			"trophyPlace": "3rd-place"
+		},
+		"28907": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028907_T_TOROPIKARUBICHI.jpg",
+			"finish": "normal",
+			"finishSource": "https://pokumon.com/card/tropical-beach-world-championships-2011-bw-p/"
+		},
+		"28908": {
+			"officialScan": "https://www.pokemon-card.com/assets/images/card_images/large/BWP/028908_T_CHANPIONZUFESUTEIBARU.jpg",
+			"finish": "normal",
+			"finishSource": "https://pokumon.com/card/champions-festival-world-championships-2013-bw-p/"
+		}
+	}
+}

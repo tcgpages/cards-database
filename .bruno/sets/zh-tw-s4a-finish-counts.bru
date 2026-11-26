@@ -1,0 +1,19 @@
+meta {
+  name: Traditional Chinese finish counts for S4a
+  type: http
+  seq: 10
+}
+
+get {
+  url: {{BASE_URL}}/v2/zh-tw/sets/S4a
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+  res.body.id: eq S4a
+  res.body.cardCount.holo: eq 0
+  res.body.cardCount.normal: eq 0
+  res.body.cardCount.reverse: eq 0
+}

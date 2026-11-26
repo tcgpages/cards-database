@@ -3,6 +3,7 @@ import Set from "../Brilliant Stars"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [393],
 
 	name: {
 		en: "Roseanne's Backup",

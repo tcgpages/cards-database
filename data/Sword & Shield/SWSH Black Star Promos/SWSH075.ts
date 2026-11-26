@@ -4,6 +4,7 @@ import Set from "../SWSH Black Star Promos"
 const card: Card = {
 	dexId: [6],
 	set: Set,
+	cameoDexIds: [25],
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 
 	name: {

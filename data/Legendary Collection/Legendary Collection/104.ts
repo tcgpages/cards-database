@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [13],
 
 	effect: {
 		en: "Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)"

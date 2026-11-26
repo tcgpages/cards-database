@@ -3,6 +3,7 @@ import Set from "../M4";
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [109],
 	name: {
 		ja: "ホミカの演奏",
 	},

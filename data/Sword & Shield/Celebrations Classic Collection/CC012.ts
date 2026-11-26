@@ -3,6 +3,7 @@ import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [53],
 
 	name: {
 		en: "Rocket's Admin.",

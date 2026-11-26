@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Secret Rare",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [52],
 
 	effect: {
 		fr: "Chaque joueur tourne toutes ses cartes Récompense face découverte. (Ces cartes Récompense restent face découverte pour le reste de la partie.)",

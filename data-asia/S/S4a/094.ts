@@ -5,36 +5,61 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "小炭仔"
+		'zh-tw': "小炭仔",
+		ja: "タンドン"
 	},
 
 	illustrator: "Misa Tsutsui",
+
 	category: "Pokemon",
+
 	hp: 70,
-	types: ["Fighting"],
+
+	types: [
+		"Fighting"
+	],
 
 	description: {
-		'zh-tw': "大約４００年前在煤礦坑中被人們發現。身體絕大部分的成分都和煤炭相同。"
+		'zh-tw': "大約４００年前在煤礦坑中被人們發現。身體絕大部分的成分都和煤炭相同。",
+		ja: "およそ４００年前に 炭鉱で 見つかった。 体の ほとんどが 石炭と 同じ 成分。"
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "衝撞"
-		},
+	attacks: [
+		{
+			name: {
+				'zh-tw': "衝撞",
+				ja: "ぶつかる"
+			},
+			damage: 10,
+			cost: [
+				"Colorless"
+			]
+		}
+	],
 
-		damage: 10,
-		cost: ["Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		}
+	],
 
 	retreat: 2,
-	regulationMark: "D"
+
+	regulationMark: "D",
+
+	rarity: "None",
+
+	variants: [
+		{ type: "normal", languages: ["ja"] },
+		{ type: "reverse", languages: ["ja"] }
+	],
+
+	dexId: [
+		837
+	]
 }
 
 export default card

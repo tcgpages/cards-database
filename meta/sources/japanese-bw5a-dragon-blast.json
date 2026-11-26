@@ -1,0 +1,283 @@
+{
+	"description": "Japanese BW5a Dragon Blast card import.",
+	"upstreamBase": "a8fe5736aef9bd6be2436e3be730109030f4c6e2",
+	"setCounts": {
+		"BW5a": {
+			"official": 50,
+			"total": 55
+		}
+	},
+	"method": [
+		"The 50 regular cards were transcribed from their official Japanese Pokémon Card Game detail pages; each page URL and SHA-256 digest is listed below.",
+		"The five secret-numbered cards were checked against card scans in the cited independent checklist. Cards 051–053 match the gameplay text and stats of the cited regular BW5a cards; cards 054 and 055 use the matching official Reuniclus and Rayquaza gameplay records, with scan-verified card identity, illustrator and rarity.",
+		"The independent checklist header reports 54 cards (50 regular and 4 secret), but its numbered entries continue through 055/050. The cited Japanese BW checklist independently totals 55 (24 Common, 16 Uncommon, 10 Rare, 3 SR, 2 UR), so the data contains all 55 printed-number identities while the official set denominator remains 50.",
+		"Each card has first-edition and unlimited variants. Official per-card rarity and the independent edition checklist distinguish 40 normal cards (Common/Uncommon) from 15 holo cards (Rare/SR/UR). No reverse-holo variants are included.",
+		"SR is mapped to Ultra Rare and UR to Secret Rare following the neighboring Japanese BW set data. No marketplace IDs or unverified artwork URLs are included; secret scan URLs are provenance only."
+	],
+	"checklists": [
+		"https://www.serebii.net/card/dragonblast/",
+		"https://hakuu.client.jp/dragon-scales-/BW5-maisuu.pdf"
+	],
+	"variantReferences": [
+		"https://www.houseofcardsnco.com/sets/jp-black-and-white/bw5-dragon-blast"
+	],
+	"cards": {
+		"BW5a-001": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27858/regu/all",
+			"sha256": "6feb4f8af18df66fbec11613b592cbd0fa01567f3de34c60f8eb64c1831b6056"
+		},
+		"BW5a-002": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27859/regu/all",
+			"sha256": "eab8db2ddf5f06f5008f7588292c58e812aaf32d84c72f4e8ec3722fae5c1043"
+		},
+		"BW5a-003": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27860/regu/all",
+			"sha256": "0aff07e5339f86580fdaf4a80d6275ffb0cbe131b4bdf63dbc6812e711d1c973"
+		},
+		"BW5a-004": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27861/regu/all",
+			"sha256": "bf20cbadc20f0e946c07367f6d9996831b8d9747aae879b96c12b5de722cee8c"
+		},
+		"BW5a-005": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27862/regu/all",
+			"sha256": "a30668f3918f334257647bf088ade477da3fc813adb18fc76e0da5310d26246b"
+		},
+		"BW5a-006": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27863/regu/all",
+			"sha256": "12028cd2abd26264de1325843f3b26f1d903bb53f87149bae67fcb1d481956b6"
+		},
+		"BW5a-007": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27864/regu/all",
+			"sha256": "8412c4a38aa7e04a8a79db1e27c2e50c3bd3a8f7d3f3584d09ce72d7f7551706"
+		},
+		"BW5a-008": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27865/regu/all",
+			"sha256": "bb80a746bbb37a9cb48f957bef228e797d6dd92e7ce2104aea1567d9c1361772"
+		},
+		"BW5a-009": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27866/regu/all",
+			"sha256": "8a0d7bd974b25559a5d75dbb3a3356f52f068ad051c46c5d0315ad0a2083bae1"
+		},
+		"BW5a-010": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27867/regu/all",
+			"sha256": "3c4e4f7dec6d20807a1f6e6721350df9321aec5f306b4700cce02065b183c368"
+		},
+		"BW5a-011": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27868/regu/all",
+			"sha256": "14b8c28342d8dd637030719671fe2c1cf4a7cc2805e0344bc4efb563ca2d2a81"
+		},
+		"BW5a-012": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27869/regu/all",
+			"sha256": "b768637273342b232e6f564c6fc7c546947fe37ea35cc4c3a22ea1556df75eb1"
+		},
+		"BW5a-013": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27870/regu/all",
+			"sha256": "08eb05d3e948e2743ca47c6519d8ee3e658395b296591dfada1fed5a396026ca"
+		},
+		"BW5a-014": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27871/regu/all",
+			"sha256": "8799c4ee343a313ef4672599ba841ed8f774dde27ad6a132a6fa716fd78b25a3"
+		},
+		"BW5a-015": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27872/regu/all",
+			"sha256": "dc01649d2ea709e92d31f5934fbc47c83eb7ce1add80e930c70b9863c98bd7ff"
+		},
+		"BW5a-016": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27873/regu/all",
+			"sha256": "9d3fa3e856353c0647c9f6cff9fda92d3bd69da3b4769035362a52995906e25e"
+		},
+		"BW5a-017": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27874/regu/all",
+			"sha256": "54a9c95b6626c34c0ab0f49541f87241c177d59f6c3b948787e0b08cbb163a14"
+		},
+		"BW5a-018": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27875/regu/all",
+			"sha256": "d484ff946f49d17484f7705274467e25b239dd07bef3321a54a80ac121cdec44"
+		},
+		"BW5a-019": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27876/regu/all",
+			"sha256": "5a15471cd3d37d36cb4ecd3752a682102ef27ab2f4015c2f4da9db0dd1c2ef94"
+		},
+		"BW5a-020": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27877/regu/all",
+			"sha256": "db8326c050e183fe31b7d628408b8dfe2b10020a117d0b0809300e312f7cdeea"
+		},
+		"BW5a-021": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27878/regu/all",
+			"sha256": "cdd6fdfdde585428370e00fdfe8cfb9a32ea4f926d642c586551fca1e1ba4457"
+		},
+		"BW5a-022": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27879/regu/all",
+			"sha256": "c16a4942b34157c2866de447bd01b7ccfa874ff54e0f71dfe7b9ca4eac742aca"
+		},
+		"BW5a-023": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27880/regu/all",
+			"sha256": "e97bd4a959de9c3904a7c23f93bb7507e6f1f47f2843d996066ae421ecfa8ab0"
+		},
+		"BW5a-024": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27881/regu/all",
+			"sha256": "7147d840bd51053c137f26426ac97a4db108cd06f7b07e1bc92716508f1d0ad5"
+		},
+		"BW5a-025": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27882/regu/all",
+			"sha256": "6c0a0580c301236defda959871420ef169e8a36c8d4248ff55f7062b90229d66"
+		},
+		"BW5a-026": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27883/regu/all",
+			"sha256": "db2806ff4704c51aa4f3e0fdc29c308babcb2a0f8678d6a3ea21fe7418edb27b"
+		},
+		"BW5a-027": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27884/regu/all",
+			"sha256": "44c4494cc5581a62219f3d14f7a6cd2e5da4a3cfc60a6956a36d8c982c89083a"
+		},
+		"BW5a-028": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27885/regu/all",
+			"sha256": "88fab42c83c220ba7460ae66f240174f26c83ba6ca29b363892d5ecd65eb9ede"
+		},
+		"BW5a-029": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27886/regu/all",
+			"sha256": "3a35e06df834a95f1d8d76b498e7a0103e74f92596ca0b3e535a01577325e618"
+		},
+		"BW5a-030": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27887/regu/all",
+			"sha256": "56518be5a3a9c35a26f698dfd039c9c72046ff1f329db7d2b0d56b7e8728d0d3"
+		},
+		"BW5a-031": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27888/regu/all",
+			"sha256": "7070cba5e20c04403b2d1d4bf1c55bdb0a75cba2af4f747e8c8ca801e7e6932b"
+		},
+		"BW5a-032": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27889/regu/all",
+			"sha256": "7989e59beb547b1c9f110f7352e4e1fbf4e963bb0eb6793c38a39aec44368060"
+		},
+		"BW5a-033": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27890/regu/all",
+			"sha256": "e16333f4f49de6876e65c19df0fb46d19d3e2d71e99360a9582bf6649e0f1bc2"
+		},
+		"BW5a-034": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27891/regu/all",
+			"sha256": "7fb4ebf99264096c0bff10d4ff46cd29a0b5f89ed42684ab26d746395abda316"
+		},
+		"BW5a-035": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27892/regu/all",
+			"sha256": "3035ad83a7cfee7fd4422a99ac53c520b1a6dea592e7a4b84dd3620bff4fcb60"
+		},
+		"BW5a-036": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27893/regu/all",
+			"sha256": "58dc3d640fe88152dea2268c3d8d70c88d3ab51c969f57f3f6d7dbf748dd3dae"
+		},
+		"BW5a-037": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27894/regu/all",
+			"sha256": "9804c4bbf9f449b7bc228fc6895548c4d4c18c300a0017f3b17ef53d2a22ce6e"
+		},
+		"BW5a-038": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27895/regu/all",
+			"sha256": "a9a1cff592c14abe2a2e183eafe0ae0ffcd930125e6f372ce2df927b944a9a56"
+		},
+		"BW5a-039": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27896/regu/all",
+			"sha256": "a3ee400505ccbe1e463c4c49102b110e40bda9c44c6776b02a7dd8dd3ca1c2f3"
+		},
+		"BW5a-040": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27897/regu/all",
+			"sha256": "1cc9ef5a60a08303038cab0f795a9ec080501ad2de8cfe1d6b38afba73e2eb79"
+		},
+		"BW5a-041": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27898/regu/all",
+			"sha256": "8834c2816cf66a2878650e8555899a4e9a99e2eb76919d38e317f3ac1cea923b"
+		},
+		"BW5a-042": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27899/regu/all",
+			"sha256": "96361b471adc8b17929486e133a435b9897660dad5bca2007957c23265716f02"
+		},
+		"BW5a-043": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27900/regu/all",
+			"sha256": "4c4b82c71536d490d05d666e215307ae1826c8e29ca2f1fdc8a053331654f23a"
+		},
+		"BW5a-044": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27901/regu/all",
+			"sha256": "7e177fb8f8f512f0542857ad761e4d815ffc73510388c34be5043c8021f143d6"
+		},
+		"BW5a-045": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27902/regu/all",
+			"sha256": "3d7405ab97149aff7eae2f014bac96f26452143d7181b6ee7d260d96a5fa1104"
+		},
+		"BW5a-046": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27903/regu/all",
+			"sha256": "cf27bab8614763e6c7ae6cbf8f9b747306cffb9899ff2c19f57ca98480a8676a"
+		},
+		"BW5a-047": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27904/regu/all",
+			"sha256": "d831bad9b22c2b824004b1cdfc761c01fb8d882924c3176fcf27ea4b8c1de913"
+		},
+		"BW5a-048": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27905/regu/all",
+			"sha256": "9190459e8fc7a53c1442963b62a4aae8927df556021bbf14620f9db56b51aba1"
+		},
+		"BW5a-049": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27906/regu/all",
+			"sha256": "5b11e6fe9710d1eea7f2a2c9799b609783bbb86a5f27a3619121ba090a65ef6e"
+		},
+		"BW5a-050": {
+			"url": "https://www.pokemon-card.com/card-search/details.php/card/27907/regu/all",
+			"sha256": "1d6d7d211fb174ddb93299ee0f35ea77bc08960c14b1f7f2a078f51031abce1e"
+		}
+	},
+	"secretCards": {
+		"BW5a-051": {
+			"url": "https://www.serebii.net/card/dragonblast/051.jpg",
+			"sha256": "dddd3e3076afb933370e24ba034ae4c1c6e16bc0f7cef21cd78a353f39361c50"
+		},
+		"BW5a-052": {
+			"url": "https://www.serebii.net/card/dragonblast/052.jpg",
+			"sha256": "df6fb4712800656533373f721a6f0c1c8231905739330901a7a4c661656df608"
+		},
+		"BW5a-053": {
+			"url": "https://www.serebii.net/card/dragonblast/053.jpg",
+			"sha256": "680ab17edac5c1a7a218b9eaeef7bb1ecbb6b583e111042f5bb0e76ddd244753"
+		},
+		"BW5a-054": {
+			"url": "https://www.serebii.net/card/dragonblast/054.jpg",
+			"sha256": "dac2f02fd2bdd3610ad7f59d11549aa6c96afd182c999d0ea8cf141d8326fd1a"
+		},
+		"BW5a-055": {
+			"url": "https://www.serebii.net/card/dragonblast/055.jpg",
+			"sha256": "f349902f2b5e3ba6e96dbda698349701b64f37a5f6061e95745ba2de96a1a99b"
+		}
+	},
+	"secretOfficialSources": {
+		"BW5a-051": {
+			"gameplayEquivalent": "BW5a-022",
+			"officialCard": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/27879/regu/all",
+				"sha256": "c16a4942b34157c2866de447bd01b7ccfa874ff54e0f71dfe7b9ca4eac742aca"
+			}
+		},
+		"BW5a-052": {
+			"gameplayEquivalent": "BW5a-032",
+			"officialCard": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/27889/regu/all",
+				"sha256": "7989e59beb547b1c9f110f7352e4e1fbf4e963bb0eb6793c38a39aec44368060"
+			}
+		},
+		"BW5a-053": {
+			"gameplayEquivalent": "BW5a-039",
+			"officialCard": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/27896/regu/all",
+				"sha256": "a3ee400505ccbe1e463c4c49102b110e40bda9c44c6776b02a7dd8dd3ca1c2f3"
+			}
+		},
+		"BW5a-054": {
+			"officialGameplayRecord": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/27182/regu/all",
+				"sha256": "d8e7146ec0d913f5ebcecd06d151ea67be01a4a89000ed9216f82078e510ccdf"
+			}
+		},
+		"BW5a-055": {
+			"officialGameplayRecord": {
+				"url": "https://www.pokemon-card.com/card-search/details.php/card/28869/regu/all",
+				"sha256": "05ac4dab1e9a3b72d152de489e991e98863191a684fccb55f1bd1bc59354e8c2"
+			}
+		}
+	}
+}

@@ -3,6 +3,7 @@ import Set from '../Shining Fates'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [264],
 
 	name: {
 		fr: "Peterson",

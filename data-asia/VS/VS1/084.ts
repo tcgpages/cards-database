@@ -4,7 +4,7 @@ import Set from "../VS1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルーノのスチールス",
+		ja: "シバのハガネール",
 	},
 
 	rarity: "Common",
@@ -18,18 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ヘッドバット",
+				ja: "ずつき",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "ロックスマッシュ",
+				ja: "いわくだき",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。",
+				ja: "コインを1回投げ、「おもて」なら、20ダメージを追加する。",
 			},
+			damage: "20+",
 		},
 	],
 

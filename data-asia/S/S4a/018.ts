@@ -5,52 +5,82 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		'zh-tw': "蘋裹龍"
+		'zh-tw': "蘋裹龍",
+		ja: "アップリュー"
 	},
 
 	illustrator: "Hitoshi Ariga",
+
 	category: "Pokemon",
+
 	hp: 80,
-	types: ["Grass"],
+
+	types: [
+		"Grass"
+	],
 
 	description: {
-		'zh-tw': "啃果蟲吃了酸蘋果後進化而成。頰囊裡儲存著足以造成灼傷的強酸性液體。"
+		'zh-tw': "啃果蟲吃了酸蘋果後進化而成。頰囊裡儲存著足以造成灼傷的強酸性液體。",
+		ja: "すっぱい りんごを 食べて 進化。 火傷する ほど 強酸性の 液体を 頬袋に 溜める。"
 	},
 
+	evolveFrom: {
+		ja: "カジッチュ"
+	},
 	stage: "Stage1",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "蘋果墜擊"
-		},
-
-		effect: {
-			'zh-tw': "在自己的回合時，可使用1次。在對手的1隻寶可夢身上放置2個傷害指示物。然後，將這隻寶可夢與附加的卡，全部放回自己的牌庫並重洗。"
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'zh-tw': "蘋果墜擊",
+				ja: "アップルドロップ"
+			},
+			effect: {
+				'zh-tw': "在自己的回合時，可使用1次。在對手的1隻寶可夢身上放置2個傷害指示物。然後，將這隻寶可夢與附加的卡，全部放回自己的牌庫並重洗。",
+				ja: "自分の番に1回使える。相手のポケモン1匹に、ダメカンを2個のせる。その後、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。"
+			}
 		}
-	}],
+	],
 
-	attacks: [{
-		name: {
-			'zh-tw': "酸液炸彈"
-		},
+	attacks: [
+		{
+			name: {
+				'zh-tw': "酸液炸彈",
+				ja: "アシッドボム"
+			},
+			effect: {
+				'zh-tw': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。",
+				ja: "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。"
+			},
+			damage: 60,
+			cost: [
+				"Colorless",
+				"Colorless"
+			]
+		}
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。"
-		},
-
-		damage: 60,
-		cost: ["Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		}
+	],
 
 	retreat: 1,
-	regulationMark: "D"
+
+	regulationMark: "D",
+
+	rarity: "None",
+
+	variants: [
+		{ type: "holo", languages: ["ja"] }
+	],
+
+	dexId: [
+		841
+	]
 }
 
 export default card

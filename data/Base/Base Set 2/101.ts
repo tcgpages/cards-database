@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [81],
 
 	effect: {
 		en: "Discard 2 of the other cards from your hand in order to search your deck for any card and put it into your hand. Shuffle your deck afterward.",

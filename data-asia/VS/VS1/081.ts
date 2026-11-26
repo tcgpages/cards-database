@@ -4,7 +4,7 @@ import Set from "../VS1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルーノのマチャンプ",
+		ja: "シバのカイリキー",
 	},
 
 	rarity: "Common",
@@ -21,8 +21,9 @@ const card: Card = {
 				ja: "ダブルラリアット",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の50回のダメージ時間を実行します。",
+				ja: "コインを2回投げ、「おもて」の数×50ダメージ。",
 			},
+			damage: "50×",
 		},
 	],
 
