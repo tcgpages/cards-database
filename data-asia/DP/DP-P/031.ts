@@ -40,7 +40,10 @@ const card: Card = {
 	],
 	retreat: 0,
 	variants: [
-		{ type: "normal" },
+		{
+			type: "normal",
+			stamp: ["mcdonalds"],
+		},
 	],
 	rarity: "Promo",
 	dexId: [426],

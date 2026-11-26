@@ -35,7 +35,10 @@ const card: Card = {
 	resistances: [],
 	retreat: 2,
 	variants: [
-		{ type: "normal" },
+		{
+			type: "normal",
+			stamp: ["mcdonalds"],
+		},
 	],
 	rarity: "Promo",
 	dexId: [484],
